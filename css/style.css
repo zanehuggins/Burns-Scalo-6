@@ -27,9 +27,8 @@ object {
   z-index: 1; }
 
 h1 {
-  font-family: macklin;
+  font-family: gotham;
   font-weight: 900;
-  font-style: italic;
   color: black;
   font-size: 40px; }
 
@@ -37,7 +36,8 @@ h2 {
   font-family: gotham;
   font-weight: 900;
   color: #333033;
-  font-size: 36px; }
+  font-size: 36px;
+  line-height: 34px; }
 
 h3 {
   font-family: macklin;
@@ -58,6 +58,9 @@ h5 {
 p {
   font-family: gotham;
   font-size: 14px; }
+
+#left-align {
+  text-align: left !important; }
 
 .green-underline {
   border-bottom: 6px solid #C2D500; }
@@ -459,7 +462,7 @@ footer {
   #featured-projects .portfolio-list {
     box-shadow: 0px 0px 5px #DBDADA;
     float: left;
-    height: 25vh; }
+    height: 27.5vh; }
     #featured-projects .portfolio-list a {
       text-decoration: none; }
     #featured-projects .portfolio-list img {
@@ -469,7 +472,7 @@ footer {
       color: #333033;
       font-size: 18px;
       padding-left: 15px;
-      padding-top: 15px;
+      padding-top: 10px;
       margin: 0;
       font-style: normal; }
     #featured-projects .portfolio-list p {
@@ -480,8 +483,8 @@ footer {
       padding-bottom: 15px;
       margin: 0; }
   #featured-projects .portfolio-image-container {
-    min-height: 75%;
-    height: 55% !important;
+    min-height: 82%;
+    height: 82% !important;
     overflow: hidden; }
     #featured-projects .portfolio-image-container img {
       width: 100%;
