@@ -36,9 +36,9 @@ object{
 }
 
 .copy-container{
-  background-color: rgba(229, 229, 229, .5);
+  background-color: rgba(229, 229, 229, .0);
   z-index: 1;
-  position: absolute;
+
 }
 
 h1{
@@ -53,6 +53,7 @@ h2{
 font-family: gotham;
 font-weight: 900;
 color: $black;
+font-size: 36px;
 }
 
 h3{
@@ -367,7 +368,9 @@ padding: 0;
 }
 
 #container-2{
-    padding: 0;
+  padding-top: 15vh;
+    padding-left: 0;
+    padding-right: 0;
 
     svg{
       position: absolute;
@@ -405,13 +408,19 @@ padding: 0;
       width: auto;
     }
     .copy-container{
-      min-height: 43vh;
-      margin-top: -5vh;
-      padding-top: 7vh;
-      padding-bottom: 4vh;
+
+      padding-top: 5vh;
+      padding-bottom: 5vh;
     }
     h2{
       padding-bottom: 1.5vh;
+    }
+
+    a{
+      float: left;
+    }
+    p{
+      text-align: justify;
     }
 }
 
@@ -619,7 +628,64 @@ padding: 0;
   margin-top: 15vh;
 }
 
+.featured-projects{
+  padding-top: 15vh;
+  float: left;
+}
+
 /* ends reveal section */
+
+#featured-projects{
+  padding-top: 10vh;
+
+.container-p{
+    padding: 5px;
+    float: left!important;
+}
+.portfolio-list{
+  box-shadow: 0px 0px 5px #DBDADA;
+  float: left;
+  height: 25vh;
+  a{
+    text-decoration: none;
+  }
+  img{
+    width: 100%;
+  }
+  h3{
+    font-family: gotham;
+    color: $black;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin: 0;
+    font-style: normal;
+  }
+  p{
+    font-size: 14px;
+    font-family: gotham;
+    padding-left: 15px;
+    color: $black;
+    padding-bottom: 15px;
+    margin: 0;
+  }
+}
+
+.portfolio-image-container{
+  min-height: 75%;
+  height: 55%!important;
+  overflow: hidden;
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+} /* CLOSE FEATURED PROJECTS */
+
+
+
+
 
 /* ENDS HOME */
 
