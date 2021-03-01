@@ -30,7 +30,8 @@ h1 {
   font-family: gotham;
   font-weight: 900;
   color: black;
-  font-size: 40px; }
+  font-size: 36px;
+  text-transform: uppercase; }
 
 h2 {
   font-family: gotham;
@@ -415,7 +416,7 @@ footer {
     transform: scale(16000) translateY(1200px); } }
 #people .svg2 {
   position: fixed;
-  animation: scale 1s linear infinite;
+  animation: scale2 1s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -.01s);
   animation-iteration-count: 1;
@@ -428,7 +429,7 @@ footer {
   width: 300vw; }
 @keyframes scale2 {
   to {
-    transform: scale(16000) translateY(1200px); } }
+    transform: scale(16000) translateY(1200px) translateX(500px); } }
 /* CLOSE #PEOPLE */
 .zoom {
   position: fixed;
@@ -492,6 +493,21 @@ footer {
 
 /* CLOSE FEATURED PROJECTS */
 /* ENDS HOME */
+/* ----------------------------------------------------------------- */
+/* BEGINS WHO WE ARE */
+#who-we-are .animated-container {
+  height: 27vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  box-shadow: 0px 0px 5px #DBDADA; }
+#who-we-are .container-p {
+  padding: 5px;
+  float: left !important; }
+#who-we-are .featured {
+  padding-top: 10vh; }
+
+/* ENDS WHO WE ARE */
 /* ----------------------------------------------------------------- */
 /* BEGINS WHAT WE DO */
 #what-we-do h2 {
