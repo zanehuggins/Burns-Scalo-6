@@ -49,8 +49,25 @@ font-size: 45px;
 line-height: 40px;
 padding-bottom: 5px;
 text-transform: uppercase;
+animation-name: delay-opacity;
+animation-duration: 4s;
+
 .green-underline{
   border-bottom: 10px solid $green;
+}
+
+.turquoise-underline{
+  border-bottom: 10px solid $turquoise;
+}
+
+.orange-underline{
+  border-bottom: 10px solid $orange;
+}
+
+@keyframes delay-opacity{
+  0%{ opacity: 0;}
+  90%{opacity: 0;}
+  100%{opacity: 1;}
 }
 }
 
