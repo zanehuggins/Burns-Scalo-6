@@ -30,8 +30,8 @@ h1 {
   font-family: gotham;
   font-weight: 900;
   color: black;
-  font-size: 45px;
-  line-height: 40px;
+  font-size: 40px;
+  line-height: 35px;
   padding-bottom: 5px;
   text-transform: uppercase;
   animation-name: delay-opacity;
@@ -112,7 +112,7 @@ p {
   text-decoration: none;
   float: left;
   text-align: center;
-  margin-top: 2vh; }
+  margin-top: 0vh; }
 
 .link-turquoise {
   padding: 10px;
@@ -576,6 +576,24 @@ footer {
     #what-we-do .copy-container ul li {
       font-family: gotham;
       margin-top: 10px; }
+#what-we-do .services-list {
+  float: left;
+  list-style: none;
+  margin-left: 0;
+  border-top: 1px solid lightgray;
+  padding: 0;
+  margin-top: 2.5vh; }
+  #what-we-do .services-list li {
+    border-bottom: 1px solid lightgray;
+    float: left; }
+    #what-we-do .services-list li a {
+      float: left;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: #333033;
+      text-decoration: none; }
+    #what-we-do .services-list li a:hover {
+      text-decoration: none; }
 
 /* CLOSES WHAT WE DO */
 /* ENDS WHAT WE DO */
