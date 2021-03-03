@@ -33,22 +33,32 @@ h1 {
   font-size: 40px;
   line-height: 35px;
   padding-bottom: 5px;
-  text-transform: uppercase;
-  animation-name: delay-opacity;
-  animation-duration: 4s; }
+  text-transform: uppercase; }
   h1 .green-underline {
     border-bottom: 10px solid #C2D500; }
   h1 .turquoise-underline {
     border-bottom: 10px solid #00AC98; }
   h1 .orange-underline {
     border-bottom: 10px solid #F26524; }
+  h1 .delay-1 {
+    animation-name: delay-opacity;
+    animation-duration: 2s; }
+  h1 .delay-2 {
+    animation-name: delay-opacity;
+    animation-duration: 3s; }
+  h1 .delay-3 {
+    animation-name: delay-opacity;
+    animation-duration: 4s; }
 @keyframes delay-opacity {
   0% {
-    opacity: 0; }
-  90% {
-    opacity: 0; }
+    opacity: 0;
+    transform: translateY(-50vh); }
+  50% {
+    opacity: 0;
+    transform: translateY(-50vh) !important; }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+    transform: translateY(0px); } }
 h2 {
   font-family: gotham;
   font-weight: 900;

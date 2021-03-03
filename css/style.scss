@@ -49,8 +49,6 @@ font-size: 40px;
 line-height: 35px;
 padding-bottom: 5px;
 text-transform: uppercase;
-animation-name: delay-opacity;
-animation-duration: 4s;
 
 .green-underline{
   border-bottom: 10px solid $green;
@@ -64,10 +62,36 @@ animation-duration: 4s;
   border-bottom: 10px solid $orange;
 }
 
+.delay-1{
+  animation-name: delay-opacity;
+  animation-duration: 2s;
+}
+
+.delay-2{
+  animation-name: delay-opacity;
+  animation-duration: 3s;
+}
+
+.delay-3{
+  animation-name: delay-opacity;
+  animation-duration: 4s;
+}
+
 @keyframes delay-opacity{
-  0%{ opacity: 0;}
-  90%{opacity: 0;}
-  100%{opacity: 1;}
+  0%{
+    opacity: 0;
+    transform: translateY(-50vh);
+
+  }
+  50%{
+    opacity: 0;
+    transform: translateY(-50vh)!important;
+  }
+
+
+  100%{opacity: 1;
+      transform: translateY(0px);
+  }
 }
 }
 
