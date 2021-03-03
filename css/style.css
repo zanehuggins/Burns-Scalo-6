@@ -132,6 +132,16 @@ p {
   text-align: center;
   margin-top: 2vh; }
 
+.link-outline {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #333033;
+  font-family: gotham;
+  letter-spacing: 2px; }
+
 .green-bg {
   background-color: #C2D500; }
 
@@ -354,6 +364,19 @@ footer {
     float: left; }
   #container-2 p {
     text-align: left; }
+
+#push-1-mobile {
+  background-image: url("../assets/images/unparalleled-luxe.png"); }
+  #push-1-mobile img {
+    position: absolute;
+    float: left;
+    height: auto;
+    width: 300vw;
+    left: -100vw;
+    top: -20vh; }
+
+#push-1-pt2-mobile {
+  background-image: url("../assets/images/unparalleled-luxe.png"); }
 
 #container-3 {
   padding: 0; }
@@ -696,6 +719,8 @@ aside {
 /* ENDS PORTFOLIO */
 /* ----------------------------------------------------------------- */
 /* BEGINS PROPERTY LANDING */
+#property-landing #container-1 video {
+  left: -150vw !important; }
 #property-landing #container-2 {
   padding-top: 7vh; }
 #property-landing h2 {
