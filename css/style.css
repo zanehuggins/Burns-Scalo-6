@@ -141,17 +141,50 @@ p {
   color: #333033;
   font-family: gotham;
   letter-spacing: 2px; }
+  .link-outline p {
+    float: left;
+    margin: 0; }
   .link-outline img {
     width: 12px !important;
     height: auto !important;
     float: left;
-    margin-left: 35%;
     transition: .5s; }
 
 .link-outline:hover {
   color: #333033; }
   .link-outline:hover img {
-    margin-left: 40%; }
+    margin-left: 20px;
+    float: left; }
+
+.border-bottom {
+  border-bottom: 1px solid lightgray; }
+
+.link-outline-2 {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #333033;
+  font-family: gotham;
+  letter-spacing: 2px;
+  float: left; }
+  .link-outline-2 p {
+    float: left;
+    margin: 0; }
+  .link-outline-2 img {
+    width: 12px !important;
+    height: auto !important;
+    float: left;
+    transition: .5s; }
+
+.link-outline-2:hover {
+  color: #333033; }
+  .link-outline-2:hover img {
+    margin-left: 20px;
+    float: left; }
+
+.link-container {
+  margin-top: 3vh; }
 
 .green-bg {
   background-color: #C2D500; }
