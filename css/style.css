@@ -910,6 +910,7 @@ aside {
 
   #active {
     border-top: 5px solid #00AC98;
+    padding-top: 6.5px;
     border-bottom: 0; }
 
   .main-nav {
