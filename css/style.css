@@ -377,6 +377,13 @@ footer {
 
 #push-1-pt2-mobile {
   background-image: url("../assets/images/unparalleled-luxe.png"); }
+  #push-1-pt2-mobile h2 {
+    color: white;
+    float: left;
+    margin-bottom: 5vh; }
+  #push-1-pt2-mobile p {
+    color: white;
+    float: left; }
 
 #container-3 {
   padding: 0; }
@@ -583,6 +590,26 @@ footer {
 #who-we-are .featured {
   padding-top: 10vh; }
 
+#push-2-mobile {
+  background-image: url("../assets/images/unparalleled-luxe.png"); }
+  #push-2-mobile img {
+    position: absolute;
+    float: left;
+    height: auto;
+    width: 300vw;
+    left: -100vw;
+    top: -20vh; }
+
+#push-2-pt2-mobile {
+  background-image: url("../assets/images/meticulous.png"); }
+  #push-2-pt2-mobile h2 {
+    color: #333033;
+    float: left;
+    margin-bottom: 5vh; }
+  #push-2-pt2-mobile p {
+    color: #333033;
+    float: left; }
+
 /* ENDS WHO WE ARE */
 /* ----------------------------------------------------------------- */
 /* BEGINS WHAT WE DO */
@@ -617,6 +644,24 @@ footer {
       text-decoration: none; }
     #what-we-do .services-list li a:hover {
       text-decoration: none; }
+#what-we-do #push-3-mobile {
+  background-image: url("../assets/images/unparalleled-luxe.png"); }
+  #what-we-do #push-3-mobile img {
+    position: absolute;
+    float: left;
+    height: auto;
+    width: 300vw;
+    left: -100vw;
+    top: -20vh; }
+#what-we-do #push-3-pt2-mobile {
+  background-image: url("../assets/images/meticulous.png"); }
+  #what-we-do #push-3-pt2-mobile h2 {
+    color: #333033;
+    float: left;
+    margin-bottom: 5vh; }
+  #what-we-do #push-3-pt2-mobile p {
+    color: #333033;
+    float: left; }
 
 /* CLOSES WHAT WE DO */
 /* ENDS WHAT WE DO */
