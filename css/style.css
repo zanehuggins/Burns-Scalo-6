@@ -184,7 +184,17 @@ p {
     float: left; }
 
 .link-container {
-  margin-top: 3vh; }
+  margin-top: 3vh;
+  float: left; }
+  .link-container a {
+    float: left; }
+  .link-container p {
+    float: left; }
+  .link-container img {
+    width: 12px !important;
+    height: auto !important;
+    float: left;
+    transition: .5s; }
 
 .green-bg {
   background-color: #C2D500; }
@@ -376,29 +386,12 @@ footer {
   padding-top: 15vh;
   padding-left: 0;
   padding-right: 0; }
-  #container-2 svg {
-    position: absolute;
-    z-index: 1; }
-  #container-2 .svg-v-1 {
-    left: 8vw; }
-  #container-2 .svg-v-2 {
-    right: 8vw; }
-  #container-2 .svg-h-1 {
-    top: 52vh; }
-  #container-2 .svg-h-2 {
-    top: 95vh; }
   #container-2 .image-container {
     position: relative;
     margin-top: 7vh;
     overflow: hidden;
     height: 50vh;
     padding: 0; }
-  #container-2 img {
-    padding: 0;
-    float: left;
-    position: absolute;
-    height: 100%;
-    width: auto; }
   #container-2 .copy-container {
     padding-top: 5vh;
     padding-bottom: 5vh; }
@@ -409,15 +402,16 @@ footer {
   #container-2 p {
     text-align: left; }
 
-#push-1-mobile {
-  background-image: url("../assets/images/unparalleled-luxe.png"); }
-  #push-1-mobile img {
-    position: absolute;
-    float: left;
-    height: auto;
-    width: 300vw;
-    left: -100vw;
-    top: -20vh; }
+#push-mobile img {
+  position: absolute;
+  float: left;
+  width: 75vw;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
 
 #push-1-pt2-mobile {
   background-image: url("../assets/images/unparalleled-luxe.png"); }
@@ -865,13 +859,7 @@ aside {
     margin-top: 7vh;
     overflow: hidden;
     height: 50vh;
-    padding: 0; }
-  #container-2 img {
-    padding: 0;
-    float: left;
-    position: absolute;
-    height: auto !important;
-    width: 100% !important; } }
+    padding: 0; } }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 1024px) {

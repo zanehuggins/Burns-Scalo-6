@@ -237,6 +237,19 @@ font-size: 16px;
 
 .link-container{
   margin-top: 3vh;
+  float: left;
+  a{
+    float: left;
+  }
+  p{
+    float: left;
+  }
+  img{
+    width: 12px!important;
+    height: auto!important;
+    float: left;
+      transition: .5s;
+  }
 }
 
 .green-bg{
@@ -491,26 +504,7 @@ padding: 0;
     padding-left: 0;
     padding-right: 0;
 
-    svg{
-      position: absolute;
-      z-index: 1;
-    }
 
-    .svg-v-1{
-      left: 8vw;
-    }
-
-    .svg-v-2{
-      right: 8vw;
-    }
-
-    .svg-h-1{
-      top: 52vh;
-    }
-
-    .svg-h-2{
-      top: 95vh;
-    }
 
     .image-container{
       position: relative;
@@ -519,13 +513,7 @@ padding: 0;
       height: 50vh;
       padding: 0;
     }
-    img{
-      padding: 0;
-      float: left;
-      position: absolute;
-      height: 100%;
-      width: auto;
-    }
+
     .copy-container{
 
       padding-top: 5vh;
@@ -543,15 +531,17 @@ padding: 0;
     }
 }
 
-#push-1-mobile{
-  background-image: url('../assets/images/unparalleled-luxe.png');
+#push-mobile{
   img{
     position: absolute;
     float: left;
+    width: 75vw;
     height: auto;
-    width: 300vw;
-    left: -100vw;
-    top: -20vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
 }
 
@@ -1207,15 +1197,10 @@ label{
   overflow: hidden;
   height: 50vh;
   padding: 0;
+
 }
 
-img{
-  padding: 0;
-  float: left;
-  position: absolute;
-  height: auto!important;
-  width: 100%!important;
-}
+
 }
 
 }/* !!CLOSES 768PX @MEDIA QUERY!! */
