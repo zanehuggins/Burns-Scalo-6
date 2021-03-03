@@ -64,7 +64,8 @@ h2 {
   font-weight: 900;
   color: #333033;
   font-size: 36px;
-  line-height: 34px; }
+  line-height: 34px;
+  float: left; }
 
 h3 {
   font-family: macklin;
@@ -279,7 +280,8 @@ nav {
   border-top: 2px solid lightgray;
   list-style: none;
   margin-top: 10vh;
-  padding-top: 10vh; }
+  padding-top: 10vh;
+  padding-left: 0; }
   .secondary-nav li {
     text-align: center;
     padding-left: 25px;
@@ -403,6 +405,7 @@ footer {
     height: 50vh;
     padding: 0; }
   #container-2 .copy-container {
+    float: left;
     padding-top: 5vh;
     padding-bottom: 5vh; }
   #container-2 h2 {
@@ -892,6 +895,16 @@ aside {
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 1024px) {
+  /* HEADER */
+  header {
+    padding-top: 10px;
+    max-height: 50px; }
+    header .logo-container {
+      max-width: 35px; }
+    header h5 {
+      font-size: 16px; }
+
+  /* CLOSES HEADER */
   #nav {
     display: block;
     z-index: 300;
@@ -918,35 +931,43 @@ aside {
       transition: 0s;
       margin-bottom: 0vh;
       float: left;
-      font-size: 13px; }
+      font-size: 12px; }
     .main-nav a {
       color: #333033;
       text-decoration: none; }
+    .main-nav li:hover {
+      border-top: 5px solid #F26524;
+      padding-top: 7.5px; }
 
   .secondary-nav {
     border-top: none;
     list-style: none;
     margin-top: 0vh;
-    padding-top: 12.5px;
+    padding-top: 10px;
+    padding-left: 0 !important;
     float: left; }
     .secondary-nav li {
       text-align: center;
-      padding-top: 12.5px;
-      padding-left: 1vw;
-      padding-right: 1vw;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+      margin-right: 2px;
       font-family: gotham;
       letter-spacing: 2px;
       transition: 0s;
       margin-bottom: 0vh;
       float: left;
-      font-size: 13px; }
+      font-size: 12px;
+      border: 1px solid lightgray; }
     .secondary-nav a {
       color: #333033;
       text-decoration: none; }
-
-  li:hover {
-    border-top: 5px solid #F26524;
-    padding-top: 7.5px; }
+    .secondary-nav li:hover {
+      border: 1px solid #F26524;
+      background-color: #F26524; }
+      .secondary-nav li:hover a {
+        color: white; }
 
   .nav-item-1 {
     animation-name: none; }
@@ -965,8 +986,51 @@ aside {
 
   #active {
     border-top: 5px solid #00AC98;
-    border-bottom: 0; } }
+    border-bottom: 0; }
+
+  #push-mobile img {
+    width: 40vw; } }
 /* !!CLOSES 1024PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
+/* !!OPENS 1200PX @MEDIA QUERY!! */
+/* ----------------------------------------------------------------- */
+@media (min-width: 1200px) {
+  header .logo-container {
+    max-width: 150px; }
+  header h5 {
+    font-size: 18px;
+    padding-top: 0; }
+
+  .secondary-nav {
+    padding-right: 25px; }
+    .secondary-nav li {
+      float: right; }
+
+  #container-2 {
+    padding-top: 30vh; }
+    #container-2 h2 {
+      text-align: right;
+      font-size: 70px;
+      line-height: 70px;
+      padding-right: 25px; }
+    #container-2 .copy-container {
+      padding-top: 0; }
+
+  #featured-projects {
+    padding-top: 25vh; }
+    #featured-projects .portfolio-list {
+      height: 50vh; }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 7.5px; }
+    footer img {
+      width: 25px !important;
+      height: auto; } }
+/* CLOSES 1200PX @MEDIA QUERY */
 
 /*# sourceMappingURL=style.css.map */
