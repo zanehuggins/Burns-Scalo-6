@@ -141,6 +141,17 @@ p {
   color: #333033;
   font-family: gotham;
   letter-spacing: 2px; }
+  .link-outline img {
+    width: 12px !important;
+    height: auto !important;
+    float: left;
+    margin-left: 35%;
+    transition: .5s; }
+
+.link-outline:hover {
+  color: #333033; }
+  .link-outline:hover img {
+    margin-left: 40%; }
 
 .green-bg {
   background-color: #C2D500; }

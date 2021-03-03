@@ -180,6 +180,21 @@ font-size: 16px;
   color: $black;
   font-family: gotham;
   letter-spacing: 2px;
+
+  img{
+    width: 12px!important;
+    height: auto!important;
+    float: left;
+    margin-left: 35%;
+      transition: .5s;
+  }
+}
+
+.link-outline:hover{
+  color: $black;
+  img{
+    margin-left: 40%;
+  }
 }
 
 .green-bg{
