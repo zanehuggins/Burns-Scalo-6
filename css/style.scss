@@ -594,21 +594,6 @@ padding: 0;
       z-index: 1;
     }
 
-    .svg-v-1{
-      left: 8vw;
-    }
-
-    .svg-v-2{
-      right: 8vw;
-    }
-
-    .svg-h-1{
-      top: 52vh;
-    }
-
-    .svg-h-2{
-      top: 95vh;
-    }
 
     .image-container{
       position: relative;
@@ -710,7 +695,7 @@ padding: 0;
 #people{
 .svg1 {
   position: fixed;
-  animation: scale 1s linear infinite;
+  animation: scale 5s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -.01s);
   animation-iteration-count: 1;
@@ -727,7 +712,7 @@ padding: 0;
 
 @keyframes scale {
   to {
-    transform: scale(16000) translateY(1200px);
+    transform: scale(30000) translateY(1200px);
 
   }
 }
@@ -1292,6 +1277,11 @@ font-size: 16px;
   padding-top: 0;
 }
 
+#active{
+  border-top: 5px solid $turquoise;
+  border-bottom: 0;
+}
+
   .main-nav{
   list-style: none;
   padding-left: 1vw;
@@ -1441,6 +1431,68 @@ padding-top: 30vh;
     }
   }
 
+
+
+
+  /* animation */
+
+
+
+  #people{
+  .svg1 {
+    position: fixed;
+    animation: scale 5s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -.01s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    top: 0;
+    bottom: 0;
+    left: -25vw;
+    right: 0;
+    margin: auto;
+
+    width:  150vw;
+
+  }
+
+  @keyframes scale {
+    to {
+      transform: scale(60000) translateY(1200px);
+
+    }
+  }
+
+  .svg2 {
+    position: fixed;
+    animation: scale2 1s ease infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * .01s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    right: 0;
+    margin: auto;
+
+    width:300vw;
+  }
+
+
+  @keyframes scale2 {
+    to {
+        transform: scale(16000) translateY(1200px) translateX(500px);
+
+    }
+  }
+
+
+  }
+  /* CLOSE #PEOPLE */
+
+
+
   footer{
     position: fixed;
     bottom: 0;
@@ -1452,6 +1504,22 @@ padding-top: 30vh;
       width: 25px!important;;
       height: auto;
     }
+    li{
+      float: right;
+    }
+    a:hover{
+      color: $black;
+      opacity: .75;
+    }
   }
+
+  .footer-nav{
+    padding-right: 25px;
+    li{
+      float: right;
+    }
+  }
+
+
 
 } /* CLOSES 1200PX @MEDIA QUERY */

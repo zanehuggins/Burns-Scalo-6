@@ -441,14 +441,6 @@ footer {
   #container-3 svg {
     position: absolute;
     z-index: 1; }
-  #container-3 .svg-v-1 {
-    left: 8vw; }
-  #container-3 .svg-v-2 {
-    right: 8vw; }
-  #container-3 .svg-h-1 {
-    top: 52vh; }
-  #container-3 .svg-h-2 {
-    top: 95vh; }
   #container-3 .image-container {
     position: relative;
     margin-top: 7vh;
@@ -515,7 +507,7 @@ footer {
 /* animation */
 #people .svg1 {
   position: fixed;
-  animation: scale 1s linear infinite;
+  animation: scale 5s linear infinite;
   animation-play-state: paused;
   animation-delay: calc(var(--scroll) * -.01s);
   animation-iteration-count: 1;
@@ -528,7 +520,7 @@ footer {
   width: 300vw; }
 @keyframes scale {
   to {
-    transform: scale(16000) translateY(1200px); } }
+    transform: scale(30000) translateY(1200px); } }
 #people .svg2 {
   position: fixed;
   animation: scale2 1s linear infinite;
@@ -916,6 +908,10 @@ aside {
     -webkit-backdrop-filter: blur(0px);
     padding-top: 0; }
 
+  #active {
+    border-top: 5px solid #00AC98;
+    border-bottom: 0; }
+
   .main-nav {
     list-style: none;
     padding-left: 1vw;
@@ -1021,6 +1017,40 @@ aside {
     #featured-projects .portfolio-list {
       height: 50vh; }
 
+  /* animation */
+  #people .svg1 {
+    position: fixed;
+    animation: scale 5s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -.01s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    top: 0;
+    bottom: 0;
+    left: -25vw;
+    right: 0;
+    margin: auto;
+    width: 150vw; }
+  @keyframes scale {
+    to {
+      transform: scale(60000) translateY(1200px); } }
+  #people .svg2 {
+    position: fixed;
+    animation: scale2 1s ease infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * .01s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    right: 0;
+    margin: auto;
+    width: 300vw; }
+  @keyframes scale2 {
+    to {
+      transform: scale(16000) translateY(1200px) translateX(500px); } }
+  /* CLOSE #PEOPLE */
   footer {
     position: fixed;
     bottom: 0;
@@ -1030,7 +1060,17 @@ aside {
     padding-top: 7.5px; }
     footer img {
       width: 25px !important;
-      height: auto; } }
+      height: auto; }
+    footer li {
+      float: right; }
+    footer a:hover {
+      color: #333033;
+      opacity: .75; }
+
+  .footer-nav {
+    padding-right: 25px; }
+    .footer-nav li {
+      float: right; } }
 /* CLOSES 1200PX @MEDIA QUERY */
 
 /*# sourceMappingURL=style.css.map */
