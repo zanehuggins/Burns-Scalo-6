@@ -501,7 +501,7 @@ footer {
 
 /* begins reveal section */
 #people {
-  height: 125vh !important;
+  height: 400vh !important;
   position: relative; }
   #people h2 {
     margin-bottom: 25px; }
@@ -560,7 +560,7 @@ footer {
   background-image: url("../assets/images/meticulous.png"); }
 
 .reveal-container {
-  margin-top: 15vh; }
+  padding-top: 10vh; }
 
 .featured-projects {
   padding-top: 15vh;

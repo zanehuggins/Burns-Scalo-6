@@ -684,7 +684,7 @@ padding: 0;
 /* begins reveal section */
 
 #people{
-  height: 125vh!important;
+  height: 400vh!important;
   position: relative;
 
   h2{
@@ -695,6 +695,8 @@ padding: 0;
     height: auto;
     position: absolute;
   }
+
+
 }
 
 /* animation */
@@ -714,7 +716,6 @@ padding: 0;
   left: -100vw;
   right: 0;
   margin: auto;
-
   width:300vw;
 
 }
@@ -778,8 +779,10 @@ padding: 0;
 }
 
 .reveal-container{
-  margin-top: 15vh;
+padding-top: 10vh;
+
 }
+
 
 .featured-projects{
   padding-top: 15vh;
