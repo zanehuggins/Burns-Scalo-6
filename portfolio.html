@@ -51,7 +51,7 @@
 
 
             <div class="col-12 p-0" id="portfolio">
-            <aside class="col-12 col-lg-3 float-left p-0 d-none d-xl-block">
+            <aside class="col-12 col-lg-3 float-left p-0 d-none">
 
               <form class="col-8 offset-2 float-left">
                 <h2>PROPERTIES</h2>
@@ -76,10 +76,24 @@
 
               </aside>
 
+              <div class="container-mixitup col-12 p-0">
 
-            <div class="portfolio-container col-12 col-lg-9 float-left">
 
-            <div class="container-p col-12 col-md-4 col-lg-4 float-left">
+
+              <ul class="filters col-12 col-lg-8 offset-lg-1 float-left float-left">
+                      <li><a href="#" class="filter" data-filter="all">ALL</a></li>
+                      <li><a href="#" class="filter" data-filter=".current">CURRENT</a></li>
+                      <li class="margin-left"><a href="#" class="filter" data-filter=".north">NORTH</a></li>
+                      <li><a href="#" class="filter" data-filter=".east">EAST</a></li>
+                      <li><a href="#" class="filter" data-filter=".west">WEST</a></li>
+                      <li><a href="#" class="filter" data-filter=".central">CENTRAL</a></li>
+                    </ul>
+
+
+
+            <ul class="containMix portfolio-container col-12 col-lg-10 offset-lg-1 float-left">
+
+            <li class="mix current container-p col-12 col-md-4 col-lg-4 float-left">
               <div class="portfolio-list col-12 float-left">
                 <a href="portfolio-beacon.html">
                   <div class="col-12 p-0 portfolio-image-container">
@@ -89,10 +103,10 @@
             <p>South Fayette Township</p>
             </a>
             </div>
-            </div>
+          </li>
 
 
-            <div class="container-p col-12 col-md-4 col-lg-4 float-left">
+            <li class="mix current container-p col-12 col-md-4 col-lg-4 float-left">
             <div class="portfolio-list col-12 float-left">
               <a href="portfolio-riviera.html">
                 <div class="col-12 p-0 portfolio-image-container">
@@ -102,9 +116,9 @@
             <p>South Fayette Township</p>
             </a>
             </div>
-            </div>
+          </li>
 
-            <div class="container-p col-12 col-md-4 col-lg-4 float-left">
+            <li class="mix current container-p col-12 col-md-4 col-lg-4 float-left">
             <div class="portfolio-list col-12 float-left">
               <a href="#">
                 <div class="col-12 p-0 portfolio-image-container">
@@ -114,12 +128,12 @@
             <p>South Fayette Township</p>
             </a>
             </div>
-            </div>
+          </li>
 
 
 
 
-            <div class="container-p col-12 col-md-4 col-lg-4 float-left">
+            <li class="mix container-p col-12 col-md-4 col-lg-4 float-left">
             <div class="portfolio-list col-12 float-left">
               <a href="#">
                 <div class="col-12 p-0 portfolio-image-container">
@@ -129,9 +143,9 @@
             <p>Moon Township</p>
             </a>
             </div>
-            </div>
+          </li>
 
-            <div class="container-p col-12 col-md-4 col-lg-4 float-left">
+            <li class="mix container-p col-12 col-md-4 col-lg-4 float-left">
             <div class="portfolio-list col-12 float-left">
               <a href="#">
                 <div class="col-12 p-0 portfolio-image-container">
@@ -141,9 +155,9 @@
             <p>South Fayette Township</p>
             </a>
             </div>
-            </div>
+          </li>
 
-            <div class="container-p col-12 col-md-4 col-lg-4 float-left">
+            <li class="mix current container-p col-12 col-md-4 col-lg-4 float-left">
             <div class="portfolio-list col-12 float-left">
               <a href="portfolio-riviera.html">
                 <div class="col-12 p-0 portfolio-image-container">
@@ -153,9 +167,9 @@
             <p>South Oakland</p>
             </a>
             </div>
-            </div>
+          </li>
 
-            <div class="container-p col-12 col-md-4 col-lg-4 float-left">
+            <li class="mix container-p col-12 col-md-4 col-lg-4 float-left">
             <div class="portfolio-list col-12 float-left">
               <a href="#">
                 <div class="col-12 p-0 portfolio-image-container">
@@ -165,9 +179,9 @@
             <p>Strip District</p>
             </a>
             </div>
-            </div>
+          </li>
 
-            <div class="container-p col-12 col-md-4 col-lg-4 float-left">
+            <li class="mix current container-p col-12 col-md-4 col-lg-4 float-left">
             <div class="portfolio-list col-12 float-left">
               <a href="#">
                 <div class="col-12 p-0 portfolio-image-container">
@@ -177,12 +191,13 @@
             <p>Southpointe</p>
             </a>
             </div>
-            </div>
-
-          </div>
-            </div>
 
 
+          </li>
+        </ul>
+
+      </div>
+</div><!-- CLOSES MIXITUP CONTAINER -->
             <footer class="col-12 d-none d-xl-block">
               <ul class="col-4">
                 <li><a href="#"><img src="assets/linkedin.svg" alt="#"></a></li>
@@ -216,6 +231,13 @@
 
                       </footer>
                     </section>
+
+                    <script src="js/jquery.2.min.js"></script>
+                    <script src="js/jquery.mixitup.min.js"></script>
+                    <script>
+                    
+                        $('.containMix').mixItUp();
+                    </script>
 
 
           <script>

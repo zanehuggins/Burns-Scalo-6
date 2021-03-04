@@ -722,10 +722,42 @@ footer {
 /* ----------------------------------------------------------------- */
 /* BEGINS PORTFOLIO */
 /* PORTFOLIO PAGE */
+.filters {
+  margin-top: 10vh;
+  float: left;
+  list-style: none;
+  height: 25px; }
+  .filters .margin-left {
+    margin-left: 19.5vw; }
+  .filters li {
+    float: left; }
+    .filters li a {
+      float: left;
+      float: left;
+      color: gray;
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-family: gotham;
+      text-decoration: none;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      width: 100%; }
+    .filters li a:focus {
+      border-bottom: 3px solid #F26524; }
+
+.containMix .mix {
+  display: none; }
+
 .portfolio-container {
   float: left;
-  padding-top: 10vh;
-  padding-bottom: 10vh; }
+  padding-top: 0vh;
+  padding-bottom: 10vh;
+  list-style: none; }
+  .portfolio-container li:hover {
+    transform: scale(1.02);
+    transition: .25s; }
 
 .aside-toggle {
   margin-top: 10vh;
