@@ -1092,7 +1092,21 @@ li{
 }
 
 
+
+#property-landing{
+  .portfolio-delay-1{
+    animation-name: delay-opacity;
+    animation-duration: 3s;
+  }
+
+  .portfolio-delay-2{
+    animation-name: delay-opacity;
+    animation-duration: 3.5s;
+  }
+}
 #portfolio{
+
+
   section{
     padding-top: 2vh;
     float: left;
