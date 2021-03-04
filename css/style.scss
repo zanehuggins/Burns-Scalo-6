@@ -1003,6 +1003,11 @@ padding: 0;
 /* BEGINS PORTFOLIO */
 
 /* PORTFOLIO PAGE */
+.portfolio-container{
+  float: left;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
 
 .aside-toggle{
   margin-top: 10vh;
@@ -1013,9 +1018,6 @@ padding: 0;
   display: block;
 }
 
-aside{
-  display: none;
-}
 
 #portfolio{
   section{
@@ -1406,6 +1408,7 @@ header{
   padding-right: 25px;
   li{
     float: right;
+      margin-right: 15px;
   }
 }
 
@@ -1431,6 +1434,28 @@ padding-top: 30vh;
       height: 50vh;
     }
   }
+
+#who-we-are{
+  #featured-projects{
+    padding-top: 25vh;
+    .container-p{
+      height: 50vh;
+    }
+    .portfolio-list{
+      height: 50vh;
+    }
+    .text-reveal{
+      height: 50vh;
+      padding-top: 20%;
+    }
+    .animated-container{
+      height:50vh;
+      h2{
+        margin-top: 20%;
+      }
+    }
+  }
+}
 
 
 
@@ -1491,6 +1516,24 @@ padding-top: 30vh;
 
   }
   /* CLOSE #PEOPLE */
+#portfolio{
+.portfolio-container{
+  .container-p{
+    height: 45vh;
+        margin-top: 10px;
+  }
+  .portfolio-list{
+    height: 45vh;
+
+  }
+
+  .image-container{
+    height: 50%;
+  }
+}
+}
+
+
 
 
 
