@@ -26,6 +26,14 @@ object {
   background-color: rgba(229, 229, 229, 0);
   z-index: 1; }
 
+.small-headline {
+  letter-spacing: 2px;
+  color: #333033;
+  padding-left: 5px; }
+
+.italic {
+  font-style: italic; }
+
 h1 {
   font-family: gotham;
   font-weight: 900;
@@ -554,14 +562,17 @@ footer {
   background-size: cover; }
 
 .zoom-1 {
-  background-image: url("../assets/images/unparalleled-luxe.png"); }
+  background-image: url("../assets/images/push-1.png"); }
   .zoom-1 h2 {
     color: white !important; }
   .zoom-1 p {
     color: white !important; }
 
 .zoom-2 {
-  background-image: url("../assets/images/meticulous.png"); }
+  background-image: url("../assets/images/push-2.png"); }
+
+.zoom-3 {
+  background-image: url("../assets/images/push-3.png"); }
 
 .reveal-container {
   padding-top: 10vh; }
@@ -1077,11 +1088,13 @@ footer {
 /* !!OPENS 1200PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 1200px) {
-  header .logo-container {
-    max-width: 150px; }
-  header h5 {
-    font-size: 18px;
-    padding-top: 0; }
+  header {
+    padding-left: 35px; }
+    header .logo-container {
+      max-width: 150px; }
+    header h5 {
+      font-size: 18px;
+      padding-top: 0; }
 
   .secondary-nav {
     padding-right: 25px; }
