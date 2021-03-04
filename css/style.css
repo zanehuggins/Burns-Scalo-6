@@ -42,13 +42,16 @@ h1 {
     border-bottom: 10px solid #F26524; }
   h1 .delay-1 {
     animation-name: delay-opacity;
-    animation-duration: 2s; }
+    animation-duration: 6s; }
   h1 .delay-2 {
     animation-name: delay-opacity;
-    animation-duration: 3s; }
+    animation-duration: 6.5s; }
   h1 .delay-3 {
     animation-name: delay-opacity;
-    animation-duration: 4s; }
+    animation-duration: 7s; }
+  h1 .delay-4 {
+    animation-name: delay-opacity;
+    animation-duration: 7.5s; }
 @keyframes delay-opacity {
   0% {
     opacity: 0;
@@ -395,8 +398,9 @@ footer {
   color: white; }
 #container-1 .video-background {
   position: absolute;
-  width: auto;
-  height: 100vh;
+  width: 130vw;
+  left: -15vw;
+  height: auto;
   z-index: -100; }
 
 #container-2 {
@@ -992,8 +996,20 @@ footer {
     border-top: 5px solid #00AC98;
     border-bottom: 0; }
 
+  /* END NAV */
+  /* TYPE */
+  h1 {
+    font-size: 60px;
+    line-height: 50px; }
+
+  /* END TYPE */
   #push-mobile img {
     width: 40vw; }
+
+  #container-1 .video-background {
+    left: 0vw;
+    width: 100vw;
+    height: auto; }
 
   #property-landing #container-1 video {
     left: -10vw;
