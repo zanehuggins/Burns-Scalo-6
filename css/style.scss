@@ -1384,6 +1384,36 @@ padding-right: 1vw;
 }
 
 
+
+
+
+#property-landing{
+  h2{
+    text-align: left;
+  }
+p{
+  font-size: 14px;
+  line-height: 24px;
+}
+
+  .carousel{
+    float: right;
+    height: 100vh;
+
+    img{
+      height: 100vh!important;
+      width: auto;
+    }
+    .carousel-item{
+      height: 100vh;
+    }
+  }
+  .carousel-inner{
+    height: 100vh!important;
+  }
+}
+
+
 }/* !!CLOSES 1024PX @MEDIA QUERY!! */
 
 /* ----------------------------------------------------------------- */
@@ -1539,7 +1569,14 @@ padding-top: 30vh;
 
 
 
-
+#property-landing{
+  h2{
+    margin-top: 5vh;
+    text-align: left;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
 
   footer{
     position: fixed;

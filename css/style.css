@@ -988,7 +988,23 @@ footer {
     border-bottom: 0; }
 
   #push-mobile img {
-    width: 40vw; } }
+    width: 40vw; }
+
+  #property-landing h2 {
+    text-align: left; }
+  #property-landing p {
+    font-size: 14px;
+    line-height: 24px; }
+  #property-landing .carousel {
+    float: right;
+    height: 100vh; }
+    #property-landing .carousel img {
+      height: 100vh !important;
+      width: auto; }
+    #property-landing .carousel .carousel-item {
+      height: 100vh; }
+  #property-landing .carousel-inner {
+    height: 100vh !important; } }
 /* !!CLOSES 1024PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 /* !!OPENS 1200PX @MEDIA QUERY!! */
@@ -1076,6 +1092,12 @@ footer {
     height: 45vh; }
   #portfolio .portfolio-container .image-container {
     height: 50%; }
+
+  #property-landing h2 {
+    margin-top: 5vh;
+    text-align: left;
+    font-size: 40px;
+    line-height: 40px; }
 
   footer {
     position: fixed;
