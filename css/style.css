@@ -812,7 +812,7 @@ footer {
 /* ----------------------------------------------------------------- */
 /* BEGINS PROPERTY LANDING */
 #property-landing #container-1 video {
-  left: -150vw !important; }
+  left: -150vw; }
 #property-landing #container-2 {
   padding-top: 7vh; }
 #property-landing h2 {
@@ -990,8 +990,15 @@ footer {
   #push-mobile img {
     width: 40vw; }
 
+  #property-landing #container-1 video {
+    left: -10vw;
+    margin: 0;
+    width: 120vw; }
   #property-landing h2 {
-    text-align: left; }
+    margin-top: 5vh;
+    text-align: left;
+    font-size: 40px;
+    line-height: 40px; }
   #property-landing p {
     font-size: 14px;
     line-height: 24px; }
@@ -1093,6 +1100,11 @@ footer {
   #portfolio .portfolio-container .image-container {
     height: 50%; }
 
+  #property-landing #container-1 video {
+    left: 0vw;
+    margin: 0;
+    width: 100vw;
+    height: auto; }
   #property-landing h2 {
     margin-top: 5vh;
     text-align: left;

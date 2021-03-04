@@ -1138,7 +1138,7 @@ label{
 
 #container-1{
   video{
-    left: -150vw!important;
+    left: -150vw;
   }
 }
 
@@ -1388,9 +1388,20 @@ padding-right: 1vw;
 
 
 #property-landing{
-  h2{
-    text-align: left;
+#container-1{
+  video{
+    left: -10vw;
+    margin: 0;
+    width: 120vw;
   }
+}
+    h2{
+      margin-top: 5vh;
+      text-align: left;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
 p{
   font-size: 14px;
   line-height: 24px;
@@ -1570,6 +1581,14 @@ padding-top: 30vh;
 
 
 #property-landing{
+  #container-1{
+    video{
+      left: 0vw;
+      margin: 0;
+      width: 100vw;
+      height: auto;
+    }
+  }
   h2{
     margin-top: 5vh;
     text-align: left;
