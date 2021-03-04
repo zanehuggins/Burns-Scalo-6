@@ -252,6 +252,15 @@ font-size: 16px;
   }
 }
 
+#featured-projects{
+  .portfolio-list{
+    transition: .25s;
+  }
+.portfolio-list:hover{
+  transform: scale(1.02);
+}
+}
+
 .link-outline-2:hover{
   color: $black;
   img{

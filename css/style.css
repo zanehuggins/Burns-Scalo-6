@@ -188,6 +188,11 @@ p {
     float: left;
     transition: .5s; }
 
+#featured-projects .portfolio-list {
+  transition: .25s; }
+#featured-projects .portfolio-list:hover {
+  transform: scale(1.02); }
+
 .link-outline-2:hover {
   color: #333033; }
   .link-outline-2:hover img {
