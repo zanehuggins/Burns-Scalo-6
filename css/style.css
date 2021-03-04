@@ -1113,12 +1113,12 @@ footer {
       padding-top: 0; }
 
   #featured-projects {
-    padding-top: 25vh; }
+    padding-top: 20vh; }
     #featured-projects .portfolio-list {
       height: 50vh; }
 
   #who-we-are #featured-projects {
-    padding-top: 25vh; }
+    padding-top: 20vh; }
     #who-we-are #featured-projects .container-p {
       height: 50vh; }
     #who-we-are #featured-projects .portfolio-list {
@@ -1130,6 +1130,9 @@ footer {
       height: 50vh; }
       #who-we-are #featured-projects .animated-container h2 {
         margin-top: 20%; }
+
+  #what-we-do #featured-projects {
+    padding-top: 20vh; }
 
   /* animation */
   #people .svg1 {
