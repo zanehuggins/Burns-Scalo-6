@@ -333,6 +333,28 @@ nav {
 #active {
   border-bottom: 2px solid #00AC98; }
 
+#subnav {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-top: 18px; }
+  #subnav li {
+    position: absolute;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 50px;
+    width: 150%;
+    left: -25%;
+    text-align: center;
+    border-top: 1px solid lightgray; }
+
+#nav li:hover #subnav {
+  display: block; }
+
 /* ENDS UNIVERSAL STYLES */
 /* ----------------------------------------------------------------- */
 /* BEGINS HEADER */
@@ -1053,6 +1075,40 @@ footer {
   #active {
     border-top: 5px solid #00AC98;
     border-bottom: 0; }
+
+  #subnav {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 18px; }
+    #subnav li {
+      float: left;
+      position: absolute;
+      padding-left: 0;
+      padding-right: 0;
+      height: 50px;
+      width: 150%;
+      left: -25%;
+      text-align: center;
+      background-color: white;
+      border-top: 1px solid lightgray;
+      background-color: white;
+      padding-top: 15px; }
+    #subnav .sub-2 {
+      margin-top: 50px; }
+    #subnav .sub-3 {
+      margin-top: 100px; }
+    #subnav a {
+      height: 100%;
+      padding-top: 15px;
+      padding-bottom: 10px; }
+
+  #nav li:hover #subnav {
+    display: block; }
+    #nav li:hover #subnav li:hover {
+      background-color: #f1f1f1; }
 
   /* END NAV */
   /* TYPE */

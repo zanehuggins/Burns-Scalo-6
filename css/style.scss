@@ -444,6 +444,39 @@ text-decoration: none;
 }
 
 
+#subnav{
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+padding-top: 18px;
+  li{
+    position: absolute;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 50px;
+    width: 150%;
+    left: -25%;
+    text-align: center;
+    border-top: 1px solid lightgray;
+  }
+}
+
+#nav{
+  li:hover{
+    #subnav{
+      display: block;
+      li:hover{
+
+
+      }
+    }
+  }
+}
+
 /* ENDS UNIVERSAL STYLES */
 
 /* ----------------------------------------------------------------- */
@@ -1483,6 +1516,57 @@ padding-right: 1vw;
     border-top: 5px solid $turquoise;
     border-bottom: 0;
   }
+
+
+
+
+  #subnav{
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  padding-top: 18px;
+
+    li{
+      float: left;
+      position: absolute;;
+      padding-left: 0;
+      padding-right: 0;
+      height: 50px;
+      width: 150%;
+      left: -25%;
+      text-align: center;
+      background-color: white;
+      border-top: 1px solid lightgray;
+      background-color: white;
+      padding-top: 15px;
+    }
+    .sub-2{
+      margin-top: 50px;
+    }
+    .sub-3{
+      margin-top: 100px;
+    }
+    a{
+      height: 100%;
+      padding-top: 15px;
+      padding-bottom: 10px;
+    }
+  }
+
+  #nav{
+    li:hover{
+      #subnav{
+        display: block;
+        li:hover{
+    
+              background-color: #f1f1f1;
+        }
+      }
+    }
+  }
+
 
 /* END NAV */
 
