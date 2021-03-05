@@ -1528,6 +1528,7 @@ padding-right: 1vw;
     position: relative;
   padding-top: 18px;
 
+
     li{
       float: left;
       position: absolute;;
@@ -1539,8 +1540,10 @@ padding-right: 1vw;
       text-align: center;
       background-color: white;
       border-top: 1px solid lightgray;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
       background-color: white;
       padding-top: 15px;
+
     }
     .sub-2{
       margin-top: 50px;
@@ -1560,7 +1563,7 @@ padding-right: 1vw;
       #subnav{
         display: block;
         li:hover{
-    
+
               background-color: #f1f1f1;
         }
       }
