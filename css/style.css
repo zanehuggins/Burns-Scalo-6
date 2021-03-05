@@ -943,12 +943,14 @@ footer {
 /* ENDS PROPERTY LANDING */
 /* ----------------------------------------------------------------- */
 /* BEGINS MANAGEMENT */
-#restart h3 {
-  font-size: 28px !important; }
-#restart p {
-  margin-top: 20px !important; }
-#restart .portfolio-list {
-  padding: 50px; }
+#restart {
+  margin-top: -5vh; }
+  #restart h3 {
+    font-size: 28px !important; }
+  #restart p {
+    margin-top: 20px !important; }
+  #restart .portfolio-list {
+    padding: 50px; }
 
 /* ----------------------------------------------------------------- */
 /* BEGINS 768PX MEDIA QUERY */
