@@ -615,9 +615,11 @@ padding: 0;
 
   .video-background{
     position: absolute;
-    width: 130vw;
-    left: -15vw;
-    height: auto;
+float: left;
+
+  right: -50vw;
+
+    height: 100vh;
     z-index: -100;
   }
 }
