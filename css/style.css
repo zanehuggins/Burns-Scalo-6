@@ -41,7 +41,8 @@ h1 {
   font-size: 40px;
   line-height: 35px;
   padding-bottom: 5px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 5vh; }
   h1 .green-underline {
     border-bottom: 10px solid #C2D500; }
   h1 .turquoise-underline {
