@@ -699,7 +699,7 @@ padding: 0;
 
 /* begins reveal section */
 
-#people{
+#transcroller-body{
   height: 400vh!important;
   position: relative;
 
@@ -719,7 +719,7 @@ padding: 0;
 
 
 
-#people{
+#transcroller-body{
 .svg1 {
   position: fixed;
   animation: scale 5s linear infinite;
@@ -781,10 +781,10 @@ padding: 0;
 .zoom-1{
     background-image: url('../assets/images/push-1.png');
     h2{
-      color: white!important;
+      color: $black!important;
     }
     p{
-      color: white!important;
+      color: black!important;
     }
 }
 
@@ -797,8 +797,10 @@ padding: 0;
 }
 
 .reveal-container{
-padding-top: 10vh;
-
+padding-top: 17.5vh;
+background-color: white;
+height: 100vh;
+margin-top: 300vh;
 }
 
 
@@ -1633,7 +1635,7 @@ padding-top: 30vh;
 
 
 
-  #people{
+  #transcroller-body{
   .svg1 {
     position: fixed;
     animation: scale 5s linear infinite;

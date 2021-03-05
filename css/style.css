@@ -512,17 +512,17 @@ footer {
     padding-bottom: 1.5vh; }
 
 /* begins reveal section */
-#people {
+#transcroller-body {
   height: 400vh !important;
   position: relative; }
-  #people h2 {
+  #transcroller-body h2 {
     margin-bottom: 25px; }
-  #people img {
+  #transcroller-body img {
     height: auto;
     position: absolute; }
 
 /* animation */
-#people .svg1 {
+#transcroller-body .svg1 {
   position: fixed;
   animation: scale 5s linear infinite;
   animation-play-state: paused;
@@ -538,7 +538,7 @@ footer {
 @keyframes scale {
   to {
     transform: scale(30000) translateY(1200px); } }
-#people .svg2 {
+#transcroller-body .svg2 {
   position: fixed;
   animation: scale2 1s linear infinite;
   animation-play-state: paused;
@@ -564,9 +564,9 @@ footer {
 .zoom-1 {
   background-image: url("../assets/images/push-1.png"); }
   .zoom-1 h2 {
-    color: white !important; }
+    color: #333033 !important; }
   .zoom-1 p {
-    color: white !important; }
+    color: black !important; }
 
 .zoom-2 {
   background-image: url("../assets/images/push-2.png"); }
@@ -575,7 +575,10 @@ footer {
   background-image: url("../assets/images/push-3.png"); }
 
 .reveal-container {
-  padding-top: 10vh; }
+  padding-top: 17.5vh;
+  background-color: white;
+  height: 100vh;
+  margin-top: 300vh; }
 
 .featured-projects {
   padding-top: 15vh;
@@ -1135,7 +1138,7 @@ footer {
     padding-top: 20vh; }
 
   /* animation */
-  #people .svg1 {
+  #transcroller-body .svg1 {
     position: fixed;
     animation: scale 5s linear infinite;
     animation-play-state: paused;
@@ -1151,7 +1154,7 @@ footer {
   @keyframes scale {
     to {
       transform: scale(80000) translateY(1200px); } }
-  #people .svg2 {
+  #transcroller-body .svg2 {
     position: fixed;
     animation: scale2 5s linear infinite;
     animation-play-state: paused;
