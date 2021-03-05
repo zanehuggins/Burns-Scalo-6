@@ -86,7 +86,7 @@ Your browser does not support the video tag.
 
 
 
-<section class="second col-12" id="container-2">
+<section class="section second col-12" id="container-2">
 <span class="top"></span>
 
 
@@ -99,16 +99,16 @@ Your browser does not support the video tag.
 
 <div class="copy-container col-12 col-lg-8 col-xl-6 offset-lg-2 offset-xl-0">
 <p class="col-10 col-md-8 col-lg-12 col-xl-10 offset-1 offset-md-2 offset-lg-0 ">
-As leaders in all industries continue to search for competitive advantages, they continue to overlook the most effective weapon in their arsenal—their workplace. We create spaces that people want to come to, not just have to. Dynamic spaces that not only attract today’s brightest talent but also spark motivation, innovation, happiness, and loyalty for years to come.
+As leaders in all industries continue to search for competitive advantages, they continue to overlook the most effective weapon in their arsenal—their workplace. We create spaces that people <span class="italic">want</span> to come to, not just <span class="italic">have</span> to. Dynamic spaces that not only attract today’s brightest talent but also spark motivation, innovation, happiness, and loyalty for years to come.
 </p>
   </div>
 
 <div class="link-container col-10 col-md-8 col-xl-5 offset-1 offset-md-2 offset-xl-5">
-  <a href="who-we-are.html" class="link-outline-2 col-12"><p class="col-10">WHO WE ARE</p>
+  <a href="who-we-are.html" class="link-outline-2 col-12"><p class="col-10">WHO IS BURNS SCALO REAL ESTATE</p>
   <img src="assets/arrow.svg" alt="#" class="col-2">
   </a>
 
-  <a href="management.html" class="col-12 border-bottom link-outline-2"><p class="col-10">WHAT WE DO</p>
+  <a href="management.html" class="col-12 border-bottom link-outline-2"><p class="col-10">WHAT IS LUXURY REAL ESTATE</p>
 <img src="assets/arrow.svg" alt="management.html" class="col-2">
     </a>
 </div>
@@ -240,7 +240,94 @@ FEATURED PROPERTIES
 
 
 
+<script>
 
+HTML SCSS JSResult Skip Results Iframe
+EDIT ON
+(function($) {
+
+  'use strict';
+
+  // variables
+  var $isAnimatedSecond = $('.second .is-animated'),
+      $isAnimatedSecondSingle = $('.second .is-animated__single'),
+      $isAnimatedThird = $('.third .is-animated'),
+      $isAnimatedThirdSingle = $('.third .is-animated__single'),
+      $isAnimatedFourth = $('.fourth .is-animated'),
+      $isAnimatedFourthSingle = $('.fourth .is-animated__single');
+
+  // initialize fullPage
+  $('#fullpage').fullpage({
+
+    navigation: true,
+    onLeave: function(index, nextIndex, direction) {
+
+      /**
+      * use the following condition:
+      *
+      *   if( index == 1 && direction == 'down' ) {
+      *
+      * if you haven't enabled the dot navigation
+      * or you aren't interested in the animations that occur
+      * when you jump (using the dot navigation)
+      * from the first section to another sections
+      */
+
+      // first animation
+      if( index == 1 && nextIndex == 2 ) {
+        $isAnimatedSecond.addClass('animated fadeInUpBig');
+        $isAnimatedSecond.eq(0).css('animation-delay', '.3s');
+        $isAnimatedSecond.eq(1).css('animation-delay', '.6s');
+        $isAnimatedSecond.eq(2).css('animation-delay', '.9s');
+        $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
+      }
+
+    /**
+      * use the following condition:
+      *
+      *   else if( index == 2 && direction == 'down' ) {
+      *
+      * if you haven't enabled the dot navigation
+      * or you aren't interested in the animations that occur
+      * when you jump (using the dot navigation) from the first section to the third one
+      */
+
+      // second animation
+      else if( ( index == 1 || index == 2 ) && nextIndex == 3 ) {
+        $isAnimatedThird.eq(0).addClass('animated fadeInRightBig').css('animation-delay', '.3s');
+        $isAnimatedThird.eq(1).addClass('animated fadeInLeftBig').css('animation-delay', '.6s');
+        $isAnimatedThirdSingle.addClass('animated bounceInDown').css('animation-delay', '1.2s');
+      }
+
+
+     /**
+      * use the following condition:
+      *
+      *   else if( index == 3 && direction == 'down' ) {
+      *
+      * if you haven't enabled the dot navigation
+      * or you aren't interested in the animations that occur
+      * when you jump (using the dot navigation)
+      * from the first or second section to the fourth one
+      */
+
+      // third animation
+      else if( ( index == 1 || index == 2 || index == 3 ) && nextIndex == 4 ) {
+        $isAnimatedFourth.addClass('animated zoomIn').css('animation-delay', '.6s');
+        $isAnimatedFourthSingle.addClass('animated lightSpeedIn').css('animation-delay', '1.2s');
+        $isAnimatedFourthSingle.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+          $(this).removeClass('lightSpeedIn').addClass('zoomOutDown');
+        });
+      }
+    }
+
+  });
+
+})(jQuery);
+
+Resources1× 0.5× 0.25×Rerun
+
+</script>
 
 
 <script>
