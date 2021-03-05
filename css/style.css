@@ -813,6 +813,9 @@ footer {
 #property-landing .portfolio-delay-2 {
   animation-name: delay-opacity;
   animation-duration: 3.5s; }
+#property-landing .portfolio-delay-3 {
+  animation-name: delay-opacity;
+  animation-duration: 4s; }
 
 #portfolio section {
   padding-top: 2vh;
