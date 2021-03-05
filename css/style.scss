@@ -465,7 +465,12 @@ padding-top: 18px;
   }
 }
 
-
+#nav{
+  .nav-item-2:hover{
+    a{
+    font-weight: bold;
+  }
+  }
 #subnav-mobile{
   display: none;
   list-style: none;
@@ -474,16 +479,25 @@ padding-top: 18px;
   position: relative;
 padding-top: 18px;
   li{
-    position: absolute;
-    padding-top: 0px;
-    padding-bottom: 10px;
+    float: left;
     padding-left: 0;
     padding-right: 0;
-    height: 50px;
-    width: 150%;
-    left: -25%;
-    text-align: center;
-    border-top: 1px solid lightgray;
+    text-align: center!important;
+    margin: 0;
+  }
+}
+}
+
+#nav{
+  li:hover{
+    #subnav-mobile{
+      display: block;
+      li{
+        a{
+        font-weight: normal!important;
+      }
+      }
+    }
   }
 }
 
@@ -492,9 +506,10 @@ padding-top: 18px;
   li:hover{
     #subnav{
       display: block;
-      li:hover{
-
-
+      li{
+        a{
+        font-weight: normal!important;
+      }
       }
     }
   }
@@ -1605,6 +1620,14 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
   }
 
   #nav{
+
+    .nav-item-2:hover{
+      a{
+      font-weight: normal;
+    }
+    }
+
+
     li:hover{
       #subnav{
         display: block;

@@ -352,27 +352,31 @@ nav {
     text-align: center;
     border-top: 1px solid lightgray; }
 
-#subnav-mobile {
+#nav .nav-item-2:hover a {
+  font-weight: bold; }
+#nav #subnav-mobile {
   display: none;
   list-style: none;
   margin: 0;
   padding: 0;
   position: relative;
   padding-top: 18px; }
-  #subnav-mobile li {
-    position: absolute;
-    padding-top: 0px;
-    padding-bottom: 10px;
+  #nav #subnav-mobile li {
+    float: left;
     padding-left: 0;
     padding-right: 0;
-    height: 50px;
-    width: 150%;
-    left: -25%;
-    text-align: center;
-    border-top: 1px solid lightgray; }
+    text-align: center !important;
+    margin: 0; }
+
+#nav li:hover #subnav-mobile {
+  display: block; }
+  #nav li:hover #subnav-mobile li a {
+    font-weight: normal !important; }
 
 #nav li:hover #subnav {
   display: block; }
+  #nav li:hover #subnav li a {
+    font-weight: normal !important; }
 
 /* ENDS UNIVERSAL STYLES */
 /* ----------------------------------------------------------------- */
@@ -1139,6 +1143,8 @@ footer {
       padding-top: 15px;
       padding-bottom: 10px; }
 
+  #nav .nav-item-2:hover a {
+    font-weight: normal; }
   #nav li:hover #subnav {
     display: block; }
     #nav li:hover #subnav li:hover {
