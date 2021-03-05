@@ -1335,6 +1335,23 @@ label{
 
 /* ----------------------------------------------------------------- */
 
+/* BEGINS MANAGEMENT */
+
+#restart{
+  h3{
+    font-size: 28px!important;
+  }
+  p{
+    margin-top: 20px!important
+    ;
+  }
+  .portfolio-list{
+    padding: 50px;
+  }
+}
+
+/* ----------------------------------------------------------------- */
+
 /* BEGINS 768PX MEDIA QUERY */
 
 @media (min-width: 768px){
@@ -1457,7 +1474,7 @@ padding-right: 1vw;
     border-top: none;
     list-style: none;
     margin-top: 0vh;
-    padding-top: 10px;
+    padding-top: 7.5px;
     padding-left: 0!important;
     float: left;
     li{

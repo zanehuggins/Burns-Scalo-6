@@ -942,6 +942,15 @@ footer {
 /* CLOSES PROPERTY LANDING */
 /* ENDS PROPERTY LANDING */
 /* ----------------------------------------------------------------- */
+/* BEGINS MANAGEMENT */
+#restart h3 {
+  font-size: 28px !important; }
+#restart p {
+  margin-top: 20px !important; }
+#restart .portfolio-list {
+  padding: 50px; }
+
+/* ----------------------------------------------------------------- */
 /* BEGINS 768PX MEDIA QUERY */
 @media (min-width: 768px) {
   h2 {
@@ -1031,7 +1040,7 @@ footer {
     border-top: none;
     list-style: none;
     margin-top: 0vh;
-    padding-top: 10px;
+    padding-top: 7.5px;
     padding-left: 0 !important;
     float: left; }
     .secondary-nav li {
