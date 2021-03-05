@@ -455,9 +455,6 @@ footer {
 
 #container-3 {
   padding: 0; }
-  #container-3 svg {
-    position: absolute;
-    z-index: 1; }
   #container-3 .image-container {
     position: relative;
     margin-top: 7vh;
@@ -480,17 +477,6 @@ footer {
 
 #container-4 {
   padding: 0; }
-  #container-4 svg {
-    position: absolute;
-    z-index: 1; }
-  #container-4 .svg-v-1 {
-    left: 8vw; }
-  #container-4 .svg-v-2 {
-    right: 8vw; }
-  #container-4 .svg-h-1 {
-    top: 52vh; }
-  #container-4 .svg-h-2 {
-    top: 95vh; }
   #container-4 .image-container {
     position: relative;
     margin-top: 7vh;
@@ -522,35 +508,52 @@ footer {
     position: absolute; }
 
 /* animation */
-#transcroller-body .svg1 {
-  position: fixed;
-  animation: scale 5s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -.01s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-  top: 0;
-  bottom: 0;
-  left: -100vw;
-  right: 0;
-  margin: auto;
-  width: 300vw; }
+#transcroller-body {
+  position: relative; }
+  #transcroller-body .overlay {
+    height: 200vh;
+    width: 100vw;
+    top: 0;
+    position: absolute;
+    z-index: 150;
+    background-image: linear-gradient(rgba(51, 48, 51, 0.35), rgba(51, 48, 51, 0)); }
+  #transcroller-body .svg1 {
+    position: fixed;
+    animation: scale 5s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -.01s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    right: 0;
+    margin: auto;
+    width: 300vw;
+    z-index: 200 !important; }
+  #transcroller-body .reveal-container {
+    padding-top: 17.5vh;
+    background-color: white;
+    height: 100vh;
+    margin-top: 300vh;
+    z-index: 175 !important; }
 @keyframes scale {
   to {
     transform: scale(30000) translateY(1200px); } }
-#transcroller-body .svg2 {
-  position: fixed;
-  animation: scale2 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -.01s);
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-  top: 0;
-  bottom: 0;
-  left: -100vw;
-  right: 0;
-  margin: auto;
-  width: 300vw; }
+  #transcroller-body .svg2 {
+    position: fixed;
+    animation: scale2 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -.01s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    right: 0;
+    margin: auto;
+    z-index: 200;
+    width: 300vw; }
 @keyframes scale2 {
   to {
     transform: scale(16000) translateY(1200px) translateX(500px); } }
@@ -559,7 +562,8 @@ footer {
   position: fixed;
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  z-index: 100; }
 
 .zoom-1 {
   background-image: url("../assets/images/push-1.png"); }
@@ -573,12 +577,6 @@ footer {
 
 .zoom-3 {
   background-image: url("../assets/images/push-3.png"); }
-
-.reveal-container {
-  padding-top: 17.5vh;
-  background-color: white;
-  height: 100vh;
-  margin-top: 300vh; }
 
 .featured-projects {
   padding-top: 15vh;
@@ -730,6 +728,13 @@ footer {
   #what-we-do #push-3-pt2-mobile p {
     color: #333033;
     float: left; }
+#what-we-do #featured-projects .portfolio-image-container {
+  min-height: 82%;
+  height: 82% !important;
+  overflow: hidden; }
+  #what-we-do #featured-projects .portfolio-image-container img {
+    width: 100%;
+    height: auto; }
 
 /* CLOSES WHAT WE DO */
 /* ENDS WHAT WE DO */
@@ -1150,7 +1155,8 @@ footer {
     left: -25vw;
     right: 0;
     margin: auto;
-    width: 150vw; }
+    width: 150vw;
+    z-index: 200; }
   @keyframes scale {
     to {
       transform: scale(80000) translateY(1200px); } }
@@ -1166,7 +1172,8 @@ footer {
     left: -25vw;
     right: 0;
     margin: auto;
-    width: 150vw; }
+    width: 150vw;
+    z-index: 200; }
   @keyframes scale2 {
     to {
       transform: scale(80000) translateY(5000px); } }

@@ -271,6 +271,7 @@ font-size: 16px;
   .portfolio-list{
     transition: .25s;
   }
+
 .portfolio-list:hover{
   transform: scale(1.02);
 }
@@ -614,10 +615,7 @@ padding: 0;
 #container-3{
     padding: 0;
 
-    svg{
-      position: absolute;
-      z-index: 1;
-    }
+
 
 
     .image-container{
@@ -650,26 +648,8 @@ padding: 0;
 #container-4{
     padding: 0;
 
-    svg{
-      position: absolute;
-      z-index: 1;
-    }
 
-    .svg-v-1{
-      left: 8vw;
-    }
 
-    .svg-v-2{
-      right: 8vw;
-    }
-
-    .svg-h-1{
-      top: 52vh;
-    }
-
-    .svg-h-2{
-      top: 95vh;
-    }
 
     .image-container{
       position: relative;
@@ -720,6 +700,16 @@ padding: 0;
 
 
 #transcroller-body{
+  position: relative;
+.overlay{
+  height: 200vh;
+  width: 100vw;
+  top: 0;
+  position: absolute;
+  z-index: 150;
+   background-image: linear-gradient(rgba(51, 48, 51, .35), rgba(51, 48, 51, 0));
+}
+
 .svg1 {
   position: fixed;
   animation: scale 5s linear infinite;
@@ -733,6 +723,16 @@ padding: 0;
   right: 0;
   margin: auto;
   width:300vw;
+  z-index: 200!important;
+}
+
+
+  .reveal-container{
+  padding-top: 17.5vh;
+  background-color: white;
+  height: 100vh;
+  margin-top: 300vh;
+  z-index: 175!important;
 
 }
 
@@ -755,7 +755,7 @@ padding: 0;
   left: -100vw;
   right: 0;
   margin: auto;
-
+  z-index: 200;
   width:300vw;
 }
 
@@ -776,6 +776,7 @@ padding: 0;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 100;
 }
 
 .zoom-1{
@@ -796,12 +797,6 @@ padding: 0;
     background-image: url('../assets/images/push-3.png');
 }
 
-.reveal-container{
-padding-top: 17.5vh;
-background-color: white;
-height: 100vh;
-margin-top: 300vh;
-}
 
 
 .featured-projects{
@@ -1025,6 +1020,17 @@ margin-top: 300vh;
     }
 }
 
+#featured-projects{
+  .portfolio-image-container{
+    min-height: 82%;
+    height: 82%!important;
+    overflow: hidden;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
 
 } /* CLOSES WHAT WE DO */
 
@@ -1650,7 +1656,7 @@ padding-top: 30vh;
     margin: auto;
 
     width:  150vw;
-
+    z-index: 200;
   }
 
   @keyframes scale {
@@ -1674,7 +1680,7 @@ padding-top: 30vh;
     margin: auto;
 
     width:  150vw;
-
+    z-index: 200;
   }
 
 
