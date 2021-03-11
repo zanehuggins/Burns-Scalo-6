@@ -481,7 +481,7 @@ footer {
 #push-mobile img {
   position: absolute;
   float: left;
-  width: 75vw;
+  width: 100vw;
   height: auto;
   top: 0;
   bottom: 0;
@@ -490,13 +490,14 @@ footer {
   margin: auto; }
 
 #push-1-pt2-mobile {
-  background-image: url("../assets/images/unparalleled-luxe.png"); }
+  padding-top: 7vh !important; }
   #push-1-pt2-mobile h2 {
-    color: white;
+    color: #333033;
     float: left;
-    margin-bottom: 5vh; }
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh; }
   #push-1-pt2-mobile p {
-    color: white;
+    color: black;
     float: left; }
 
 #container-3 {
@@ -702,25 +703,14 @@ footer {
 #who-we-are .featured {
   padding-top: 10vh; }
 
-#push-2-mobile {
-  background-image: url("../assets/images/unparalleled-luxe.png"); }
-  #push-2-mobile img {
-    position: absolute;
-    float: left;
-    height: auto;
-    width: 300vw;
-    left: -100vw;
-    top: -20vh; }
-
-#push-2-pt2-mobile {
-  background-image: url("../assets/images/meticulous.png"); }
-  #push-2-pt2-mobile h2 {
-    color: #333033;
-    float: left;
-    margin-bottom: 5vh; }
-  #push-2-pt2-mobile p {
-    color: #333033;
-    float: left; }
+#push-2-pt2-mobile h2 {
+  margin-top: 10vh !important;
+  color: #333033;
+  float: left;
+  margin-bottom: 5vh; }
+#push-2-pt2-mobile p {
+  color: #333033;
+  float: left; }
 
 /* ENDS WHO WE ARE */
 /* ----------------------------------------------------------------- */
@@ -1164,7 +1154,7 @@ footer {
 
   /* END TYPE */
   #push-mobile img {
-    width: 40vw; }
+    width: 100vw; }
 
   #container-1 .video-background {
     left: 0vw;

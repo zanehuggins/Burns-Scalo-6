@@ -661,7 +661,7 @@ float: left;
   img{
     position: absolute;
     float: left;
-    width: 75vw;
+    width: 100vw;
     height: auto;
     top: 0;
     bottom: 0;
@@ -672,14 +672,15 @@ float: left;
 }
 
 #push-1-pt2-mobile{
-    background-image: url('../assets/images/unparalleled-luxe.png');
+padding-top: 7vh!important;
     h2{
-      color: white;
+      color: $black;
       float: left;
-      margin-bottom: 5vh;
+      margin-top: 2.5vh;
+      margin-bottom: 2.5vh;
     }
     p{
-      color: white;
+      color: black;
       float: left;
     }
 }
@@ -996,21 +997,12 @@ float: left;
 
 
 
-#push-2-mobile{
-  background-image: url('../assets/images/unparalleled-luxe.png');
-  img{
-    position: absolute;
-    float: left;
-    height: auto;
-    width: 300vw;
-    left: -100vw;
-    top: -20vh;
-  }
-}
+
 
 #push-2-pt2-mobile{
-    background-image: url('../assets/images/meticulous.png');
+
     h2{
+      margin-top: 10vh!important;
       color: $black;
       float: left;
       margin-bottom: 5vh;
@@ -1668,7 +1660,7 @@ h1{
 
 #push-mobile{
   img{
-    width: 40vw;
+    width: 100vw;
   }
 }
 
