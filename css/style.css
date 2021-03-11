@@ -1002,12 +1002,26 @@ footer {
 
   #container-2 {
     padding-top: 25vh; }
+    #container-2 .copy-container {
+      padding-top: 2.5vh;
+      padding-bottom: 2.5vh; }
     #container-2 .image-container {
       position: relative;
       margin-top: 7vh;
       overflow: hidden;
       height: 50vh;
-      padding: 0; } }
+      padding: 0; }
+
+  #push-1-pt2-mobile {
+    padding-top: 7vh !important; }
+    #push-1-pt2-mobile h2 {
+      color: #333033;
+      float: left;
+      margin-top: 5vh;
+      margin-bottom: 2.5vh; }
+    #push-1-pt2-mobile p {
+      color: black;
+      float: left; } }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 1024px) {
