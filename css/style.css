@@ -301,7 +301,8 @@ nav {
   list-style: none;
   margin-top: 5vh;
   padding-top: 10vh;
-  padding-left: 0;
+  padding-left: 5vw;
+  padding-right: 5vw;
   float: left; }
   .secondary-nav li {
     text-align: left;
@@ -1075,14 +1076,18 @@ footer {
     line-height: 26px; }
 
   /* BEGINS HEADER 768 */
-  header h5 {
-    font-size: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px; }
-  header .dropdown-menu-custom {
-    padding-top: 5px;
-    max-width: 35px;
-    height: auto; }
+  header {
+    height: 60px; }
+    header .logo-container {
+      max-width: 40px; }
+    header h5 {
+      font-size: 25px;
+      padding-top: 0px;
+      padding-bottom: 5px; }
+    header .dropdown-menu-custom {
+      padding-top: 0px;
+      max-width: 35px;
+      height: auto; }
 
   /* CLOSES HEADER */
   /* ENDS HEADER 768 */
