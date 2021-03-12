@@ -449,7 +449,7 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
-    padding-right: 0;
+    padding-right: 100%;
     text-align: center !important;
     margin: 0;
     color: gray !important;
