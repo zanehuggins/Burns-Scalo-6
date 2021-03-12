@@ -1533,6 +1533,122 @@ margin-top: -5vh;
   }
 }
 
+
+
+/* ----------------------------------------------------------------- */
+
+/* BEGINS TEAM */
+
+
+    #leadership{
+      padding-top: 20vh;
+      overflow: scroll!important;
+
+
+            h4{
+              font-size: 16px!important;
+              transition: .5s ease;
+              position: absolute;
+              bottom: 40px;
+              z-index: 10;
+              margin-left: 15px;
+            }
+            h5{
+              font-size: 14px;
+              transition: .5s ease;
+              position: absolute;
+              bottom: 15px;
+              z-index: 10;
+              margin-left: 15px;
+            }
+
+      .container-p{
+        float: left;
+        padding: 5px;
+
+      }
+.portfolio-list{
+  box-shadow: 0px 0px 5px #DBDADA;
+  float: left;
+  height: 37.5vh;
+  position: relative;
+  transition: .5s;
+  overflow: hidden;
+
+.background-white{
+    background-color: white;
+    transition: .5s ease;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    height: 10%;
+
+}
+
+  .content-container{
+    padding: 12px!important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: .5s ease;
+    z-index: 10;
+  }
+
+
+
+  ul{
+
+    position: absolute;
+    transition: .5s;
+    list-style: none;
+    margin-left: 15px;
+padding-left: 0;
+    z-index: 10;
+    opacity: 0;
+    transition: .5s;
+    transform-origin: bottom;
+    transform: scale(0);
+    a{
+      color: $black;
+      font-family: gotham;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  }
+
+}
+
+.portfolio-list:hover{
+
+h4{
+  transform: translateY(-150px);
+}
+h5{
+  transform: translateY(-150px);
+
+}
+  .background-white{
+    transform: scaleY(50);
+    background-color: white;
+    transition: .1s;
+  }
+  .content-container{
+    padding-top: 30px!important;
+      transform-origin: bottom;
+      height: 100%;
+  }
+  ul{
+    opacity: 1;
+    height: auto;
+      transform: scale(1) translateY(-75px);
+  }
+}
+
+}/* CLOSES #LEADERSHIP*/
+
+
+
 /* ----------------------------------------------------------------- */
 
 /* BEGINS 768PX MEDIA QUERY */
@@ -2031,6 +2147,8 @@ padding-top: 30vh;
     padding-top: 20vh;
   }
 }
+
+
 
 
 
