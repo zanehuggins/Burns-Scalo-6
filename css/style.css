@@ -377,6 +377,20 @@ nav {
   font-weight: bold; }
 #nav .subnav-mobile-custom {
   display: none; }
+#nav .display-toggle-subnav1 {
+  display: block;
+  animation-name: fade;
+  transition: .5s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  opacity: 1;
+  border-left: 1px solid gray; }
+  #nav .display-toggle-subnav1 .sub-1 {
+    animation: fade 1s ease; }
+  #nav .display-toggle-subnav1 .sub-2 {
+    animation: fade 1.5s ease; }
+  #nav .display-toggle-subnav1 .sub-3 {
+    animation: fade 2s ease; }
 #nav .display-toggle-subnav {
   display: block;
   animation-name: fade;
@@ -420,14 +434,41 @@ nav {
       width: 20px;
       height: auto; }
 
+#subNavMobile1 {
+  margin-bottom: 35px;
+  margin-top: -35px;
+  margin-left: 25px;
+  padding-top: 10px;
+  padding-left: 0px !important;
+  transition: .25s; }
+  #subNavMobile1 ul {
+    list-style: none;
+    margin-left: 0; }
+  #subNavMobile1 li {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0;
+    text-align: center !important;
+    margin: 0;
+    color: gray !important;
+    font-size: 14px; }
+    #subNavMobile1 li img {
+      width: 20px;
+      height: auto; }
+
 #nav li:hover #subnav {
   display: block; }
   #nav li:hover #subnav li a {
     font-weight: normal !important; }
 
-#nav li:hover #subnav1 {
+#subNav1 {
+  display: none; }
+
+#nav li:hover #subNav1 {
   display: block; }
-  #nav li:hover #subnav1 li a {
+  #nav li:hover #subNav1 li a {
     font-weight: normal !important; }
 
 /* ENDS UNIVERSAL STYLES */
@@ -1210,14 +1251,14 @@ footer {
       padding-top: 15px;
       padding-bottom: 10px; }
 
-  #subnav1 {
+  #subNav1 {
     display: none;
     list-style: none;
     margin: 0;
     padding: 0;
     position: relative;
     padding-top: 18px; }
-    #subnav1 li {
+    #subNav1 li {
       float: left;
       position: absolute;
       padding-left: 0;
@@ -1231,11 +1272,11 @@ footer {
       box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
       background-color: white;
       padding-top: 15px; }
-    #subnav1 .sub-2 {
+    #subNav1 .sub-2 {
       margin-top: 50px; }
-    #subnav1 .sub-3 {
+    #subNav1 .sub-3 {
       margin-top: 100px; }
-    #subnav1 a {
+    #subNav1 a {
       height: 100%;
       padding-top: 15px;
       padding-bottom: 10px; }
@@ -1249,9 +1290,9 @@ footer {
 
   #nav .nav-item-1:hover a {
     font-weight: normal; }
-  #nav li:hover #subnav1 {
+  #nav li:hover #subNav1 {
     display: block; }
-    #nav li:hover #subnav1 li:hover {
+    #nav li:hover #subNav1 li:hover {
       background-color: #f1f1f1; }
 
   /* END NAV */
