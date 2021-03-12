@@ -486,6 +486,12 @@ text-decoration: none;
     width: 35px;
 }
 
+#subnav-open:hover{
+  img{
+    transform: rotateZ(180deg);
+  }
+}
+
 #nav{
   .nav-item-2:hover{
     a{
@@ -505,7 +511,7 @@ text-decoration: none;
   animation-iteration-count: 1;
   opacity: 1;
       border-left: 1px solid gray;
-      
+
   .sub-1{
 animation: fade 1s ease;
   }
@@ -533,7 +539,6 @@ animation: fade 2s ease;
   padding-top: 10px;
   padding-left: 0px!important;
   transition: .25s;
-
 
   ul{
     list-style: none;
