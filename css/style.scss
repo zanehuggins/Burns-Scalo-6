@@ -1544,24 +1544,34 @@ margin-top: -5vh;
       padding-top: 20vh;
       overflow: scroll!important;
 
+.name-container{
+  transition: .5s ease;
+bottom: 0px;
+z-index: 20;
+position: absolute;
+width: 100%;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
 
             h4{
-              font-size: 16px!important;
+              float: left;
+              font-weight: bold;
+              font-size: 15px!important;
               transition: .5s ease;
-              position: absolute;
-              bottom: 40px;
-              z-index: 10;
-              margin-left: 15px;
+
+
+              text-transform: uppercase;
             }
             h5{
+              float: left;
               font-size: 14px;
               transition: .5s ease;
-              position: absolute;
-              bottom: 15px;
-              z-index: 10;
-              margin-left: 15px;
-            }
 
+
+
+            }
+}
       .container-p{
         float: left;
         padding: 5px;
@@ -1602,7 +1612,7 @@ margin-top: -5vh;
     position: absolute;
     transition: .5s;
     list-style: none;
-    margin-left: 15px;
+    margin-left: 10px;
 padding-left: 0;
     z-index: 10;
     opacity: 0;

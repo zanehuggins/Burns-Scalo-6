@@ -1067,20 +1067,25 @@ footer {
 #leadership {
   padding-top: 20vh;
   overflow: scroll !important; }
-  #leadership h4 {
-    font-size: 16px !important;
+  #leadership .name-container {
     transition: .5s ease;
+    bottom: 0px;
+    z-index: 20;
     position: absolute;
-    bottom: 40px;
-    z-index: 10;
-    margin-left: 15px; }
-  #leadership h5 {
-    font-size: 14px;
-    transition: .5s ease;
-    position: absolute;
-    bottom: 15px;
-    z-index: 10;
-    margin-left: 15px; }
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px; }
+    #leadership .name-container h4 {
+      float: left;
+      font-weight: bold;
+      font-size: 15px !important;
+      transition: .5s ease;
+      text-transform: uppercase; }
+    #leadership .name-container h5 {
+      float: left;
+      font-size: 14px;
+      transition: .5s ease; }
   #leadership .container-p {
     float: left;
     padding: 5px; }
@@ -1110,7 +1115,7 @@ footer {
       position: absolute;
       transition: .5s;
       list-style: none;
-      margin-left: 15px;
+      margin-left: 10px;
       padding-left: 0;
       z-index: 10;
       opacity: 0;
