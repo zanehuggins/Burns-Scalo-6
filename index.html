@@ -48,13 +48,25 @@
       <nav class="col-12 col-lg-10 col-xl-9 offset-lg-2 offset-xl-3" id="nav">
         <ul class="main-nav col-8 col-lg-6 col-xl-6 offset-2 offset-xl-2">
           <li class="nav-item-1"><a href="who-we-are.html">WHO WE ARE</a></li>
+
           <li class="nav-item-2"><a href="what-we-do.html">WHAT WE DO</a>
-<ul id="subnav">
-<li><a href="brokerage.html">BROKERAGE</a></li>
-<li class="sub-2"><a href="development.html">DEVELOPMENT</a></li>
-<li class="sub-3"><a href="management.html">MANAGEMENT</a></li>
-</ul>
-          </li>
+            <ul id="subnav">
+            <li><a href="brokerage.html">BROKERAGE</a></li>
+            <li class="sub-2"><a href="development.html">DEVELOPMENT</a></li>
+            <li class="sub-3"><a href="management.html">MANAGEMENT</a></li>
+            </ul>
+  </li>
+
+          <li class="nav-item-2 d-xl-none" id="subnav-open"><a onclick="subNav()"><img src="assets/arrow-vertical.svg" alt="#"></a></li>
+
+          <li class="subnav-mobile-custom" id="subNavMobile">
+            <ul>
+          <li class="sub-1"><a href="brokerage.html">BROKERAGE</a></li>
+          <li class="sub-2"><a href="development.html">DEVELOPMENT</a></li>
+          <li class="sub-3"><a href="management.html">MANAGEMENT</a></li>
+        </ul>
+        </li>
+
           <li class="nav-item-3"><a href="portfolio.html">PORTFOLIO</a></li>
           </ul>
 
@@ -235,95 +247,6 @@ FEATURED PROPERTIES
 
 
 
-<script>
-
-HTML SCSS JSResult Skip Results Iframe
-EDIT ON
-(function($) {
-
-  'use strict';
-
-  // variables
-  var $isAnimatedSecond = $('.second .is-animated'),
-      $isAnimatedSecondSingle = $('.second .is-animated__single'),
-      $isAnimatedThird = $('.third .is-animated'),
-      $isAnimatedThirdSingle = $('.third .is-animated__single'),
-      $isAnimatedFourth = $('.fourth .is-animated'),
-      $isAnimatedFourthSingle = $('.fourth .is-animated__single');
-
-  // initialize fullPage
-  $('#fullpage').fullpage({
-
-    navigation: true,
-    onLeave: function(index, nextIndex, direction) {
-
-      /**
-      * use the following condition:
-      *
-      *   if( index == 1 && direction == 'down' ) {
-      *
-      * if you haven't enabled the dot navigation
-      * or you aren't interested in the animations that occur
-      * when you jump (using the dot navigation)
-      * from the first section to another sections
-      */
-
-      // first animation
-      if( index == 1 && nextIndex == 2 ) {
-        $isAnimatedSecond.addClass('animated fadeInUpBig');
-        $isAnimatedSecond.eq(0).css('animation-delay', '.3s');
-        $isAnimatedSecond.eq(1).css('animation-delay', '.6s');
-        $isAnimatedSecond.eq(2).css('animation-delay', '.9s');
-        $isAnimatedSecondSingle.addClass('animated rollIn').css('animation-delay', '1.7s');
-      }
-
-    /**
-      * use the following condition:
-      *
-      *   else if( index == 2 && direction == 'down' ) {
-      *
-      * if you haven't enabled the dot navigation
-      * or you aren't interested in the animations that occur
-      * when you jump (using the dot navigation) from the first section to the third one
-      */
-
-      // second animation
-      else if( ( index == 1 || index == 2 ) && nextIndex == 3 ) {
-        $isAnimatedThird.eq(0).addClass('animated fadeInRightBig').css('animation-delay', '.3s');
-        $isAnimatedThird.eq(1).addClass('animated fadeInLeftBig').css('animation-delay', '.6s');
-        $isAnimatedThirdSingle.addClass('animated bounceInDown').css('animation-delay', '1.2s');
-      }
-
-
-     /**
-      * use the following condition:
-      *
-      *   else if( index == 3 && direction == 'down' ) {
-      *
-      * if you haven't enabled the dot navigation
-      * or you aren't interested in the animations that occur
-      * when you jump (using the dot navigation)
-      * from the first or second section to the fourth one
-      */
-
-      // third animation
-      else if( ( index == 1 || index == 2 || index == 3 ) && nextIndex == 4 ) {
-        $isAnimatedFourth.addClass('animated zoomIn').css('animation-delay', '.6s');
-        $isAnimatedFourthSingle.addClass('animated lightSpeedIn').css('animation-delay', '1.2s');
-        $isAnimatedFourthSingle.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-          $(this).removeClass('lightSpeedIn').addClass('zoomOutDown');
-        });
-      }
-    }
-
-  });
-
-})(jQuery);
-
-Resources1× 0.5× 0.25×Rerun
-
-</script>
-
 
 <script>
 function myFunction() {
@@ -331,6 +254,21 @@ function myFunction() {
    element.classList.toggle("display-toggle");
 }
 </script>
+
+
+
+
+<script>
+function subNav() {
+  var x = document.getElementById("subNavMobile");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 
 <!-- END DROPDOWN MENU SCRIPT -->
 

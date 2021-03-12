@@ -201,7 +201,8 @@ p {
     transition: .5s; }
 
 #featured-projects .portfolio-list {
-  transition: .25s; }
+  transition: .25s;
+  height: 21vh !important; }
 #featured-projects .portfolio-list:hover {
   transform: scale(1.02); }
 
@@ -280,15 +281,17 @@ nav {
 .main-nav {
   list-style: none;
   padding-left: 5vw;
-  padding-right: 5vw; }
+  padding-right: 5vw;
+  float: left; }
   .main-nav li {
-    text-align: center;
+    text-align: left;
     padding-left: 25px;
     padding-right: 25px;
     font-family: gotham;
     letter-spacing: 2px;
     transition: 1s;
-    margin-bottom: 7.5vh; }
+    margin-bottom: 5vh;
+    float: left; }
   .main-nav a {
     color: #333033;
     text-decoration: none; }
@@ -298,15 +301,16 @@ nav {
   list-style: none;
   margin-top: 10vh;
   padding-top: 10vh;
-  padding-left: 0; }
+  padding-left: 0;
+  float: left; }
   .secondary-nav li {
-    text-align: center;
+    text-align: left;
     padding-left: 25px;
     padding-right: 25px;
     font-family: gotham;
     letter-spacing: 2px;
     transition: 1s;
-    margin-bottom: 7.5vh; }
+    margin-bottom: 5vh; }
   .secondary-nav a {
     color: #333033;
     text-decoration: none; }
@@ -317,7 +321,9 @@ nav {
 
 .nav-item-2 {
   animation-name: fade-2;
-  animation-duration: 1s; }
+  animation-duration: 1s;
+  float: left;
+  padding-right: 0 !important; }
 
 .nav-item-3 {
   animation-name: fade-2;
@@ -339,8 +345,7 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  position: relative;
-  padding-top: 18px; }
+  position: relative; }
   #subnav li {
     position: absolute;
     padding-top: 0px;
@@ -350,24 +355,44 @@ nav {
     height: 50px;
     width: 150%;
     left: -25%;
-    text-align: center;
+    text-align: left;
     border-top: 1px solid lightgray; }
+
+#subnav-open {
+  padding: 0;
+  padding-left: 10px;
+  position: relative;
+  margin-top: 0;
+  width: 35px; }
 
 #nav .nav-item-2:hover a {
   font-weight: bold; }
-#nav #subnav-mobile {
-  display: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  padding-top: 18px; }
-  #nav #subnav-mobile li {
+#nav .subnav-mobile-custom {
+  display: none; }
+#nav #subNavMobile {
+  margin-bottom: 35px;
+  margin-top: -35px;
+  margin-left: 25px;
+  padding-top: 10px;
+  padding-left: 0px !important;
+  transition: .25s;
+  border-left: 1px solid gray; }
+  #nav #subNavMobile ul {
+    list-style: none;
+    margin-left: 0; }
+  #nav #subNavMobile li {
     float: left;
-    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
     padding-right: 0;
     text-align: center !important;
-    margin: 0; }
+    margin: 0;
+    color: gray !important;
+    font-size: 14px; }
+    #nav #subNavMobile li img {
+      width: 20px;
+      height: auto; }
 
 #nav li:hover #subnav-mobile {
   display: block; }
@@ -1229,7 +1254,7 @@ footer {
   #featured-projects {
     padding-top: 20vh; }
     #featured-projects .portfolio-list {
-      height: 50vh; }
+      height: 50vh !important; }
 
   #who-we-are #featured-projects {
     padding-top: 20vh; }
