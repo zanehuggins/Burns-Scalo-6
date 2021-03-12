@@ -1117,11 +1117,15 @@ footer {
       list-style: none;
       margin-left: 10px;
       padding-left: 0;
-      z-index: 10;
+      z-index: 30;
       opacity: 0;
       transition: .5s;
       transform-origin: bottom;
       transform: scale(0); }
+      #leadership .portfolio-list ul .bio {
+        color: #F26524 !important; }
+        #leadership .portfolio-list ul .bio a {
+          color: #F26524; }
       #leadership .portfolio-list ul a {
         color: #333033;
         font-family: gotham;
