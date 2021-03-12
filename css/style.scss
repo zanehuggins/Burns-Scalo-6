@@ -423,6 +423,7 @@ text-decoration: none;
 .nav-item-1{
   animation-name: fade-2;
   animation-duration: .5s;
+  padding-right: 0!important;
 }
 
 
@@ -457,7 +458,7 @@ text-decoration: none;
 }
 
 
-#subnav{
+#subnav {
   display: none;
   list-style: none;
   margin: 0;
@@ -486,10 +487,17 @@ text-decoration: none;
     width: 35px;
 }
 
+#subnav-1-open{
+  padding: 0;
+  padding-left: 10px;
+  position: relative;
+  margin-top: 0;
+    width: 35px;
+}
+
+
 #subnav-open:hover{
-  img{
-    transform: rotateZ(180deg);
-  }
+
 }
 
 #nav{
@@ -567,7 +575,7 @@ animation: fade 2s ease;
 
 #nav{
   li:hover{
-    #subnav-mobile{
+    #subnav{
       display: block;
       li{
         a{
@@ -578,10 +586,9 @@ animation: fade 2s ease;
   }
 }
 
-
 #nav{
   li:hover{
-    #subnav{
+    #subnav1{
       display: block;
       li{
         a{
@@ -1622,11 +1629,11 @@ padding-right: 1vw;
     padding-left: 0!important;
     float: left;
     li{
-      text-align: center;
+      text-align: center!important;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
+    padding-left: 7.5px!important;
+    padding-right: 7.5px!important;
     margin-right: 2px;
       font-family: gotham;
       letter-spacing: 2px;
@@ -1635,6 +1642,7 @@ padding-right: 1vw;
       float: left;
       font-size: 12px;
       border: 1px solid lightgray;
+
     }
     a{
   color: $black;
@@ -1653,15 +1661,20 @@ padding-right: 1vw;
 
   .nav-item-1{
     animation-name: none;
-
+    padding-left: 15px!important;
+    padding-right: 15px!important;
   }
 
   .nav-item-2{
     animation-name: none;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
   }
 
   .nav-item-3{
     animation-name: none;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
   }
 
   .nav-item-4{
@@ -1719,6 +1732,47 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
     }
   }
 
+
+
+
+  #subnav1{
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  padding-top: 18px;
+
+
+    li{
+      float: left;
+      position: absolute;;
+      padding-left: 0;
+      padding-right: 0;
+      height: 50px;
+      width: 150%;
+      left: -25%;
+      text-align: center;
+      background-color: white;
+      border-top: 1px solid lightgray;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
+      background-color: white;
+      padding-top: 15px;
+
+    }
+    .sub-2{
+      margin-top: 50px;
+    }
+    .sub-3{
+      margin-top: 100px;
+    }
+    a{
+      height: 100%;
+      padding-top: 15px;
+      padding-bottom: 10px;
+    }
+  }
+
   #nav{
 
     .nav-item-2:hover{
@@ -1727,9 +1781,31 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
     }
     }
 
-
     li:hover{
       #subnav{
+        display: block;
+        li:hover{
+
+              background-color: #f1f1f1;
+        }
+      }
+    }
+  }
+
+
+
+
+
+  #nav{
+
+    .nav-item-1:hover{
+      a{
+      font-weight: normal;
+    }
+    }
+
+    li:hover{
+      #subnav1{
         display: block;
         li:hover{
 
