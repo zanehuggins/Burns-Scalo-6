@@ -2467,6 +2467,17 @@ padding-top: 30vh;
     transition: .5s;
     overflow: hidden;
 }
+
+
+.portfolio-list:hover{
+
+h4{
+  transform: translateY(-175px);
+}
+h5{
+  transform: translateY(-175px);
 }
 
+}
+}
 } /* CLOSES 1200PX @MEDIA QUERY */

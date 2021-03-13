@@ -1665,7 +1665,11 @@ footer {
     height: 40vh;
     position: relative;
     transition: .5s;
-    overflow: hidden; } }
+    overflow: hidden; }
+  #leadership .portfolio-list:hover h4 {
+    transform: translateY(-175px); }
+  #leadership .portfolio-list:hover h5 {
+    transform: translateY(-175px); } }
 /* CLOSES 1200PX @MEDIA QUERY */
 
 /*# sourceMappingURL=style.css.map */
