@@ -1663,7 +1663,32 @@ h5{
 
 }/* CLOSES #LEADERSHIP*/
 
+/* ----------------------------------------------------------------- */
 
+/* BEGINS PRESS */
+
+#portfolio{
+  #press{
+    h3{
+      font-size: 18px;
+    }
+    p{
+      font-size: 12px!important;
+    }
+    .portfolio-image-container{
+      min-height: 65%;
+      height: 65%!important;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+
+  }
+}
+
+/* CLOSES PRESS */
 
 /* ----------------------------------------------------------------- */
 

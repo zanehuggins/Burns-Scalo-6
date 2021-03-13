@@ -1150,6 +1150,21 @@ footer {
 
 /* CLOSES #LEADERSHIP*/
 /* ----------------------------------------------------------------- */
+/* BEGINS PRESS */
+#portfolio #press h3 {
+  font-size: 18px; }
+#portfolio #press p {
+  font-size: 12px !important; }
+#portfolio #press .portfolio-image-container {
+  min-height: 65%;
+  height: 65% !important;
+  overflow: hidden; }
+  #portfolio #press .portfolio-image-container img {
+    width: 100%;
+    height: auto; }
+
+/* CLOSES PRESS */
+/* ----------------------------------------------------------------- */
 /* BEGINS 768PX MEDIA QUERY */
 @media (min-width: 768px) {
   h2 {
