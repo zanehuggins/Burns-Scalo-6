@@ -1314,12 +1314,15 @@ footer {
 
   /* CLOSES #LEADERSHIP*/
   /* ----------------------------------------------------------------- */
+  #portfolio ul {
+    padding-left: 0 !important; }
   #portfolio #press .container-p {
     height: 30vh;
     min-height: 350px; }
   #portfolio #press .portfolio-list {
     height: 30vh;
-    min-height: 350px; }
+    min-height: 350px;
+    max-height: 350px; }
     #portfolio #press .portfolio-list .portfolio-image-container {
       min-height: 50%; }
   #portfolio #press h3 {

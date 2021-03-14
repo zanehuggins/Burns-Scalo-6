@@ -1912,7 +1912,11 @@ h5{
 
 /* ----------------------------------------------------------------- */
 #portfolio{
+  ul{
+    padding-left: 0!important;
+  }
 #press{
+
   .container-p{
     height: 30vh;
     min-height: 350px;
@@ -1920,6 +1924,7 @@ h5{
   .portfolio-list{
     height: 30vh;
     min-height: 350px;
+    max-height: 350px;
     .portfolio-image-container{
 
       min-height: 50%;
