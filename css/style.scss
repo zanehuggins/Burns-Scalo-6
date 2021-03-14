@@ -709,10 +709,11 @@ h5{
 footer{
   float: left;
   background-color: white;
-  padding-top: 10px;
+  height: 100vh;
   padding-left: 10px;
   padding-right: 0;
   z-index: -1;
+  padding-top: 10px;
 
 ul{
 list-style: none;
@@ -742,6 +743,22 @@ padding: 0;
 
 }/*close ul*/
 }/* CLOSES FOOTER */
+
+.mobile-footer{
+  padding-top: 20vh!important;
+ul{
+  li{
+  text-align: left;
+  a{
+  font-size: 16px!important;
+}
+}
+}
+}
+
+.social-media-list{
+  margin-top: 10vh;
+}
 /* ENDS FOOTER */
 
 /* ----------------------------------------------------------------- */
@@ -1341,7 +1358,9 @@ li{
 }
 #portfolio{
 
-
+.portfolio-container{
+  padding-left: 0;
+}
   section{
     padding-top: 2vh;
     float: left;
@@ -1438,7 +1457,7 @@ label{
 
 .portfolio-image-container{
   min-height: 75%;
-  height: 75%!important;
+  height: 75%;
   overflow: hidden;
   img{
     width: 100%;
@@ -1935,6 +1954,22 @@ h5{
     font-size: 16px;
   }
 }
+}
+
+
+
+
+
+
+#portfolio{
+
+  .portfolio-list{
+    height: 22.5vh;
+  }
+  .portfolio-image-container{
+    min-height: 60%;
+    height: 60%;
+  }
 }
 
 
@@ -2437,7 +2472,8 @@ padding-top: 30vh;
   }
 
   .image-container{
-    height: 50%;
+    height: 75%;
+    min-height: 75%;
   }
 }
 }
@@ -2511,4 +2547,8 @@ h5{
 
 }
 }
+
+
+
+
 } /* CLOSES 1200PX @MEDIA QUERY */

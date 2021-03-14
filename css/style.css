@@ -509,10 +509,11 @@ header {
 footer {
   float: left;
   background-color: white;
-  padding-top: 10px;
+  height: 100vh;
   padding-left: 10px;
   padding-right: 0;
   z-index: -1;
+  padding-top: 10px;
   /*close ul*/ }
   footer ul {
     list-style: none;
@@ -535,6 +536,16 @@ footer {
       height: auto; }
 
 /* CLOSES FOOTER */
+.mobile-footer {
+  padding-top: 20vh !important; }
+  .mobile-footer ul li {
+    text-align: left; }
+    .mobile-footer ul li a {
+      font-size: 16px !important; }
+
+.social-media-list {
+  margin-top: 10vh; }
+
 /* ENDS FOOTER */
 /* ----------------------------------------------------------------- */
 /* BEGINS HOME */
@@ -924,6 +935,8 @@ footer {
   animation-name: delay-opacity;
   animation-duration: 4s; }
 
+#portfolio .portfolio-container {
+  padding-left: 0; }
 #portfolio section {
   padding-top: 2vh;
   float: left;
@@ -1000,7 +1013,7 @@ footer {
     margin: 0; }
 #portfolio .portfolio-image-container {
   min-height: 75%;
-  height: 75% !important;
+  height: 75%;
   overflow: hidden; }
   #portfolio .portfolio-image-container img {
     width: 100%;
@@ -1326,7 +1339,13 @@ footer {
     #portfolio #press .portfolio-list .portfolio-image-container {
       min-height: 50%; }
   #portfolio #press h3 {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  #portfolio .portfolio-list {
+    height: 22.5vh; }
+  #portfolio .portfolio-image-container {
+    min-height: 60%;
+    height: 60%; } }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 1024px) {
@@ -1638,7 +1657,8 @@ footer {
   #portfolio .portfolio-container .portfolio-list {
     height: 45vh; }
   #portfolio .portfolio-container .image-container {
-    height: 50%; }
+    height: 75%;
+    min-height: 75%; }
 
   #property-landing #container-1 video {
     left: 0vw;
