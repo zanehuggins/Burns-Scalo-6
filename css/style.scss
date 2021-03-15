@@ -1713,6 +1713,68 @@ h5{
 
 /* ----------------------------------------------------------------- */
 
+#article{
+  padding-top: 7vh;
+
+.article-image-container{
+  height: 35vh;
+  overflow: hidden;
+
+p{
+  float: left;
+}
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+h1{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+  .stamp{
+    margin-top: 1vh;
+    font-size: 12px;
+  }
+
+article{
+  float: left;
+  margin-top: 2.5vh;
+
+
+  .quote-container{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .quote{
+    font-family: macklin;
+    font-weight: 900;
+    color: $black;
+    font-style: italic;
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+
+}/* CLOSES #ARTICLE */
+/* BEGINS PRESS: ARTICLES */
+
+/* ----------------------------------------------------------------- */
+
+/* END PRESS: ARTICLES HOME */
+
 /* BEGINS 768PX MEDIA QUERY */
 
 @media (min-width: 768px){
@@ -1973,6 +2035,16 @@ h5{
 }
 
 
+
+
+
+#article{
+.article-image-container{
+  height: 60vh;
+  overflow: hidden;
+}
+}
+
 }/* !!CLOSES 768PX @MEDIA QUERY!! */
 
 /* ----------------------------------------------------------------- */
@@ -2063,7 +2135,31 @@ p{
 }
 
 
+#article{
+  p{
+    margin-top: 25px!important;
+  }
+  h1{
+    font-family: gotham;
+    font-weight: 900;
+    color: black;
+    font-size: 40px;
+    line-height: 35px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
 
+
+  }
+.article-image-container{
+  height: 75vh;
+  overflow: hidden;
+  margin-bottom: 2.5vh;
+}
+.quote-container{
+  background-color: #f1f1f1;
+  padding-left: 50px;
+}
+}
 
 
 

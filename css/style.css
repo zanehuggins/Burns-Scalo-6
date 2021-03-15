@@ -1180,6 +1180,46 @@ footer {
 
 /* CLOSES PRESS */
 /* ----------------------------------------------------------------- */
+#article {
+  padding-top: 7vh; }
+  #article .article-image-container {
+    height: 35vh;
+    overflow: hidden; }
+    #article .article-image-container p {
+      float: left; }
+    #article .article-image-container img {
+      width: 100%;
+      height: auto; }
+  #article h1 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 0; }
+  #article .stamp {
+    margin-top: 1vh;
+    font-size: 12px; }
+  #article article {
+    float: left;
+    margin-top: 2.5vh; }
+    #article article .quote-container {
+      float: left;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding-top: 5vh;
+      padding-bottom: 5vh; }
+    #article article .bold {
+      font-weight: bold; }
+    #article article .quote {
+      font-family: macklin;
+      font-weight: 900;
+      color: #333033;
+      font-style: italic;
+      font-size: 35px;
+      line-height: 35px; }
+
+/* CLOSES #ARTICLE */
+/* BEGINS PRESS: ARTICLES */
+/* ----------------------------------------------------------------- */
+/* END PRESS: ARTICLES HOME */
 /* BEGINS 768PX MEDIA QUERY */
 @media (min-width: 768px) {
   h2 {
@@ -1345,7 +1385,11 @@ footer {
     height: 22.5vh; }
   #portfolio .portfolio-image-container {
     min-height: 60%;
-    height: 60%; } }
+    height: 60%; }
+
+  #article .article-image-container {
+    height: 60vh;
+    overflow: hidden; } }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 1024px) {
@@ -1394,7 +1438,25 @@ footer {
     #property-landing .carousel .carousel-item {
       height: 100vh; }
   #property-landing .carousel-inner {
-    height: 100vh !important; } }
+    height: 100vh !important; }
+
+  #article p {
+    margin-top: 25px !important; }
+  #article h1 {
+    font-family: gotham;
+    font-weight: 900;
+    color: black;
+    font-size: 40px;
+    line-height: 35px;
+    padding-bottom: 5px;
+    text-transform: uppercase; }
+  #article .article-image-container {
+    height: 75vh;
+    overflow: hidden;
+    margin-bottom: 2.5vh; }
+  #article .quote-container {
+    background-color: #f1f1f1;
+    padding-left: 50px; } }
 /* !!CLOSES 1024PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 /* !!OPENS 1200PX @MEDIA QUERY!! */
