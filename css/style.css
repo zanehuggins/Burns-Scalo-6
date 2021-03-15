@@ -1184,7 +1184,7 @@ article {
   padding-bottom: 15vh; }
   article p {
     float: left;
-    text-align: justify; }
+    text-align: left; }
 
 #article {
   padding-top: 7vh; }
@@ -1199,6 +1199,7 @@ article {
   #article h1 {
     font-size: 24px;
     line-height: 24px;
+    margin-top: 2vh;
     margin-bottom: 0; }
   #article .stamp {
     margin-top: 1vh;
@@ -1394,6 +1395,8 @@ article {
     min-height: 60%;
     height: 60%; }
 
+  #article p {
+    text-align: justify; }
   #article .article-image-container {
     height: 60vh;
     overflow: hidden; } }
@@ -1458,7 +1461,7 @@ article {
     padding-bottom: 5px;
     text-transform: uppercase; }
   #article .article-image-container {
-    height: 75vh;
+    height: 70vh;
     overflow: hidden;
     margin-bottom: 2.5vh; }
   #article .quote-container {
