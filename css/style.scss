@@ -1726,18 +1726,32 @@ article{
 .article-image-container{
   height: 35vh;
   overflow: hidden;
-
-p{
-  float: left;
-
-}
+  position: relative;
 
   img{
     width: 100%;
     height: auto;
+    position: absolute;
   }
 }
 
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f1f1f1;
+  li{
+    float: left;
+    padding: 0;
+    margin-right: 10px;
+  }
+}
+
+a{
+  color: $orange;
+  text-decoration: none;
+  float: left;
+}
 h1{
     font-size: 24px;
     line-height: 24px;
@@ -2158,17 +2172,20 @@ p{
     font-family: gotham;
     font-weight: 900;
     color: black;
-    font-size: 40px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 30px;
     padding-bottom: 5px;
     text-transform: uppercase;
 
 
   }
 .article-image-container{
-  height: 70vh;
+  height: 65vh;
   overflow: hidden;
   margin-bottom: 2.5vh;
+  img{
+    bottom: -20vh;
+  }
 }
 .quote-container{
   background-color: #f1f1f1;
