@@ -1713,6 +1713,13 @@ h5{
 
 /* ----------------------------------------------------------------- */
 
+article{
+  padding-bottom: 15vh;
+  p{
+    float: left;
+    text-align: justify;
+  }
+}
 #article{
   padding-top: 7vh;
 
@@ -1722,6 +1729,7 @@ h5{
 
 p{
   float: left;
+
 }
 
   img{
@@ -1752,21 +1760,23 @@ article{
     margin-bottom: 20px;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    .quote{
+      font-family: macklin;
+      font-weight: 900;
+      color: $black;
+      font-style: italic;
+      font-size: 35px;
+      line-height: 35px;
+      text-align: left!important;
+    }
   }
 
   .bold{
     font-weight: bold;
   }
 
-  .quote{
-    font-family: macklin;
-    font-weight: 900;
-    color: $black;
-    font-style: italic;
-    font-size: 35px;
-    line-height: 35px;
-  }
 }
+
 
 }/* CLOSES #ARTICLE */
 /* BEGINS PRESS: ARTICLES */
@@ -2137,7 +2147,8 @@ p{
 
 #article{
   p{
-    margin-top: 25px!important;
+    margin-top: 25px;
+
   }
   h1{
     font-family: gotham;
@@ -2158,6 +2169,7 @@ p{
 .quote-container{
   background-color: #f1f1f1;
   padding-left: 50px;
+  margin-right: 25px;
 }
 }
 

@@ -1180,6 +1180,12 @@ footer {
 
 /* CLOSES PRESS */
 /* ----------------------------------------------------------------- */
+article {
+  padding-bottom: 15vh; }
+  article p {
+    float: left;
+    text-align: justify; }
+
 #article {
   padding-top: 7vh; }
   #article .article-image-container {
@@ -1206,15 +1212,16 @@ footer {
       margin-bottom: 20px;
       padding-top: 5vh;
       padding-bottom: 5vh; }
+      #article article .quote-container .quote {
+        font-family: macklin;
+        font-weight: 900;
+        color: #333033;
+        font-style: italic;
+        font-size: 35px;
+        line-height: 35px;
+        text-align: left !important; }
     #article article .bold {
       font-weight: bold; }
-    #article article .quote {
-      font-family: macklin;
-      font-weight: 900;
-      color: #333033;
-      font-style: italic;
-      font-size: 35px;
-      line-height: 35px; }
 
 /* CLOSES #ARTICLE */
 /* BEGINS PRESS: ARTICLES */
@@ -1441,7 +1448,7 @@ footer {
     height: 100vh !important; }
 
   #article p {
-    margin-top: 25px !important; }
+    margin-top: 25px; }
   #article h1 {
     font-family: gotham;
     font-weight: 900;
@@ -1456,7 +1463,8 @@ footer {
     margin-bottom: 2.5vh; }
   #article .quote-container {
     background-color: #f1f1f1;
-    padding-left: 50px; } }
+    padding-left: 50px;
+    margin-right: 25px; } }
 /* !!CLOSES 1024PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 /* !!OPENS 1200PX @MEDIA QUERY!! */
