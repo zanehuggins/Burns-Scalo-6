@@ -1735,11 +1735,13 @@ article{
   }
 }
 
+
 ul{
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #f1f1f1;
+  border-bottom: 1px solid lightgrey;
+  float: left;
   li{
     float: left;
     padding: 0;
@@ -2187,6 +2189,11 @@ p{
     bottom: -20vh;
   }
 }
+
+.top{
+  top: -5vh!important;
+}
+
 .quote-container{
   background-color: #f1f1f1;
   padding-left: 50px;

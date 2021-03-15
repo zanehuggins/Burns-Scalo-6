@@ -1200,7 +1200,8 @@ article {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #f1f1f1; }
+    border-bottom: 1px solid lightgrey;
+    float: left; }
     #article ul li {
       float: left;
       padding: 0;
@@ -1479,6 +1480,8 @@ article {
     margin-bottom: 2.5vh; }
     #article .article-image-container img {
       bottom: -20vh; }
+  #article .top {
+    top: -5vh !important; }
   #article .quote-container {
     background-color: #f1f1f1;
     padding-left: 50px;
