@@ -35,6 +35,32 @@ object{
   width: 100vw;
 }
 
+.modal-body{
+  h2{
+    float: left!important;
+    margin-bottom: 15px;
+  }
+  h6{
+    margin-top: 20px!important;
+    float: left;
+    padding-top: 25px;
+  }
+  a{
+    color: $orange;
+  }
+
+}
+
+.modal-content{
+  border-radius: 0!important;
+  button{
+    border: 1px solid lightgrey!important;
+    background-color: white!important;
+    color: $black!important;
+    border-radius: 0;
+  }
+}
+
 .copy-container{
   background-color: rgba(229, 229, 229, .0);
   z-index: 1;
@@ -2327,7 +2353,7 @@ padding-right: 1vw;
     padding-bottom: 5px;
     padding-left: 7.5px!important;
     padding-right: 7.5px!important;
-    margin-right: 2px;
+    margin-right: 10px!important;
       font-family: gotham;
       letter-spacing: 2px;
       transition: 0s;

@@ -22,6 +22,24 @@ object {
   height: 100vh;
   width: 100vw; }
 
+.modal-body h2 {
+  float: left !important;
+  margin-bottom: 15px; }
+.modal-body h6 {
+  margin-top: 20px !important;
+  float: left;
+  padding-top: 25px; }
+.modal-body a {
+  color: #F26524; }
+
+.modal-content {
+  border-radius: 0 !important; }
+  .modal-content button {
+    border: 1px solid lightgrey !important;
+    background-color: white !important;
+    color: #333033 !important;
+    border-radius: 0; }
+
 .copy-container {
   background-color: rgba(229, 229, 229, 0);
   z-index: 1; }
@@ -1580,7 +1598,7 @@ article {
       padding-bottom: 5px;
       padding-left: 7.5px !important;
       padding-right: 7.5px !important;
-      margin-right: 2px;
+      margin-right: 10px !important;
       font-family: gotham;
       letter-spacing: 2px;
       transition: 0s;
