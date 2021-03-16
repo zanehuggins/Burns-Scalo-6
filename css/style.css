@@ -200,6 +200,11 @@ p {
     float: left;
     transition: .5s; }
 
+.bottom {
+  width: 100vw;
+  position: absolute;
+  bottom: 0; }
+
 #featured-projects .portfolio-list {
   transition: .25s;
   height: 21vh !important; }
