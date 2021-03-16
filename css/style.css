@@ -1503,7 +1503,11 @@ article {
   #article .quote-container {
     background-color: #f1f1f1;
     padding-left: 50px;
-    margin-right: 25px; } }
+    margin-right: 25px; }
+
+  #brokerage #leadership {
+    padding-top: 9vh;
+    padding-bottom: 10vh; } }
 /* !!CLOSES 1024PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 /* !!OPENS 1200PX @MEDIA QUERY!! */
