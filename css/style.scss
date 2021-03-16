@@ -269,15 +269,7 @@ font-size: 16px;
 }
 
 
-.bottom{
-  width: 100vw;
-  position: absolute;
-  bottom: 0;
-}
 
-.full-width{
-  width: 100vw;
-}
 
 #featured-projects{
   .portfolio-list{
@@ -2097,6 +2089,22 @@ h5{
 
 @media (min-width: 1024px){
 
+
+  .bottom{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .full-width{
+    width: 100vw;
+  }
+
+  .middle{
+    position: absolute;
+    width: 100vw;
+    top: -25vh;
+  }
 
 /* HEADER */
 header{

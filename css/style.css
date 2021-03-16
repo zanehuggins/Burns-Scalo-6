@@ -200,14 +200,6 @@ p {
     float: left;
     transition: .5s; }
 
-.bottom {
-  width: 100vw;
-  position: absolute;
-  bottom: 0; }
-
-.full-width {
-  width: 100vw; }
-
 #featured-projects .portfolio-list {
   transition: .25s;
   height: 21vh !important; }
@@ -1430,6 +1422,19 @@ article {
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 1024px) {
+  .bottom {
+    width: 100vw;
+    position: absolute;
+    bottom: 0; }
+
+  .full-width {
+    width: 100vw; }
+
+  .middle {
+    position: absolute;
+    width: 100vw;
+    top: -25vh; }
+
   /* HEADER */
   header {
     padding-top: 10px;
