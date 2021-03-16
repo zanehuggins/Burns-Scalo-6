@@ -27,6 +27,7 @@ object {
   z-index: 1; }
 
 .small-headline {
+  font-size: 18px;
   letter-spacing: 2px;
   color: #333033;
   padding-left: 5px; }
