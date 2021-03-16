@@ -358,6 +358,13 @@ section {
   scroll-snap-align: center;
 }
 
+#page-404{
+  padding-top: 25vh!important;
+  a{
+    color: $orange;
+  }
+}
+
 /* ENDS SNAP SCROLL */
 
 nav{
@@ -1754,7 +1761,20 @@ article{
     float: left;
     text-align: left;
   }
+  h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: gotham;
+    margin-top: 20px!important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    float: left;
+
+
+  }
 }
+
+
 #article{
   padding-top: 7vh;
 
@@ -2218,7 +2238,7 @@ p{
 
 #article{
   p{
-    margin-top: 25px;
+    margin-top: 15px;
 
   }
   h1{
