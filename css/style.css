@@ -1137,6 +1137,11 @@ footer {
       transition: .5s;
       transform-origin: bottom;
       transform: scale(0); }
+      #leadership .portfolio-list ul li {
+        color: #333033;
+        font-size: 11px;
+        padding-top: 5px;
+        padding-bottom: 5px; }
       #leadership .portfolio-list ul .bio {
         color: #F26524 !important; }
         #leadership .portfolio-list ul .bio a {
@@ -1145,7 +1150,7 @@ footer {
         color: #333033;
         font-family: gotham;
         text-decoration: none;
-        font-size: 14px; }
+        font-size: 11px !important; }
   #leadership .portfolio-list:hover h4 {
     transform: translateY(-200px); }
   #leadership .portfolio-list:hover h5 {
