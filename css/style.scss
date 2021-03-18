@@ -1666,6 +1666,7 @@ background-color: white;
 
 
   ul{
+
     li{
       color: $black;
       font-size: 11px;
@@ -1679,6 +1680,7 @@ background-color: white;
   }
 }
     position: absolute;
+
     transition: .5s ease;
     list-style: none;
     margin-left: 10px;
@@ -1719,7 +1721,7 @@ h5{
   }
   ul{
     opacity: 1;
-    height: auto;
+  transition-delay: .15s!important;
       transform: scale(1) translateY(-125px);
   }
 }
