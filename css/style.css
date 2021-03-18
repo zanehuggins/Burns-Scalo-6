@@ -1189,7 +1189,7 @@ footer {
     height: 100%; }
   #leadership .portfolio-list:hover ul {
     opacity: 1;
-    transition-delay: 0.15s !important;
+    transition-delay: 0.05s !important;
     transform: scale(1) translateY(-125px); }
 
 /* CLOSES #LEADERSHIP*/
