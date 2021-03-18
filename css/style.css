@@ -1152,7 +1152,7 @@ footer {
       z-index: 10; }
     #leadership .portfolio-list ul {
       position: absolute;
-      transition: .5s;
+      transition: .5s ease;
       list-style: none;
       margin-left: 10px;
       padding-left: 0;
@@ -1190,7 +1190,7 @@ footer {
   #leadership .portfolio-list:hover ul {
     opacity: 1;
     height: auto;
-    transform: scale(1) translateY(-100px); }
+    transform: scale(1) translateY(-200px); }
 
 /* CLOSES #LEADERSHIP*/
 /* ----------------------------------------------------------------- */
