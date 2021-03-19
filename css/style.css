@@ -14,6 +14,12 @@ section {
   position: relative;
   overflow: hidden; }
 
+aside {
+  float: left;
+  padding-top: 5vh; }
+  aside img {
+    margin-top: 10px; }
+
 embed {
   height: 100vh;
   width: 100vw; }
@@ -942,13 +948,6 @@ footer {
     transform: scale(1.02);
     transition: .25s; }
 
-.aside-toggle {
-  margin-top: 10vh;
-  float: left; }
-
-.aside-display-toggle {
-  display: block; }
-
 #property-landing .portfolio-delay-1 {
   animation-name: delay-opacity;
   animation-duration: 3s; }
@@ -967,48 +966,6 @@ footer {
   padding-left: 4vw;
   padding-right: 4vw;
   height: auto; }
-#portfolio aside {
-  padding-top: 15vh !important;
-  border-right: 2px solid #f1f1f1;
-  height: 100vh;
-  float: left; }
-  #portfolio aside h2 {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: gotham;
-    margin-bottom: 55px; }
-  #portfolio aside h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 40px;
-    font-family: gotham; }
-  #portfolio aside a {
-    margin: 0;
-    float: left;
-    padding: 10px;
-    font-family: gotham;
-    text-transform: uppercase;
-    background-color: #f1f1f1;
-    width: 50%;
-    text-align: center;
-    color: grey;
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 55px; }
-  #portfolio aside #portfolio-active {
-    background-color: #00AC98;
-    color: white; }
-  #portfolio aside a:hover {
-    color: grey; }
-  #portfolio aside label {
-    margin-left: 15px; }
-  #portfolio aside .update {
-    width: 100%;
-    margin-top: 55px;
-    background-color: #F26524;
-    color: white; }
-  #portfolio aside .update:hover {
-    color: white; }
 #portfolio .container-p {
   padding: 5px;
   float: left !important; }

@@ -25,6 +25,14 @@ section{
     overflow: hidden;
 }
 
+aside{
+  float: left;
+  padding-top: 5vh;
+  img{
+    margin-top: 10px;
+  }
+}
+
 embed{
   height: 100vh;
   width: 100vw;
@@ -1366,15 +1374,6 @@ li{
   }
 }
 
-.aside-toggle{
-  margin-top: 10vh;
-  float: left;
-}
-
-.aside-display-toggle{
-  display: block;
-}
-
 
 
 #property-landing{
@@ -1405,59 +1404,6 @@ li{
     padding-right: 4vw;
     height: auto;
   }
-aside{
-  padding-top: 15vh!important;
-  border-right: 2px solid #f1f1f1;
-  height: 100vh;
-  float: left;
-
-  h2{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: gotham;
-      margin-bottom: 55px;
-
-  }
-  h3{
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 40px;
-  font-family: gotham;
-  }
-  a{
-    margin: 0;
-    float: left;
-    padding: 10px;
-    font-family: gotham;
-    text-transform: uppercase;
-    background-color: #f1f1f1;
-    width: 50%;
-    text-align: center;
-    color: grey;
-    text-decoration: none;
-    font-size: 14px;
-      margin-bottom: 55px;
-  }
-  #portfolio-active{
-background-color: $turquoise;
-color: white;
-  }
-  a:hover{
-    color: grey;
-  }
-label{
-  margin-left: 15px;
-}
-.update{
-  width: 100%;
-  margin-top: 55px;
-  background-color: $orange;
-  color: white;
-}
-.update:hover{
-  color: white;
-}
-}
 
 .container-p{
     padding: 5px;
