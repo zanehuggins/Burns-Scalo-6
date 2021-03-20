@@ -1584,7 +1584,7 @@ background-color: white;
 .portfolio-list{
   box-shadow: 0px 0px 5px #DBDADA;
   float: left;
-  height: 42.5vh;
+  height: 50vh;
   position: relative;
   transition: .5s;
   overflow: hidden;
@@ -1668,7 +1668,7 @@ h5{
   ul{
     opacity: 1;
   transition-delay: .05s!important;
-      transform: scale(1) translateY(-125px);
+      transform: scale(1) translateY(-100px);
   }
 }
 
@@ -2230,6 +2230,15 @@ p{
 }
 }
 
+#leadership{
+  padding: 10vh;
+  .container-p{
+    .portfolio-list{
+    min-height: 325px;
+  }
+}
+}
+
 
 
 }/* !!CLOSES 1024PX @MEDIA QUERY!! */
@@ -2690,6 +2699,7 @@ padding-top: 30vh;
 
 
 #leadership{
+  .container-p{
   .portfolio-list{
     box-shadow: 0px 0px 5px #DBDADA;
     float: left;
@@ -2697,8 +2707,9 @@ padding-top: 30vh;
     position: relative;
     transition: .5s;
     overflow: hidden;
+    min-height: 0;
 }
-
+}
 
 .portfolio-list:hover{
 
