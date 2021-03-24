@@ -1803,11 +1803,87 @@ article{
 
 
 }/* CLOSES #ARTICLE */
-/* BEGINS PRESS: ARTICLES */
 
 /* ----------------------------------------------------------------- */
 
 /* END PRESS: ARTICLES HOME */
+
+
+
+
+/* BEGINS PROMOTIONS */
+
+/* ----------------------------------------------------------------- */
+
+#promotion{
+  height: 150vh;
+  div{
+    float: left;
+  }
+
+  h1{
+    float: left;
+padding-bottom: 25px;
+    margin-bottom: 20px;
+  }
+
+  h3{
+    margin-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .image-container{
+    position: relative;
+    float: left;
+    height: 50vh;
+    overflow: hidden;
+
+    img{
+      position: absolute;
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .promotion-content-container{
+    padding-top: 2.5vh;
+  }
+
+  .form-container{
+    background-color: #f1f1f1;
+    height: 30vh;
+    margin-left: 8.5vw;
+    width: 91.5vw;
+    position: absolute;
+    top: 100vh;
+    border-left: 10px solid $green;
+    margin-top: 25px;
+
+  }
+} /*CLOSES #PROMOTION */
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+/* END PROMOTIONS */
+
+
+
+
+
+
 
 /* BEGINS 768PX MEDIA QUERY */
 
@@ -2696,8 +2772,9 @@ padding-top: 30vh;
 
   .footer-nav{
     padding-right: 25px;
+    float: right;
     li{
-      float: right;
+      float: left;
     }
   }
 
@@ -2727,6 +2804,39 @@ h5{
 }
 }
 
+
+#promotion{
+  height: 100vh;
+  .image-container{
+    position: relative;
+    float: left;
+    height: 100vh;
+    overflow: hidden;
+
+    img{
+      position: absolute;
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .promotion-content-container{
+    padding-top: 12.5vh;
+  }
+
+
+
+
+  .form-container{
+    background-color: #f1f1f1;
+    height: 30vh;
+    margin-left: 50vw;
+    width: 50vw;
+    position: absolute;
+    top: 57.5vh;
+    border-left: 10px solid $green;
+  }
+}
 
 
 

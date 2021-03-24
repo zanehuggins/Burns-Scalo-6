@@ -1238,9 +1238,49 @@ article {
       font-weight: bold; }
 
 /* CLOSES #ARTICLE */
-/* BEGINS PRESS: ARTICLES */
 /* ----------------------------------------------------------------- */
 /* END PRESS: ARTICLES HOME */
+/* BEGINS PROMOTIONS */
+/* ----------------------------------------------------------------- */
+#promotion {
+  height: 150vh; }
+  #promotion div {
+    float: left; }
+  #promotion h1 {
+    float: left;
+    padding-bottom: 25px;
+    margin-bottom: 20px; }
+  #promotion h3 {
+    margin-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+  #promotion p {
+    font-size: 14px;
+    line-height: 24px; }
+  #promotion .image-container {
+    position: relative;
+    float: left;
+    height: 50vh;
+    overflow: hidden; }
+    #promotion .image-container img {
+      position: absolute;
+      height: 100%;
+      width: auto; }
+  #promotion .promotion-content-container {
+    padding-top: 2.5vh; }
+  #promotion .form-container {
+    background-color: #f1f1f1;
+    height: 30vh;
+    margin-left: 8.5vw;
+    width: 91.5vw;
+    position: absolute;
+    top: 100vh;
+    border-left: 10px solid #C2D500;
+    margin-top: 25px; }
+
+/*CLOSES #PROMOTION */
+/* ----------------------------------------------------------------- */
+/* END PROMOTIONS */
 /* BEGINS 768PX MEDIA QUERY */
 @media (min-width: 768px) {
   h2 {
@@ -1799,9 +1839,10 @@ article {
       opacity: .75; }
 
   .footer-nav {
-    padding-right: 25px; }
+    padding-right: 25px;
+    float: right; }
     .footer-nav li {
-      float: right; }
+      float: left; }
 
   #leadership .container-p .portfolio-list {
     box-shadow: 0px 0px 5px #DBDADA;
@@ -1814,7 +1855,29 @@ article {
   #leadership .portfolio-list:hover h4 {
     transform: translateY(-175px); }
   #leadership .portfolio-list:hover h5 {
-    transform: translateY(-175px); } }
+    transform: translateY(-175px); }
+
+  #promotion {
+    height: 100vh; }
+    #promotion .image-container {
+      position: relative;
+      float: left;
+      height: 100vh;
+      overflow: hidden; }
+      #promotion .image-container img {
+        position: absolute;
+        height: 100%;
+        width: auto; }
+    #promotion .promotion-content-container {
+      padding-top: 12.5vh; }
+    #promotion .form-container {
+      background-color: #f1f1f1;
+      height: 30vh;
+      margin-left: 50vw;
+      width: 50vw;
+      position: absolute;
+      top: 57.5vh;
+      border-left: 10px solid #C2D500; } }
 /* CLOSES 1200PX @MEDIA QUERY */
 
 /*# sourceMappingURL=style.css.map */
