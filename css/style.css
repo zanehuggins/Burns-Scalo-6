@@ -1451,9 +1451,59 @@ article {
     text-align: justify; }
   #article .article-image-container {
     height: 60vh;
-    overflow: hidden; } }
+    overflow: hidden; }
+
+  /* BEGINS PROMOTIONS */
+  /* ----------------------------------------------------------------- */
+  #promotion {
+    height: 100vh; }
+    #promotion .image-container {
+      position: relative;
+      float: left;
+      height: 50vh;
+      overflow: hidden; }
+      #promotion .image-container img {
+        position: absolute;
+        width: 100%;
+        height: auto; }
+    #promotion .promotion-content-container {
+      padding-top: 2.5vh; }
+    #promotion .form-container {
+      background-color: #f1f1f1;
+      height: 15vh;
+      margin-left: 8.5vw;
+      width: 91.5vw;
+      position: absolute;
+      top: 77.5vh;
+      border-left: 10px solid #C2D500; }
+
+  /* CLOSES #PROMOTION */
+  /* ENDS PROMOTIONS */
+  /* ----------------------------------------------------------------- */ }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
+@media (min-width: 992px) {
+  #promotion {
+    height: 100vh; }
+    #promotion .image-container {
+      position: relative;
+      float: left;
+      height: 100vh;
+      overflow: hidden; }
+      #promotion .image-container img {
+        position: absolute;
+        height: 100%;
+        width: auto; }
+    #promotion .promotion-content-container {
+      padding-top: 12.5vh; }
+    #promotion .form-container {
+      background-color: #f1f1f1;
+      height: 30vh;
+      margin-left: 50vw;
+      width: 50vw;
+      position: absolute;
+      top: 57.5vh;
+      border-left: 10px solid #C2D500; } }
 @media (min-width: 1024px) {
   .bottom {
     width: 100vw;
@@ -1867,7 +1917,8 @@ article {
       #promotion .image-container img {
         position: absolute;
         height: 100%;
-        width: auto; }
+        width: auto;
+        min-width: 100%; }
     #promotion .promotion-content-container {
       padding-top: 12.5vh; }
     #promotion .form-container {
