@@ -1243,15 +1243,13 @@ article {
 /* BEGINS PROMOTIONS */
 /* ----------------------------------------------------------------- */
 #promotion {
-  height: 150vh; }
+  height: 175vh; }
   #promotion div {
     float: left; }
   #promotion h1 {
     float: left;
-    padding-bottom: 25px;
-    margin-bottom: 20px; }
+    margin-bottom: 15px; }
   #promotion h3 {
-    margin-top: 20px;
     padding-bottom: 0;
     margin-bottom: 0; }
   #promotion p {
@@ -1267,16 +1265,33 @@ article {
       height: 100%;
       width: auto; }
   #promotion .promotion-content-container {
-    padding-top: 2.5vh; }
+    padding-top: 40px; }
   #promotion .form-container {
     background-color: #f1f1f1;
-    height: 30vh;
+    height: 100vh;
     margin-left: 8.5vw;
     width: 91.5vw;
     position: absolute;
     top: 100vh;
     border-left: 10px solid #C2D500;
-    margin-top: 25px; }
+    margin-top: 25px;
+    padding-top: 2vh; }
+  #promotion input {
+    width: 250px;
+    border-radius: 0;
+    border: 1px solid gray;
+    margin-bottom: 10px; }
+  #promotion select {
+    border-radius: 0; }
+  #promotion button {
+    background-color: #f1f1f1;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    margin-top: 40px;
+    text-align: left; }
 
 /*CLOSES #PROMOTION */
 /* ----------------------------------------------------------------- */
@@ -1456,7 +1471,7 @@ article {
   /* BEGINS PROMOTIONS */
   /* ----------------------------------------------------------------- */
   #promotion {
-    height: 100vh; }
+    height: 115vh; }
     #promotion .image-container {
       position: relative;
       float: left;
@@ -1470,12 +1485,14 @@ article {
       padding-top: 2.5vh; }
     #promotion .form-container {
       background-color: #f1f1f1;
-      height: 15vh;
+      height: 27.5vh;
       margin-left: 8.5vw;
       width: 91.5vw;
       position: absolute;
       top: 77.5vh;
       border-left: 10px solid #C2D500; }
+    #promotion h4 {
+      margin-top: 0; }
 
   /* CLOSES #PROMOTION */
   /* ENDS PROMOTIONS */
@@ -1497,13 +1514,16 @@ article {
     #promotion .promotion-content-container {
       padding-top: 12.5vh; }
     #promotion .form-container {
+      padding-top: 25px;
       background-color: #f1f1f1;
-      height: 30vh;
+      height: 25vh;
       margin-left: 50vw;
       width: 50vw;
       position: absolute;
-      top: 57.5vh;
-      border-left: 10px solid #C2D500; } }
+      top: 62.5vh;
+      border-left: 10px solid #C2D500; }
+    #promotion button {
+      margin-top: 15px; } }
 @media (min-width: 1024px) {
   .bottom {
     width: 100vw;
@@ -1922,13 +1942,16 @@ article {
     #promotion .promotion-content-container {
       padding-top: 12.5vh; }
     #promotion .form-container {
+      padding-top: 25px;
       background-color: #f1f1f1;
-      height: 30vh;
+      height: 25vh;
       margin-left: 50vw;
       width: 50vw;
       position: absolute;
-      top: 57.5vh;
-      border-left: 10px solid #C2D500; } }
+      top: 62.5vh;
+      border-left: 10px solid #C2D500; }
+    #promotion button {
+      margin-top: 15px; } }
 /* CLOSES 1200PX @MEDIA QUERY */
 
 /*# sourceMappingURL=style.css.map */
