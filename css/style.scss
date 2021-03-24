@@ -821,12 +821,12 @@ ul{
 
   .video-background{
     position: absolute;
-float: left;
-
-  right: -50vw;
-
+    float: left;
     height: 100vh;
     z-index: -100;
+    img{
+      height: 100%;
+    }
   }
 }
 
