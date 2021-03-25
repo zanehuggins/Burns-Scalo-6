@@ -1243,12 +1243,13 @@ article {
 /* BEGINS PROMOTIONS */
 /* ----------------------------------------------------------------- */
 #promotion {
-  height: 175vh; }
+  height: 150vh;
+  overflow-x: hidden; }
   #promotion div {
     float: left; }
   #promotion h1 {
     float: left;
-    margin-bottom: 15px; }
+    margin-bottom: 10px; }
   #promotion h3 {
     padding-bottom: 0;
     margin-bottom: 0; }
@@ -1268,19 +1269,18 @@ article {
     padding-top: 40px; }
   #promotion .form-container {
     background-color: #f1f1f1;
-    height: 100vh;
+    padding-top: 50px;
+    height: 50vh;
     margin-left: 8.5vw;
     width: 91.5vw;
     position: absolute;
-    top: 100vh;
-    border-left: 10px solid #C2D500;
-    margin-top: 25px;
-    padding-top: 2vh; }
+    top: 80vh;
+    border-left: 10px solid #C2D500; }
   #promotion input {
     width: 250px;
     border-radius: 0;
     border: 1px solid gray;
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
   #promotion select {
     border-radius: 0; }
   #promotion button {
@@ -1471,7 +1471,7 @@ article {
   /* BEGINS PROMOTIONS */
   /* ----------------------------------------------------------------- */
   #promotion {
-    height: 115vh; }
+    height: 100vh; }
     #promotion .image-container {
       position: relative;
       float: left;
@@ -1484,12 +1484,13 @@ article {
     #promotion .promotion-content-container {
       padding-top: 2.5vh; }
     #promotion .form-container {
+      padding-top: 50px;
       background-color: #f1f1f1;
       height: 27.5vh;
       margin-left: 8.5vw;
       width: 91.5vw;
       position: absolute;
-      top: 77.5vh;
+      top: 65vh;
       border-left: 10px solid #C2D500; }
     #promotion h4 {
       margin-top: 0; }
@@ -1502,6 +1503,9 @@ article {
 @media (min-width: 992px) {
   #promotion {
     height: 100vh; }
+    #promotion h1 {
+      font-size: 75px !important;
+      line-height: 65px; }
     #promotion .image-container {
       position: relative;
       float: left;
@@ -1514,13 +1518,13 @@ article {
     #promotion .promotion-content-container {
       padding-top: 12.5vh; }
     #promotion .form-container {
-      padding-top: 25px;
+      padding-top: 50px;
       background-color: #f1f1f1;
-      height: 25vh;
+      height: 35vh;
       margin-left: 50vw;
       width: 50vw;
       position: absolute;
-      top: 62.5vh;
+      top: 55vh;
       border-left: 10px solid #C2D500; }
     #promotion button {
       margin-top: 15px; } }
@@ -1942,13 +1946,13 @@ article {
     #promotion .promotion-content-container {
       padding-top: 12.5vh; }
     #promotion .form-container {
-      padding-top: 25px;
+      padding-top: 50px;
       background-color: #f1f1f1;
-      height: 25vh;
+      height: 35vh;
       margin-left: 50vw;
       width: 50vw;
       position: absolute;
-      top: 62.5vh;
+      top: 55vh;
       border-left: 10px solid #C2D500; }
     #promotion button {
       margin-top: 15px; } }

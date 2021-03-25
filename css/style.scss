@@ -1816,14 +1816,15 @@ article{
 /* ----------------------------------------------------------------- */
 
 #promotion{
-  height: 175vh;
+  height: 150vh;
+  overflow-x: hidden;
   div{
     float: left;
   }
 
   h1{
     float: left;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   h3{
@@ -1858,14 +1859,13 @@ h4{
 
   .form-container{
     background-color: #f1f1f1;
-    height: 100vh;
+    padding-top: 50px;
+    height: 50vh;
     margin-left: 8.5vw;
     width: 91.5vw;
     position: absolute;
-    top: 100vh;
+    top: 80vh;
     border-left: 10px solid $green;
-    margin-top: 25px;
-    padding-top: 2vh;
 
   }
 
@@ -1873,7 +1873,7 @@ h4{
     width: 250px;
     border-radius: 0;
     border: 1px solid gray;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   select{
@@ -2192,7 +2192,7 @@ h5{
 
 
 #promotion{
-  height: 115vh;
+  height: 100vh;
   .image-container{
     position: relative;
     float: left;
@@ -2211,12 +2211,13 @@ h5{
   }
 
   .form-container{
+    padding-top: 50px;
     background-color: #f1f1f1;
     height: 27.5vh;
     margin-left:  8.5vw;
     width: 91.5vw;
     position: absolute;
-    top: 77.5vh;
+    top: 65vh;
     border-left: 10px solid $green;
   }
 
@@ -2243,6 +2244,12 @@ h5{
 @media (min-width: 992px){
   #promotion{
     height: 100vh;
+
+    h1{
+      font-size: 75px!important;
+      line-height: 65px;
+    }
+
     .image-container{
       position: relative;
       float: left;
@@ -2264,13 +2271,13 @@ h5{
 
 
     .form-container{
-      padding-top: 25px;
+      padding-top: 50px;
       background-color: #f1f1f1;
-      height: 25vh;
+      height: 35vh;
       margin-left: 50vw;
       width: 50vw;
       position: absolute;
-      top: 62.5vh;
+      top: 55vh;
       border-left: 10px solid $green;
     }
     button{
@@ -2943,13 +2950,13 @@ h5{
   }
 
   .form-container{
-    padding-top: 25px;
+    padding-top: 50px;
     background-color: #f1f1f1;
-    height: 25vh;
+    height: 35vh;
     margin-left: 50vw;
     width: 50vw;
     position: absolute;
-    top: 62.5vh;
+    top: 55vh;
     border-left: 10px solid $green;
   }
   button{
