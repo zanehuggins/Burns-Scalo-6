@@ -1264,7 +1264,8 @@ article {
     #promotion .image-container img {
       position: absolute;
       height: 100%;
-      width: auto; }
+      width: auto;
+      right: 0; }
   #promotion .promotion-content-container {
     padding-top: 40px; }
   #promotion .form-container {
