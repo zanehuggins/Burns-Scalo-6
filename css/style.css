@@ -1249,13 +1249,15 @@ article {
     float: left; }
   #promotion h1 {
     float: left;
-    margin-bottom: 10px; }
+    margin-bottom: 0px; }
   #promotion h3 {
+    margin-top: 10px;
     padding-bottom: 0;
     margin-bottom: 0; }
   #promotion p {
     font-size: 14px;
-    line-height: 24px; }
+    line-height: 24px;
+    padding-top: 10px; }
   #promotion .image-container {
     position: relative;
     float: left;
@@ -1265,34 +1267,41 @@ article {
       position: absolute;
       height: 100%;
       width: auto;
-      right: 0; }
+      right: -35vw; }
   #promotion .promotion-content-container {
     padding-top: 40px; }
   #promotion .form-container {
     background-color: #f1f1f1;
-    padding-top: 50px;
-    height: 50vh;
+    padding-top: 20px;
+    height: 60vh;
     margin-left: 8.5vw;
     width: 91.5vw;
     position: absolute;
-    top: 80vh;
-    border-left: 10px solid #C2D500; }
+    top: 75vh;
+    border-left: 10px solid #C2D500;
+    min-height: 270px; }
   #promotion input {
-    width: 250px;
+    width: 90%;
     border-radius: 0;
     border: 1px solid gray;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
   #promotion select {
-    border-radius: 0; }
+    border-radius: 0;
+    width: 90%; }
+  #promotion #organization {
+    width: 90%; }
   #promotion button {
-    background-color: #f1f1f1;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    border-right: none;
-    border-left: none;
+    border: 1px solid #F26524;
+    text-transform: uppercase;
+    color: #F26524;
+    text-align: center;
     outline: none;
     margin-top: 40px;
-    text-align: left; }
+    text-align: center;
+    max-width: 95%; }
+  #promotion button:hover {
+    background-color: #F26524;
+    color: white; }
 
 /*CLOSES #PROMOTION */
 /* ----------------------------------------------------------------- */
@@ -1481,20 +1490,23 @@ article {
       #promotion .image-container img {
         position: absolute;
         width: 100%;
-        height: auto; }
+        height: auto;
+        left: 0; }
     #promotion .promotion-content-container {
       padding-top: 2.5vh; }
     #promotion .form-container {
-      padding-top: 50px;
+      padding-top: 20px;
       background-color: #f1f1f1;
-      height: 27.5vh;
+      height: 35vh;
       margin-left: 8.5vw;
       width: 91.5vw;
       position: absolute;
-      top: 65vh;
+      top: 62.5vh;
       border-left: 10px solid #C2D500; }
     #promotion h4 {
       margin-top: 0; }
+    #promotion #organization {
+      width: 95%; }
 
   /* CLOSES #PROMOTION */
   /* ENDS PROMOTIONS */
@@ -1505,8 +1517,8 @@ article {
   #promotion {
     height: 100vh; }
     #promotion h1 {
-      font-size: 75px !important;
-      line-height: 65px; }
+      font-size: 70px;
+      line-height: 60px; }
     #promotion .image-container {
       position: relative;
       float: left;
@@ -1519,7 +1531,7 @@ article {
     #promotion .promotion-content-container {
       padding-top: 12.5vh; }
     #promotion .form-container {
-      padding-top: 50px;
+      padding-top: 20px;
       background-color: #f1f1f1;
       height: 35vh;
       margin-left: 50vw;
@@ -1947,16 +1959,20 @@ article {
     #promotion .promotion-content-container {
       padding-top: 12.5vh; }
     #promotion .form-container {
-      padding-top: 50px;
+      padding-top: 2.5vh;
       background-color: #f1f1f1;
-      height: 35vh;
+      height: 45vh;
       margin-left: 50vw;
       width: 50vw;
       position: absolute;
-      top: 55vh;
+      top: 45vh;
       border-left: 10px solid #C2D500; }
     #promotion button {
       margin-top: 15px; } }
 /* CLOSES 1200PX @MEDIA QUERY */
+@media (min-width: 1500px) {
+  #promotion .form-container {
+    top: 40vh;
+    padding-top: 6vh; } }
 
 /*# sourceMappingURL=style.css.map */

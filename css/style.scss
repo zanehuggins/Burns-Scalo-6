@@ -1824,10 +1824,11 @@ article{
 
   h1{
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   h3{
+    margin-top: 10px;
     padding-bottom: 0;
     margin-bottom: 0;
   }
@@ -1835,6 +1836,7 @@ article{
   p{
     font-size: 14px;
     line-height: 24px;
+    padding-top: 10px;
   }
 
   .image-container{
@@ -1847,7 +1849,7 @@ article{
       position: absolute;
       height: 100%;
       width: auto;
-      right: 0;
+      right: -35vw;
     }
   }
 
@@ -1860,38 +1862,47 @@ h4{
 
   .form-container{
     background-color: #f1f1f1;
-    padding-top: 50px;
-    height: 50vh;
+    padding-top: 20px;
+    height: 60vh;
     margin-left: 8.5vw;
     width: 91.5vw;
     position: absolute;
-    top: 80vh;
+    top: 75vh;
     border-left: 10px solid $green;
-
+    min-height: 270px;
   }
 
   input{
-    width: 250px;
+    width: 90%;
     border-radius: 0;
     border: 1px solid gray;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   select{
     border-radius: 0;
+    width: 90%;
   }
 
+#organization{
+  width: 90%;
+}
 
 
   button{
-    background-color: #f1f1f1;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    border-right: none;
-    border-left: none;
+    border: 1px solid $orange;
+    text-transform: uppercase;
+    color: $orange;
+    text-align: center;
     outline: none;
     margin-top: 40px;
-    text-align: left;
+    text-align: center;
+    max-width: 95%;
+  }
+
+  button:hover{
+    background-color: $orange;
+    color: white;
   }
 } /*CLOSES #PROMOTION */
 
@@ -2204,6 +2215,7 @@ h5{
       position: absolute;
       width: 100%;
       height: auto;
+      left: 0;
     }
   }
 
@@ -2212,18 +2224,22 @@ h5{
   }
 
   .form-container{
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: #f1f1f1;
-    height: 27.5vh;
+    height: 35vh;
     margin-left:  8.5vw;
     width: 91.5vw;
     position: absolute;
-    top: 65vh;
+    top: 62.5vh;
     border-left: 10px solid $green;
   }
 
   h4{
     margin-top: 0;
+  }
+
+  #organization{
+    width: 95%;
   }
 }/* CLOSES #PROMOTION */
 
@@ -2247,9 +2263,10 @@ h5{
     height: 100vh;
 
     h1{
-      font-size: 75px!important;
-      line-height: 65px;
+      font-size: 70px;
+      line-height: 60px;
     }
+
 
     .image-container{
       position: relative;
@@ -2272,7 +2289,7 @@ h5{
 
 
     .form-container{
-      padding-top: 50px;
+      padding-top: 20px;
       background-color: #f1f1f1;
       height: 35vh;
       margin-left: 50vw;
@@ -2951,13 +2968,13 @@ h5{
   }
 
   .form-container{
-    padding-top: 50px;
+    padding-top: 2.5vh;
     background-color: #f1f1f1;
-    height: 35vh;
+    height: 45vh;
     margin-left: 50vw;
     width: 50vw;
     position: absolute;
-    top: 55vh;
+    top: 45vh;
     border-left: 10px solid $green;
   }
   button{
@@ -2968,3 +2985,12 @@ h5{
 
 
 } /* CLOSES 1200PX @MEDIA QUERY */
+
+@media (min-width: 1500px){
+  #promotion{
+  .form-container{
+    top: 40vh;
+    padding-top: 6vh;
+  }
+}
+}
