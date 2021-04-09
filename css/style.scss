@@ -19,7 +19,7 @@ main{
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
     float: left;
     position: relative;
     overflow: hidden;
@@ -367,6 +367,17 @@ font-size: 16px;
 }
 
 
+.turquoise-bg{
+  background-color: $turquoise;
+}
+
+.green-bg{
+  background-color: $green;
+}
+
+.orange-bg{
+  background-color: $orange;
+}
 
 
 #featured-projects{
@@ -971,7 +982,9 @@ ul{
 
 #half-screen{
   height: 60vh;
+  min-height: 20vh!important;
   float: left;
+  overflow: hidden;
 
 .copy-container{
   margin-top: 75px;
