@@ -133,7 +133,7 @@ p{
 }
 
 .small-headline{
-  font-size: 18px;
+  font-size: 18px!important;
   letter-spacing: 2px;
   color: $black;
   padding-left: 5px;
@@ -248,9 +248,6 @@ font-size: 16px;
   padding-left: 0;
 }
 
-.align-right{
-  text-align: right;
-}
 
 .green-underline{
   border-bottom: 6px solid $green;
@@ -373,6 +370,15 @@ font-size: 16px;
 
 
 #featured-projects{
+
+  .small-headline{
+    font-size: 18px!important;
+    letter-spacing: 2px;
+    color: $black;
+    padding-left: 5px;
+  }
+
+
   .portfolio-list{
     transition: .25s;
     height: 235px;
@@ -431,7 +437,9 @@ font-size: 16px;
   }
 }
 
-
+.arrow{
+  margin-top: 12.5px;
+}
 
 .fancy-text{
   font-family: macklin;
@@ -924,7 +932,7 @@ ul{
 
 
 #container-2{
-  padding-top: 7.5vh;
+  padding-top: 15vh;
     padding-left: 0;
     padding-right: 0;
 
@@ -955,9 +963,10 @@ ul{
       margin-top: 35px;
       float: left;
       margin-bottom: 0;
-      padding-bottom: 0;
+      padding-bottom: 25px;
     }
 }
+
 
 
 #half-screen{
@@ -965,11 +974,13 @@ ul{
   float: left;
 
 .copy-container{
-  margin-top: 100px;
+  margin-top: 75px;
+  float: left;
+
 }
 
 h2{
-  margin-top: 100px;
+  margin-top: 75px;
   text-align: left;
 }
 
@@ -991,12 +1002,12 @@ h2{
     text-align: center!important;
     width: auto;
     margin-left: 20%;
-    line-height: 80px;
+    line-height: 60px;
     font-style: normal;
     font-weight: 400;
     padding-top: 10px;
 
-    font-size: 120px;
+    font-size: 100px;
     margin-bottom: 0;
     position: absolute;
     top: 0;
@@ -1011,7 +1022,7 @@ margin: auto;
  font-size: 60px;
  padding: 0!important;
 position: absolute;
-left: 2%;
+left: 12.5%;
 top: 0;
 }
 
@@ -1019,7 +1030,7 @@ top: 0;
 
   .h2-line2{
     text-align: center!important;
-    font-size: 80px;
+    font-size: 60px;
     margin: 0!important;
     padding-bottom: 0px!important;
     line-height: 0!important;
@@ -1036,7 +1047,7 @@ p{
   text-align: center;
   padding-top: 50px;
   position: absolute;
-  bottom: 20%;
+  bottom: 35%;
 }
   .green-underline{
     border-bottom: 10px solid $green;
@@ -1053,7 +1064,7 @@ p{
   }
   .number-container{
     float: left;
-    height: 40vh;
+    height: 325px;
     position: relative;
   }
 
@@ -1884,6 +1895,23 @@ h5{
 
 #portfolio{
   #press{
+    .small-headline{
+      font-size: 18px!important;
+      letter-spacing: 2px;
+      color: $black;
+      padding-left: 5px;
+    }
+    .filters-2{
+      float: left;
+      list-style: none;
+      li{
+        float: left;
+        margin-right: 20px;
+        a{color: $black;
+          text-decoration: none;
+        }
+      }
+    }
     h3{
       font-size: 18px;
     }
@@ -2454,6 +2482,11 @@ min-height: 70%;
 
 
 @media (min-width: 992px){
+
+  .align-right{
+    text-align: right!important;
+  }
+
   #promotion{
     height: 100vh;
 
@@ -3204,6 +3237,7 @@ h5{
     }
     .portfolio-list{
       height: 357.5px;
+      transition: 0s;
     }
     .portfolio-image-container{
       min-height: 65%;

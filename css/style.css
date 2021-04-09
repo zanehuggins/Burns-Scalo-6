@@ -97,7 +97,7 @@ object {
   z-index: 1; }
 
 .small-headline {
-  font-size: 18px;
+  font-size: 18px !important;
   letter-spacing: 2px;
   color: #333033;
   padding-left: 5px; }
@@ -178,9 +178,6 @@ p {
 .align-left {
   text-align: left !important;
   padding-left: 0; }
-
-.align-right {
-  text-align: right; }
 
 .green-underline {
   border-bottom: 6px solid #C2D500; }
@@ -278,6 +275,11 @@ p {
     float: left;
     transition: .5s; }
 
+#featured-projects .small-headline {
+  font-size: 18px !important;
+  letter-spacing: 2px;
+  color: #333033;
+  padding-left: 5px; }
 #featured-projects .portfolio-list {
   transition: .25s;
   height: 235px; }
@@ -320,6 +322,9 @@ p {
     height: auto !important;
     float: left;
     transition: .5s; }
+
+.arrow {
+  margin-top: 12.5px; }
 
 .fancy-text {
   font-family: macklin;
@@ -665,7 +670,7 @@ footer {
     height: 100%; }
 
 #container-2 {
-  padding-top: 7.5vh;
+  padding-top: 15vh;
   padding-left: 0;
   padding-right: 0; }
   #container-2 .image-container {
@@ -688,15 +693,16 @@ footer {
     margin-top: 35px;
     float: left;
     margin-bottom: 0;
-    padding-bottom: 0; }
+    padding-bottom: 25px; }
 
 #half-screen {
   height: 60vh;
   float: left; }
   #half-screen .copy-container {
-    margin-top: 100px; }
+    margin-top: 75px;
+    float: left; }
   #half-screen h2 {
-    margin-top: 100px;
+    margin-top: 75px;
     text-align: left; }
   #half-screen .background {
     z-index: -100;
@@ -711,11 +717,11 @@ footer {
   text-align: center !important;
   width: auto;
   margin-left: 20%;
-  line-height: 80px;
+  line-height: 60px;
   font-style: normal;
   font-weight: 400;
   padding-top: 10px;
-  font-size: 120px;
+  font-size: 100px;
   margin-bottom: 0;
   position: absolute;
   top: 0;
@@ -728,11 +734,11 @@ footer {
     font-size: 60px;
     padding: 0 !important;
     position: absolute;
-    left: 2%;
+    left: 12.5%;
     top: 0; }
   #glance h2 .h2-line2 {
     text-align: center !important;
-    font-size: 80px;
+    font-size: 60px;
     margin: 0 !important;
     padding-bottom: 0px !important;
     line-height: 0 !important; }
@@ -746,7 +752,7 @@ footer {
   text-align: center;
   padding-top: 50px;
   position: absolute;
-  bottom: 20%; }
+  bottom: 35%; }
 #glance .green-underline {
   border-bottom: 10px solid #C2D500;
   padding: 0 !important; }
@@ -756,7 +762,7 @@ footer {
   border-bottom: 10px solid #F26524; }
 #glance .number-container {
   float: left;
-  height: 40vh;
+  height: 325px;
   position: relative; }
 
 /* CLOSES GLANCE */
@@ -1305,6 +1311,20 @@ footer {
 /* CLOSES #LEADERSHIP*/
 /* ----------------------------------------------------------------- */
 /* BEGINS PRESS */
+#portfolio #press .small-headline {
+  font-size: 18px !important;
+  letter-spacing: 2px;
+  color: #333033;
+  padding-left: 5px; }
+#portfolio #press .filters-2 {
+  float: left;
+  list-style: none; }
+  #portfolio #press .filters-2 li {
+    float: left;
+    margin-right: 20px; }
+    #portfolio #press .filters-2 li a {
+      color: #333033;
+      text-decoration: none; }
 #portfolio #press h3 {
   font-size: 18px; }
 #portfolio #press p {
@@ -1657,6 +1677,9 @@ article {
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 992px) {
+  .align-right {
+    text-align: right !important; }
+
   #promotion {
     height: 100vh; }
     #promotion h1 {
@@ -2125,7 +2148,8 @@ article {
   #portfolio #press .container-p {
     height: 360px; }
   #portfolio #press .portfolio-list {
-    height: 357.5px; }
+    height: 357.5px;
+    transition: 0s; }
   #portfolio #press .portfolio-image-container {
     min-height: 65%;
     height: 65% !important;
