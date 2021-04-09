@@ -1258,7 +1258,7 @@ footer {
   #leadership .portfolio-list {
     box-shadow: 0px 0px 5px #DBDADA;
     float: left;
-    height: 50vh;
+    height: 400px;
     position: relative;
     transition: .5s;
     overflow: hidden; }
@@ -1549,7 +1549,7 @@ article {
   /* ----------------------------------------------------------------- */
   /* BEGINS TEAM */
   #leadership {
-    padding-top: 20vh;
+    padding-top: 12.5vh;
     overflow: scroll !important; }
     #leadership .name-container {
       transition: .5s ease;
@@ -2114,7 +2114,7 @@ article {
   #leadership .container-p .portfolio-list {
     box-shadow: 0px 0px 5px #DBDADA;
     float: left;
-    height: 40vh;
+    height: 300px;
     position: relative;
     transition: .5s;
     overflow: hidden;
