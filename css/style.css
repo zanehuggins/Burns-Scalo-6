@@ -175,6 +175,13 @@ p {
 #left-align {
   text-align: left !important; }
 
+.align-left {
+  text-align: left !important;
+  padding-left: 0; }
+
+.align-right {
+  text-align: right; }
+
 .green-underline {
   border-bottom: 6px solid #C2D500; }
 
@@ -273,7 +280,7 @@ p {
 
 #featured-projects .portfolio-list {
   transition: .25s;
-  height: 21vh !important; }
+  height: 235px; }
 #featured-projects .portfolio-list:hover {
   transform: scale(1.02); }
 
@@ -296,25 +303,44 @@ p {
     float: left;
     transition: .5s; }
 
-.green-bg {
-  background-color: #C2D500; }
+.link-outline-2 {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #333033;
+  font-family: gotham;
+  letter-spacing: 2px;
+  float: left; }
+  .link-outline-2 p {
+    float: left;
+    margin: 0; }
+  .link-outline-2 img {
+    width: 12px !important;
+    height: auto !important;
+    float: left;
+    transition: .5s; }
 
-.turquoise-bg {
-  background-color: #00AC98; }
+.fancy-text {
+  font-family: macklin;
+  letter-spacing: 0;
+  color: gray;
+  padding-top: 0;
+  margin-top: 0; }
 
-.orange-bg {
-  background-color: #F26524; }
+/* SNAP SCROLL
 
-/* SNAP SCROLL */
 .scroll-container {
   height: 100vh;
   overflow-y: scroll;
-  scroll-snap-type: y mandatory; }
+  scroll-snap-type: y mandatory;
+}
 
 section {
   height: 100vh;
-  scroll-snap-align: center; }
-
+  scroll-snap-align: center;
+}
+*/
 #page-404 {
   padding-top: 25vh !important; }
   #page-404 a {
@@ -639,7 +665,7 @@ footer {
     height: 100%; }
 
 #container-2 {
-  padding-top: 15vh;
+  padding-top: 7.5vh;
   padding-left: 0;
   padding-right: 0; }
   #container-2 .image-container {
@@ -658,7 +684,82 @@ footer {
     float: left; }
   #container-2 p {
     text-align: left; }
+  #container-2 .body-copy {
+    margin-top: 35px;
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0; }
 
+#half-screen {
+  height: 60vh;
+  float: left; }
+  #half-screen .copy-container {
+    margin-top: 100px; }
+  #half-screen h2 {
+    margin-top: 100px;
+    text-align: left; }
+  #half-screen .background {
+    z-index: -100;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 65%;
+    width: 100%;
+    margin-left: 0; }
+
+#glance h2 {
+  font-family: macklin;
+  text-align: center !important;
+  width: auto;
+  margin-left: 20%;
+  line-height: 80px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 10px;
+  font-size: 120px;
+  margin-bottom: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+  #glance h2 .superscript {
+    vertical-align: super;
+    font-size: 60px;
+    padding: 0 !important;
+    position: absolute;
+    left: 2%;
+    top: 0; }
+  #glance h2 .h2-line2 {
+    text-align: center !important;
+    font-size: 80px;
+    margin: 0 !important;
+    padding-bottom: 0px !important;
+    line-height: 0 !important; }
+#glance p {
+  font-size: 22px;
+  font-style: italic;
+  font-family: macklin;
+  color: gray;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 20%; }
+#glance .green-underline {
+  border-bottom: 10px solid #C2D500;
+  padding: 0 !important; }
+#glance .turquoise-underline {
+  border-bottom: 10px solid #00AC98; }
+#glance .orange-underline {
+  border-bottom: 10px solid #F26524; }
+#glance .number-container {
+  float: left;
+  height: 40vh;
+  position: relative; }
+
+/* CLOSES GLANCE */
 #push-mobile img {
   position: absolute;
   float: left;
@@ -812,14 +913,15 @@ footer {
 
 /* ends reveal section */
 #featured-projects {
-  padding-top: 10vh; }
+  padding-top: 10vh;
+  min-height: 120vh; }
   #featured-projects .container-p {
     padding: 5px;
     float: left !important; }
   #featured-projects .portfolio-list {
     box-shadow: 0px 0px 5px #DBDADA;
     float: left;
-    height: 27.5vh; }
+    height: 350px; }
     #featured-projects .portfolio-list a {
       text-decoration: none; }
     #featured-projects .portfolio-list img {
@@ -1207,6 +1309,10 @@ footer {
   font-size: 18px; }
 #portfolio #press p {
   font-size: 12px !important; }
+#portfolio #press .container-p {
+  height: 360px; }
+#portfolio #press .portfolio-list {
+  height: 350px; }
 #portfolio #press .portfolio-image-container {
   min-height: 65%;
   height: 65% !important;
@@ -1501,22 +1607,13 @@ article {
   #portfolio ul {
     padding-left: 0 !important; }
   #portfolio #press .container-p {
-    height: 30vh;
-    min-height: 350px; }
+    height: 370px; }
   #portfolio #press .portfolio-list {
-    height: 30vh;
-    min-height: 350px;
-    max-height: 350px; }
+    height: 357.5px; }
     #portfolio #press .portfolio-list .portfolio-image-container {
-      min-height: 50%; }
+      min-height: 70%; }
   #portfolio #press h3 {
     font-size: 16px; }
-
-  #portfolio .portfolio-list {
-    height: 22.5vh; }
-  #portfolio .portfolio-image-container {
-    min-height: 60%;
-    height: 60%; }
 
   #article p {
     text-align: justify; }
@@ -1871,7 +1968,7 @@ article {
     height: 315px; }
 
   #container-2 {
-    padding-top: 30vh; }
+    padding-top: 20vh; }
     #container-2 h2 {
       text-align: right;
       font-size: 70px;
@@ -2017,7 +2114,28 @@ article {
       top: 45vh;
       border-left: 10px solid #C2D500; }
     #promotion button {
-      margin-top: 15px; } }
+      margin-top: 15px; }
+
+  /* ----------------------------------------------------------------- */
+  /* BEGINS PRESS */
+  #portfolio #press h3 {
+    font-size: 18px; }
+  #portfolio #press p {
+    font-size: 12px !important; }
+  #portfolio #press .container-p {
+    height: 360px; }
+  #portfolio #press .portfolio-list {
+    height: 357.5px; }
+  #portfolio #press .portfolio-image-container {
+    min-height: 65%;
+    height: 65% !important;
+    overflow: hidden; }
+    #portfolio #press .portfolio-image-container img {
+      width: 100%;
+      height: auto; }
+
+  /* CLOSES PRESS */
+  /* ----------------------------------------------------------------- */ }
 /* CLOSES 1200PX @MEDIA QUERY */
 @media (min-width: 1500px) {
   #promotion .form-container {

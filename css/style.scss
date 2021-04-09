@@ -243,6 +243,15 @@ font-size: 16px;
   text-align: left!important;
 }
 
+.align-left{
+  text-align: left!important;
+  padding-left: 0;
+}
+
+.align-right{
+  text-align: right;
+}
+
 .green-underline{
   border-bottom: 6px solid $green;
 }
@@ -366,7 +375,7 @@ font-size: 16px;
 #featured-projects{
   .portfolio-list{
     transition: .25s;
-    height: 21vh!important;
+    height: 235px;
   }
 
 .portfolio-list:hover{
@@ -399,18 +408,43 @@ font-size: 16px;
   }
 }
 
-.green-bg{
-  background-color: $green;
+
+.link-outline-2{
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: $black;
+  font-family: gotham;
+  letter-spacing: 2px;
+  float: left;
+  p{
+    float: left;
+    margin: 0;
+  }
+
+  img{
+    width: 12px!important;
+    height: auto!important;
+    float: left;
+      transition: .5s;
+  }
 }
 
-.turquoise-bg{
-  background-color: $turquoise;
+
+
+.fancy-text{
+  font-family: macklin;
+  letter-spacing: 0;
+  color: gray;
+  padding-top: 0;
+  margin-top: 0;
 }
 
-.orange-bg{
-  background-color: $orange;
-}
-/* SNAP SCROLL */
+
+
+
+/* SNAP SCROLL
 
 .scroll-container {
   height: 100vh;
@@ -422,6 +456,7 @@ section {
   height: 100vh;
   scroll-snap-align: center;
 }
+*/
 
 #page-404{
   padding-top: 25vh!important;
@@ -889,11 +924,9 @@ ul{
 
 
 #container-2{
-  padding-top: 15vh;
+  padding-top: 7.5vh;
     padding-left: 0;
     padding-right: 0;
-
-
 
     .image-container{
       position: relative;
@@ -918,7 +951,116 @@ ul{
     p{
       text-align: left;
     }
+    .body-copy{
+      margin-top: 35px;
+      float: left;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
 }
+
+
+#half-screen{
+  height: 60vh;
+  float: left;
+
+.copy-container{
+  margin-top: 100px;
+}
+
+h2{
+  margin-top: 100px;
+  text-align: left;
+}
+
+  .background{
+    z-index: -100;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 65%;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+
+#glance{
+  h2{
+    font-family: macklin;
+    text-align: center!important;
+    width: auto;
+    margin-left: 20%;
+    line-height: 80px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+
+    font-size: 120px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+margin: auto;
+
+
+.superscript{
+ vertical-align: super;
+ font-size: 60px;
+ padding: 0!important;
+position: absolute;
+left: 2%;
+top: 0;
+}
+
+
+
+  .h2-line2{
+    text-align: center!important;
+    font-size: 80px;
+    margin: 0!important;
+    padding-bottom: 0px!important;
+    line-height: 0!important;
+  }
+}
+
+p{
+  font-size: 22px;
+  font-style: italic;
+  font-family: macklin;
+  color: gray;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 20%;
+}
+  .green-underline{
+    border-bottom: 10px solid $green;
+    padding: 0!important;
+  }
+
+
+  .turquoise-underline{
+    border-bottom: 10px solid $turquoise;
+  }
+
+  .orange-underline{
+    border-bottom: 10px solid $orange;
+  }
+  .number-container{
+    float: left;
+    height: 40vh;
+    position: relative;
+  }
+
+}/* CLOSES GLANCE */
+
+
+
 
 #push-mobile{
   img{
@@ -1146,6 +1288,7 @@ padding-top: 7vh!important;
 
 #featured-projects{
   padding-top: 10vh;
+  min-height: 120vh;
 
 .container-p{
     padding: 5px;
@@ -1154,7 +1297,7 @@ padding-top: 7vh!important;
 .portfolio-list{
   box-shadow: 0px 0px 5px #DBDADA;
   float: left;
-  height: 27.5vh;
+  height: 350px;
   a{
     text-decoration: none;
   }
@@ -1747,6 +1890,12 @@ h5{
     p{
       font-size: 12px!important;
     }
+    .container-p{
+      height: 360px;
+    }
+    .portfolio-list{
+      height: 350px;
+    }
     .portfolio-image-container{
       min-height: 65%;
       height: 65%!important;
@@ -2204,16 +2353,14 @@ h5{
 #press{
 
   .container-p{
-    height: 30vh;
-    min-height: 350px;
+    height: 370px;
+
   }
   .portfolio-list{
-    height: 30vh;
-    min-height: 350px;
-    max-height: 350px;
+    height: 357.5px;
     .portfolio-image-container{
+min-height: 70%;
 
-      min-height: 50%;
     }
   }
 
@@ -2228,16 +2375,7 @@ h5{
 
 
 
-#portfolio{
 
-  .portfolio-list{
-    height: 22.5vh;
-  }
-  .portfolio-image-container{
-    min-height: 60%;
-    height: 60%;
-  }
-}
 
 
 
@@ -2517,6 +2655,8 @@ p{
   }
 }
 }
+
+
 
 
 
@@ -2804,7 +2944,7 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
 
 
   #container-2{
-padding-top: 30vh;
+padding-top: 20vh;
     h2{
       text-align: right;
       font-size: 70px;
@@ -3043,6 +3183,45 @@ h5{
     margin-top: 15px;
   }
 }
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+/* BEGINS PRESS */
+
+#portfolio{
+  #press{
+    h3{
+      font-size: 18px;
+    }
+    p{
+      font-size: 12px!important;
+    }
+    .container-p{
+      height: 360px;
+    }
+    .portfolio-list{
+      height: 357.5px;
+    }
+    .portfolio-image-container{
+      min-height: 65%;
+      height: 65%!important;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+
+  }
+}
+
+/* CLOSES PRESS */
+
+/* ----------------------------------------------------------------- */
+
 
 
 
