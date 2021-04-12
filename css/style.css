@@ -1204,8 +1204,15 @@ footer {
             font-size: 14px; }
 
 /*CLOSES #PORTFOLIO-PAGE*/
-#home-press #press-page .portfolio-container li a .article-container {
-  height: 200px; }
+#home-press {
+  float: left;
+  padding: 0; }
+  #home-press #press-page {
+    float: left; }
+    #home-press #press-page .portfolio-container {
+      float: left; }
+      #home-press #press-page .portfolio-container li a .article-container {
+        height: 200px; }
 
 /* ----------------------------------------------------------------- */
 /* BEGINS PROPERTY LANDING */

@@ -1731,9 +1731,12 @@ a{
 }/*CLOSES #PORTFOLIO-PAGE*/
 
 #home-press{
+  float: left;
+  padding: 0;
 #press-page{
-
+float: left;
   .portfolio-container{
+    float: left;
     li{
       a{
         .article-container{
