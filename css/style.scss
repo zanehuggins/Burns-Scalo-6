@@ -149,7 +149,7 @@ p{
 h1{
 font-family: gotham;
 font-weight: 900;
-color: black;
+color: $black;
 font-size: 40px;
 line-height: 35px;
 padding-bottom: 5px;
@@ -479,6 +479,8 @@ section {
   scroll-snap-align: center;
 }
 */
+
+
 
 #page-404{
   padding-top: 25vh!important;
@@ -1646,14 +1648,15 @@ a{
     float: left;
     padding: 15px;
     h3{
-      font-family: Gotham Black;
+      font-family: Gotham;
+      font-weight: 900;
       font-style: normal;
       font-size: 16px;
       max-height: 16px;
       overflow: hidden;
     }
     p{
-      font-family: Gotham Book;
+      font-family: Gotham;
       font-size: 14px;
     }
   }
@@ -1710,7 +1713,8 @@ a{
     height: 135px;
     overflow: hidden;
     h3{
-      font-family: Gotham Black;
+      font-family: gotham;
+      font-weight: 900;
       font-style: normal;
       font-size: 16px;
       overflow: hidden;

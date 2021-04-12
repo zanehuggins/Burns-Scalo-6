@@ -111,7 +111,7 @@ object {
 h1 {
   font-family: gotham;
   font-weight: 900;
-  color: black;
+  color: #333033;
   font-size: 40px;
   line-height: 35px;
   padding-bottom: 5px;
@@ -1147,13 +1147,14 @@ footer {
           float: left;
           padding: 15px; }
           #portfolio-page .portfolio-container li a div h3 {
-            font-family: Gotham Black;
+            font-family: Gotham;
+            font-weight: 900;
             font-style: normal;
             font-size: 16px;
             max-height: 16px;
             overflow: hidden; }
           #portfolio-page .portfolio-container li a div p {
-            font-family: Gotham Book;
+            font-family: Gotham;
             font-size: 14px; }
 
 /*CLOSES #PORTFOLIO-PAGE*/
@@ -1193,7 +1194,8 @@ footer {
           height: 135px;
           overflow: hidden; }
           #press-page .portfolio-container li a div h3 {
-            font-family: Gotham Black;
+            font-family: gotham;
+            font-weight: 900;
             font-style: normal;
             font-size: 16px;
             overflow: hidden; }
