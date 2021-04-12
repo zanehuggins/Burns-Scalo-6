@@ -1673,6 +1673,24 @@ a{
   padding-left: 0;
 }
 
+.filters-2{
+  margin-top: 0vh;
+  float: left;
+    list-style: none;
+    height: 25px;
+    padding-left: 0;
+
+    li{
+      float: left;
+      padding-left: 0!important;
+      padding-right: 10px;
+      a{
+        color: gray;
+        text-decoration: none;
+      }
+    }
+  }
+
   float: left;
   padding-bottom: 10vh;
 .portfolio-container{

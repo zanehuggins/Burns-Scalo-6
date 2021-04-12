@@ -1163,6 +1163,19 @@ footer {
   padding-bottom: 10vh; }
   #press-page .filters {
     padding-left: 0; }
+  #press-page .filters-2 {
+    margin-top: 0vh;
+    float: left;
+    list-style: none;
+    height: 25px;
+    padding-left: 0; }
+    #press-page .filters-2 li {
+      float: left;
+      padding-left: 0 !important;
+      padding-right: 10px; }
+      #press-page .filters-2 li a {
+        color: gray;
+        text-decoration: none; }
   #press-page .portfolio-container {
     list-style: none;
     padding: 0; }
