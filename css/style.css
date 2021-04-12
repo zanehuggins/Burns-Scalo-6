@@ -1127,47 +1127,50 @@ footer {
   animation-name: delay-opacity;
   animation-duration: 4s; }
 
-#portfolio .portfolio-container {
-  padding-left: 0; }
-#portfolio section {
-  padding-top: 2vh;
-  float: left;
-  padding-left: 4vw;
-  padding-right: 4vw;
-  height: auto; }
-#portfolio .container-p {
-  padding: 5px;
-  float: left !important; }
-#portfolio .portfolio-list {
-  box-shadow: 0px 0px 5px #DBDADA;
-  float: left;
-  height: 35vh; }
-  #portfolio .portfolio-list a {
-    text-decoration: none; }
-  #portfolio .portfolio-list img {
-    width: 100%; }
-  #portfolio .portfolio-list h3 {
-    font-family: gotham;
-    color: #333033;
-    font-size: 18px;
-    padding-left: 15px;
-    padding-top: 15px;
-    margin: 0;
-    font-style: normal; }
-  #portfolio .portfolio-list p {
-    font-size: 14px;
-    font-family: gotham;
-    padding-left: 15px;
-    color: #333033;
-    padding-bottom: 15px;
-    margin: 0; }
-#portfolio .portfolio-image-container {
-  min-height: 75%;
-  height: 75%;
-  overflow: hidden; }
-  #portfolio .portfolio-image-container img {
-    width: 100%;
+#portfolio {
+  height: auto;
+  min-height: 40vh; }
+  #portfolio .portfolio-container {
+    padding-left: 0; }
+  #portfolio section {
+    padding-top: 2vh;
+    float: left;
+    padding-left: 4vw;
+    padding-right: 4vw;
     height: auto; }
+  #portfolio .container-p {
+    padding: 5px;
+    float: left !important; }
+  #portfolio .portfolio-list {
+    box-shadow: 0px 0px 5px #DBDADA;
+    float: left;
+    height: 35vh; }
+    #portfolio .portfolio-list a {
+      text-decoration: none; }
+    #portfolio .portfolio-list img {
+      width: 100%; }
+    #portfolio .portfolio-list h3 {
+      font-family: gotham;
+      color: #333033;
+      font-size: 18px;
+      padding-left: 15px;
+      padding-top: 15px;
+      margin: 0;
+      font-style: normal; }
+    #portfolio .portfolio-list p {
+      font-size: 14px;
+      font-family: gotham;
+      padding-left: 15px;
+      color: #333033;
+      padding-bottom: 15px;
+      margin: 0; }
+  #portfolio .portfolio-image-container {
+    min-height: 75%;
+    height: 75%;
+    overflow: hidden; }
+    #portfolio .portfolio-image-container img {
+      width: 100%;
+      height: auto; }
 
 /* CLOSE PORTFOLIO */
 /* ENDS PORTFOLIO */
@@ -1325,35 +1328,38 @@ footer {
 /* CLOSES #LEADERSHIP*/
 /* ----------------------------------------------------------------- */
 /* BEGINS PRESS */
-#portfolio #press .small-headline {
-  font-size: 18px !important;
-  letter-spacing: 2px;
-  color: #333033;
-  padding-left: 5px; }
-#portfolio #press .filters-2 {
-  float: left;
-  list-style: none; }
-  #portfolio #press .filters-2 li {
+#portfolio {
+  height: auto;
+  min-height: 40vh; }
+  #portfolio #press .small-headline {
+    font-size: 18px !important;
+    letter-spacing: 2px;
+    color: #333033;
+    padding-left: 5px; }
+  #portfolio #press .filters-2 {
     float: left;
-    margin-right: 20px; }
-    #portfolio #press .filters-2 li a {
-      color: #333033;
-      text-decoration: none; }
-#portfolio #press h3 {
-  font-size: 18px; }
-#portfolio #press p {
-  font-size: 12px !important; }
-#portfolio #press .container-p {
-  height: 360px; }
-#portfolio #press .portfolio-list {
-  height: 350px; }
-#portfolio #press .portfolio-image-container {
-  min-height: 100px;
-  height: 200px;
-  overflow: hidden; }
-  #portfolio #press .portfolio-image-container img {
-    width: 100%;
-    height: auto; }
+    list-style: none; }
+    #portfolio #press .filters-2 li {
+      float: left;
+      margin-right: 20px; }
+      #portfolio #press .filters-2 li a {
+        color: #333033;
+        text-decoration: none; }
+  #portfolio #press h3 {
+    font-size: 18px; }
+  #portfolio #press p {
+    font-size: 12px !important; }
+  #portfolio #press .container-p {
+    height: 360px; }
+  #portfolio #press .portfolio-list {
+    height: 350px; }
+  #portfolio #press .portfolio-image-container {
+    min-height: 100px;
+    height: 200px;
+    overflow: hidden; }
+    #portfolio #press .portfolio-image-container img {
+      width: 100%;
+      height: auto; }
 
 /* CLOSES PRESS */
 /* ----------------------------------------------------------------- */
@@ -1638,16 +1644,19 @@ article {
 
   /* CLOSES #LEADERSHIP*/
   /* ----------------------------------------------------------------- */
-  #portfolio ul {
-    padding-left: 0 !important; }
-  #portfolio #press .container-p {
-    height: 500px; }
-  #portfolio #press .portfolio-list {
-    height: 490px; }
-    #portfolio #press .portfolio-list .portfolio-image-container {
-      height: 400px; }
-  #portfolio #press h3 {
-    font-size: 16px; }
+  #portfolio {
+    height: auto;
+    min-height: 40vh; }
+    #portfolio ul {
+      padding-left: 0 !important; }
+    #portfolio #press .container-p {
+      height: 500px; }
+    #portfolio #press .portfolio-list {
+      height: 490px; }
+      #portfolio #press .portfolio-list .portfolio-image-container {
+        height: 400px; }
+    #portfolio #press h3 {
+      font-size: 16px; }
 
   #article p {
     text-align: justify; }
@@ -1690,23 +1699,26 @@ article {
   /* ----------------------------------------------------------------- */
   /* ----------------------------------------------------------------- */
   /* BEGINS PRESS */
-  #portfolio #press h3 {
-    font-size: 18px; }
-  #portfolio #press p {
-    font-size: 12px !important; }
-  #portfolio #press .container-p {
-    min-height: 370px;
-    height: 50px !important; }
-  #portfolio #press .portfolio-list {
-    height: 350px !important;
-    transition: 0s; }
-    #portfolio #press .portfolio-list .portfolio-image-container {
-      min-height: 175px;
-      height: 100px;
-      overflow: hidden; }
-      #portfolio #press .portfolio-list .portfolio-image-container img {
-        width: 100%;
-        height: auto; }
+  #portfolio {
+    height: auto;
+    min-height: 40vh; }
+    #portfolio #press h3 {
+      font-size: 18px; }
+    #portfolio #press p {
+      font-size: 12px !important; }
+    #portfolio #press .container-p {
+      min-height: 370px;
+      height: 50px !important; }
+    #portfolio #press .portfolio-list {
+      height: 350px !important;
+      transition: 0s; }
+      #portfolio #press .portfolio-list .portfolio-image-container {
+        min-height: 175px;
+        height: 100px;
+        overflow: hidden; }
+        #portfolio #press .portfolio-list .portfolio-image-container img {
+          width: 100%;
+          height: auto; }
 
   /* CLOSES PRESS */
   /* ----------------------------------------------------------------- */ }
@@ -2094,14 +2106,17 @@ article {
     to {
       transform: scale(80000) translateY(5000px); } }
   /* CLOSE #PEOPLE */
-  #portfolio .portfolio-container .container-p {
-    height: 45vh;
-    margin-top: 10px; }
-  #portfolio .portfolio-container .portfolio-list {
-    height: 45vh; }
-  #portfolio .portfolio-container .portfolio-image-container {
-    height: 75%;
-    min-height: 75%; }
+  #portfolio {
+    height: auto;
+    min-height: 40vh; }
+    #portfolio .portfolio-container .container-p {
+      height: 45vh;
+      margin-top: 10px; }
+    #portfolio .portfolio-container .portfolio-list {
+      height: 45vh; }
+    #portfolio .portfolio-container .portfolio-image-container {
+      height: 75%;
+      min-height: 75%; }
 
   #property-landing #container-1 video {
     left: 0vw;
@@ -2176,8 +2191,11 @@ article {
       margin-top: 15px; }
 
   /* DISCOVER MORE ----------------------------------------------------------------- */
-  #portfolio #press .container-p .portfolio-list .portfolio-image-container {
-    height: 220px; } }
+  #portfolio {
+    height: auto;
+    min-height: 40vh; }
+    #portfolio #press .container-p .portfolio-list .portfolio-image-container {
+      height: 220px; } }
 /* CLOSES 1200PX @MEDIA QUERY */
 @media (min-width: 1500px) {
   #promotion .form-container {

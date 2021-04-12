@@ -1621,7 +1621,8 @@ li{
   }
 }
 #portfolio{
-
+height: auto;
+min-height: 40vh;
 .portfolio-container{
   padding-left: 0;
 }
@@ -1911,6 +1912,8 @@ h5{
 /* BEGINS PRESS */
 
 #portfolio{
+  height: auto;
+  min-height: 40vh;
   #press{
     .small-headline{
       font-size: 18px!important;
@@ -2392,6 +2395,8 @@ h5{
 
 /* ----------------------------------------------------------------- */
 #portfolio{
+  height: auto;
+  min-height: 40vh;
   ul{
     padding-left: 0!important;
   }
@@ -2496,6 +2501,8 @@ height: 400px;
 /* BEGINS PRESS */
 
 #portfolio{
+  height: auto;
+  min-height: 40vh;
   #press{
     h3{
       font-size: 18px;
@@ -3147,6 +3154,8 @@ padding-top: 20vh;
 
 
 #portfolio{
+  height: auto;
+  min-height: 40vh;
 .portfolio-container{
   .container-p{
     height: 45vh;
@@ -3276,6 +3285,8 @@ h5{
 
 /* DISCOVER MORE ----------------------------------------------------------------- */
 #portfolio{
+  height: auto;
+  min-height: 40vh;
   #press{
     .container-p{
     .portfolio-list{
