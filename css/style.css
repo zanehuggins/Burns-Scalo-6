@@ -1351,6 +1351,15 @@ footer {
 
 /* CLOSES PRESS */
 /* ----------------------------------------------------------------- */
+.article-overview-container {
+  float: left; }
+  .article-overview-container li {
+    float: left; }
+  .article-overview-container img {
+    float: left;
+    height: 20px;
+    width: auto; }
+
 article {
   padding-bottom: 15vh; }
   article p {

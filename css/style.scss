@@ -1965,6 +1965,18 @@ h5{
 /* CLOSES PRESS */
 
 /* ----------------------------------------------------------------- */
+.article-overview-container{
+  float: left;
+  li{
+    float: left;
+  }
+  img{
+    float: left;
+    height: 20px;
+    width: auto;
+  }
+}
+
 
 article{
   padding-bottom: 15vh;
