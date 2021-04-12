@@ -1624,77 +1624,13 @@ li{
 
 
 
-#articles{
-  padding: 0;
-  #press{
-height: auto;
-min-height: 40vh;
-padding: 0;
-.portfolio-container{
+#portfolio-page{
+.filters{
   padding-left: 0;
 }
-  section{
-    padding-top: 2vh;
-    float: left;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    height: auto;
-  }
 
-.container-p{
-    padding: 5px;
-    float: left!important;
-}
-.portfolio-list{
-  box-shadow: 0px 0px 5px #DBDADA;
   float: left;
-  height: 320px;
-  a{
-    text-decoration: none;
-  }
-  img{
-    width: 100%;
-  }
-  h3{
-    font-family: gotham;
-    color: $black;
-    font-size: 18px;
-    padding: 10px;
-    margin: 0;
-    font-style: normal;
-    font-size: 16px;
-  }
-  p{
-    font-size: 12px;
-    font-family: gotham;
-    padding-left: 10px;
-    padding: 5px;
-    color: $black;
-
-    margin: 0;
-  }
-}
-
-.portfolio-image-container{
-  min-height: 200px;
-  height: 200px;
-  overflow: hidden;
-  img{
-    width: 100%;
-    height: auto;
-  }
-}
-}/* CLOSES PRESS*/
-
-} /* ARTICLES */
-
-
-/* ENDS PORTFOLIO */
-
-
-
-/* OPENS PORTFOLIO-PAGE ----------------------------------------------------------------- */
-#portfolio-page{
+  padding-bottom: 10vh;
 .portfolio-container{
   list-style: none;
   padding: 0;
@@ -1714,6 +1650,51 @@ a{
       font-style: normal;
       font-size: 16px;
       max-height: 16px;
+      overflow: hidden;
+    }
+    p{
+      font-family: Gotham Book;
+      font-size: 14px;
+    }
+  }
+  }
+  }
+  }
+
+}/*CLOSES #PORTFOLIO-PAGE*/
+
+
+
+
+
+/* OPENS PORTFOLIO-PAGE ----------------------------------------------------------------- */
+#press-page{
+.filters{
+  padding-left: 0;
+}
+
+  float: left;
+  padding-bottom: 10vh;
+.portfolio-container{
+  list-style: none;
+  padding: 0;
+  li{
+    float: left;
+    padding: 5px;
+a{
+  box-shadow: 0px 0px 5px #DBDADA;
+  height: 100%;
+  float: left;
+  color: black;
+  div{
+    float: left;
+    padding: 15px;
+    height: 135px;
+    overflow: hidden;
+    h3{
+      font-family: Gotham Black;
+      font-style: normal;
+      font-size: 16px;
       overflow: hidden;
     }
     p{
@@ -1969,9 +1950,7 @@ h5{
 
 /* BEGINS PRESS */
 
-#portfolio{
-  height: auto;
-  min-height: 40vh;
+
   #press{
     .small-headline{
       font-size: 18px!important;
@@ -1979,41 +1958,9 @@ h5{
       color: $black;
       padding-left: 5px;
     }
-    .filters-2{
-      float: left;
-      list-style: none;
-      li{
-        float: left;
-        margin-right: 20px;
-        a{color: $black;
-          text-decoration: none;
-        }
-      }
-    }
-    h3{
-      font-size: 18px;
-    }
-    p{
-      font-size: 12px!important;
-    }
-    .container-p{
-      height: 360px;
-    }
-    .portfolio-list{
-      height: 350px;
-    }
-    .portfolio-image-container{
-      min-height: 100px;
-      height: 200px;
-      overflow: hidden;
-      img{
-        width: 100%;
-        height: auto;
-      }
-    }
 
   }
-}
+
 
 /* CLOSES PRESS */
 
@@ -2458,25 +2405,7 @@ h5{
   ul{
     padding-left: 0!important;
   }
-#press{
 
-  .container-p{
-    height: 500px;
-
-  }
-  .portfolio-list{
-    height: 490px;
-    .portfolio-image-container{
-height: 400px;
-
-
-    }
-  }
-
-  h3{
-    font-size: 16px;
-  }
-}
 }
 
 
@@ -2554,46 +2483,6 @@ height: 400px;
 
 
 
-/* ----------------------------------------------------------------- */
-
-/* BEGINS PRESS */
-
-#portfolio{
-  height: auto;
-  min-height: 40vh;
-  #press{
-    h3{
-      font-size: 18px;
-    }
-    p{
-      font-size: 12px!important;
-    }
-    .container-p{
-      min-height: 370px;
-      height: 50px!important;
-    }
-    .portfolio-list{
-      height: 350px!important;
-      transition: 0s;
-
-    .portfolio-image-container{
-      min-height: 175px;
-      height: 100px;
-      overflow: hidden;
-      img{
-        width: 100%;
-        height: auto;
-      }
-    }
-}
-  }
-}
-
-/* CLOSES PRESS */
-
-/* ----------------------------------------------------------------- */
-
-
 
 }/* !!CLOSES 768PX @MEDIA QUERY!! */
 
@@ -2651,139 +2540,6 @@ height: 400px;
       margin-top: 15px;
     }
   }
-
-
-
-  /* ARTICLES/PORTFOLIO ----------------------------------------------------------------- */
-
-  #articles{
-    padding: 0;
-    #press{
-  height: auto;
-  min-height: 40vh;
-  padding: 0;
-  .portfolio-container{
-    padding-left: 0;
-  }
-    section{
-      padding-top: 2vh;
-      float: left;
-      padding-left: 4vw;
-      padding-right: 4vw;
-      height: auto;
-    }
-
-  .container-p{
-      padding: 5px;
-      float: left!important;
-  }
-  .portfolio-list{
-    box-shadow: 0px 0px 5px #DBDADA;
-    float: left;
-    height: 425px;
-    a{
-      text-decoration: none;
-    }
-    img{
-      width: 100%;
-    }
-    h3{
-      font-family: gotham;
-      color: $black;
-      font-size: 18px;
-      padding: 10px;
-      margin: 0;
-      font-style: normal;
-      font-size: 16px;
-    }
-    p{
-      font-size: 12px;
-      font-family: gotham;
-      padding-left: 10px;
-      padding: 5px;
-      color: $black;
-
-      margin: 0;
-    }
-  }
-
-  .portfolio-image-container{
-    min-height: 200px;
-    height: 300px;
-    overflow: hidden;
-    img{
-      height: 100%;
-      width: auto;
-
-    }
-  }
-  }
-
-
-
-
-  #portfolio-page{
-    .portfolio-container{
-      padding-left: 0;
-    }
-      section{
-        padding-top: 2vh;
-        float: left;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        height: auto;
-      }
-
-    .container-p{
-        padding: 5px;
-        float: left!important;
-    }
-    .portfolio-list{
-      box-shadow: 0px 0px 5px #DBDADA;
-      float: left;
-      height: 350px;
-      a{
-        text-decoration: none;
-      }
-      img{
-        width: 100%;
-      }
-      h3{
-        font-family: gotham;
-        color: $black;
-        font-size: 18px;
-        padding-top: 10px;
-        padding-left: 10px;
-        margin: 0;
-        font-style: normal;
-        font-size: 16px;
-      }
-      p{
-        font-size: 12px;
-        font-family: gotham;
-        padding-left: 10px;
-        padding-top: 0px;
-        color: $black;
-
-        margin: 0;
-      }
-    }
-
-    .portfolio-image-container{
-      min-height: 280px;
-      height: 280px;
-      overflow: hidden;
-      img{
-        height: 100%;
-        width: auto;
-      }
-    }
-
-  }/*CLOSES #PORTFOLIO-PAGE*/
-} /* CLOSE ARTICLES */
-
-
-  /* ENDS PORTFOLIO */
 
 
 

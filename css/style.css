@@ -1127,81 +1127,66 @@ footer {
   animation-name: delay-opacity;
   animation-duration: 4s; }
 
-#articles {
-  padding: 0;
-  /* CLOSES PRESS*/ }
-  #articles #press {
-    height: auto;
-    min-height: 40vh;
+#portfolio-page {
+  float: left;
+  padding-bottom: 10vh; }
+  #portfolio-page .filters {
+    padding-left: 0; }
+  #portfolio-page .portfolio-container {
+    list-style: none;
     padding: 0; }
-    #articles #press .portfolio-container {
-      padding-left: 0; }
-    #articles #press section {
-      padding-top: 2vh;
+    #portfolio-page .portfolio-container li {
       float: left;
-      padding-left: 4vw;
-      padding-right: 4vw;
-      height: auto; }
-    #articles #press .container-p {
-      padding: 5px;
-      float: left !important; }
-    #articles #press .portfolio-list {
-      box-shadow: 0px 0px 5px #DBDADA;
-      float: left;
-      height: 320px; }
-      #articles #press .portfolio-list a {
-        text-decoration: none; }
-      #articles #press .portfolio-list img {
-        width: 100%; }
-      #articles #press .portfolio-list h3 {
-        font-family: gotham;
-        color: #333033;
-        font-size: 18px;
-        padding: 10px;
-        margin: 0;
-        font-style: normal;
-        font-size: 16px; }
-      #articles #press .portfolio-list p {
-        font-size: 12px;
-        font-family: gotham;
-        padding-left: 10px;
-        padding: 5px;
-        color: #333033;
-        margin: 0; }
-    #articles #press .portfolio-image-container {
-      min-height: 200px;
-      height: 200px;
-      overflow: hidden; }
-      #articles #press .portfolio-image-container img {
-        width: 100%;
-        height: auto; }
-
-/* ARTICLES */
-/* ENDS PORTFOLIO */
-/* OPENS PORTFOLIO-PAGE ----------------------------------------------------------------- */
-#portfolio-page .portfolio-container {
-  list-style: none;
-  padding: 0; }
-  #portfolio-page .portfolio-container li {
-    float: left;
-    padding: 5px; }
-    #portfolio-page .portfolio-container li a {
-      box-shadow: 0px 0px 5px #DBDADA;
-      height: 100%;
-      float: left;
-      color: black; }
-      #portfolio-page .portfolio-container li a div {
+      padding: 5px; }
+      #portfolio-page .portfolio-container li a {
+        box-shadow: 0px 0px 5px #DBDADA;
+        height: 100%;
         float: left;
-        padding: 15px; }
-        #portfolio-page .portfolio-container li a div h3 {
-          font-family: Gotham Black;
-          font-style: normal;
-          font-size: 16px;
-          max-height: 16px;
+        color: black; }
+        #portfolio-page .portfolio-container li a div {
+          float: left;
+          padding: 15px; }
+          #portfolio-page .portfolio-container li a div h3 {
+            font-family: Gotham Black;
+            font-style: normal;
+            font-size: 16px;
+            max-height: 16px;
+            overflow: hidden; }
+          #portfolio-page .portfolio-container li a div p {
+            font-family: Gotham Book;
+            font-size: 14px; }
+
+/*CLOSES #PORTFOLIO-PAGE*/
+/* OPENS PORTFOLIO-PAGE ----------------------------------------------------------------- */
+#press-page {
+  float: left;
+  padding-bottom: 10vh; }
+  #press-page .filters {
+    padding-left: 0; }
+  #press-page .portfolio-container {
+    list-style: none;
+    padding: 0; }
+    #press-page .portfolio-container li {
+      float: left;
+      padding: 5px; }
+      #press-page .portfolio-container li a {
+        box-shadow: 0px 0px 5px #DBDADA;
+        height: 100%;
+        float: left;
+        color: black; }
+        #press-page .portfolio-container li a div {
+          float: left;
+          padding: 15px;
+          height: 135px;
           overflow: hidden; }
-        #portfolio-page .portfolio-container li a div p {
-          font-family: Gotham Book;
-          font-size: 14px; }
+          #press-page .portfolio-container li a div h3 {
+            font-family: Gotham Black;
+            font-style: normal;
+            font-size: 16px;
+            overflow: hidden; }
+          #press-page .portfolio-container li a div p {
+            font-family: Gotham Book;
+            font-size: 14px; }
 
 /*CLOSES #PORTFOLIO-PAGE*/
 /* ----------------------------------------------------------------- */
@@ -1358,38 +1343,11 @@ footer {
 /* CLOSES #LEADERSHIP*/
 /* ----------------------------------------------------------------- */
 /* BEGINS PRESS */
-#portfolio {
-  height: auto;
-  min-height: 40vh; }
-  #portfolio #press .small-headline {
-    font-size: 18px !important;
-    letter-spacing: 2px;
-    color: #333033;
-    padding-left: 5px; }
-  #portfolio #press .filters-2 {
-    float: left;
-    list-style: none; }
-    #portfolio #press .filters-2 li {
-      float: left;
-      margin-right: 20px; }
-      #portfolio #press .filters-2 li a {
-        color: #333033;
-        text-decoration: none; }
-  #portfolio #press h3 {
-    font-size: 18px; }
-  #portfolio #press p {
-    font-size: 12px !important; }
-  #portfolio #press .container-p {
-    height: 360px; }
-  #portfolio #press .portfolio-list {
-    height: 350px; }
-  #portfolio #press .portfolio-image-container {
-    min-height: 100px;
-    height: 200px;
-    overflow: hidden; }
-    #portfolio #press .portfolio-image-container img {
-      width: 100%;
-      height: auto; }
+#press .small-headline {
+  font-size: 18px !important;
+  letter-spacing: 2px;
+  color: #333033;
+  padding-left: 5px; }
 
 /* CLOSES PRESS */
 /* ----------------------------------------------------------------- */
@@ -1679,14 +1637,6 @@ article {
     min-height: 40vh; }
     #portfolio ul {
       padding-left: 0 !important; }
-    #portfolio #press .container-p {
-      height: 500px; }
-    #portfolio #press .portfolio-list {
-      height: 490px; }
-      #portfolio #press .portfolio-list .portfolio-image-container {
-        height: 400px; }
-    #portfolio #press h3 {
-      font-size: 16px; }
 
   #article p {
     text-align: justify; }
@@ -1726,31 +1676,6 @@ article {
 
   /* CLOSES #PROMOTION */
   /* ENDS PROMOTIONS */
-  /* ----------------------------------------------------------------- */
-  /* ----------------------------------------------------------------- */
-  /* BEGINS PRESS */
-  #portfolio {
-    height: auto;
-    min-height: 40vh; }
-    #portfolio #press h3 {
-      font-size: 18px; }
-    #portfolio #press p {
-      font-size: 12px !important; }
-    #portfolio #press .container-p {
-      min-height: 370px;
-      height: 50px !important; }
-    #portfolio #press .portfolio-list {
-      height: 350px !important;
-      transition: 0s; }
-      #portfolio #press .portfolio-list .portfolio-image-container {
-        min-height: 175px;
-        height: 100px;
-        overflow: hidden; }
-        #portfolio #press .portfolio-list .portfolio-image-container img {
-          width: 100%;
-          height: auto; }
-
-  /* CLOSES PRESS */
   /* ----------------------------------------------------------------- */ }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
@@ -1784,102 +1709,7 @@ article {
       top: 55vh;
       border-left: 10px solid #C2D500; }
     #promotion button {
-      margin-top: 15px; }
-
-  /* ARTICLES/PORTFOLIO ----------------------------------------------------------------- */
-  #articles {
-    padding: 0;
-    /*CLOSES #PORTFOLIO-PAGE*/ }
-    #articles #press {
-      height: auto;
-      min-height: 40vh;
-      padding: 0; }
-      #articles #press .portfolio-container {
-        padding-left: 0; }
-      #articles #press section {
-        padding-top: 2vh;
-        float: left;
-        padding-left: 4vw;
-        padding-right: 4vw;
-        height: auto; }
-      #articles #press .container-p {
-        padding: 5px;
-        float: left !important; }
-      #articles #press .portfolio-list {
-        box-shadow: 0px 0px 5px #DBDADA;
-        float: left;
-        height: 425px; }
-        #articles #press .portfolio-list a {
-          text-decoration: none; }
-        #articles #press .portfolio-list img {
-          width: 100%; }
-        #articles #press .portfolio-list h3 {
-          font-family: gotham;
-          color: #333033;
-          font-size: 18px;
-          padding: 10px;
-          margin: 0;
-          font-style: normal;
-          font-size: 16px; }
-        #articles #press .portfolio-list p {
-          font-size: 12px;
-          font-family: gotham;
-          padding-left: 10px;
-          padding: 5px;
-          color: #333033;
-          margin: 0; }
-      #articles #press .portfolio-image-container {
-        min-height: 200px;
-        height: 300px;
-        overflow: hidden; }
-        #articles #press .portfolio-image-container img {
-          height: 100%;
-          width: auto; }
-    #articles #portfolio-page .portfolio-container {
-      padding-left: 0; }
-    #articles #portfolio-page section {
-      padding-top: 2vh;
-      float: left;
-      padding-left: 4vw;
-      padding-right: 4vw;
-      height: auto; }
-    #articles #portfolio-page .container-p {
-      padding: 5px;
-      float: left !important; }
-    #articles #portfolio-page .portfolio-list {
-      box-shadow: 0px 0px 5px #DBDADA;
-      float: left;
-      height: 350px; }
-      #articles #portfolio-page .portfolio-list a {
-        text-decoration: none; }
-      #articles #portfolio-page .portfolio-list img {
-        width: 100%; }
-      #articles #portfolio-page .portfolio-list h3 {
-        font-family: gotham;
-        color: #333033;
-        font-size: 18px;
-        padding-top: 10px;
-        padding-left: 10px;
-        margin: 0;
-        font-style: normal;
-        font-size: 16px; }
-      #articles #portfolio-page .portfolio-list p {
-        font-size: 12px;
-        font-family: gotham;
-        padding-left: 10px;
-        padding-top: 0px;
-        color: #333033;
-        margin: 0; }
-    #articles #portfolio-page .portfolio-image-container {
-      min-height: 280px;
-      height: 280px;
-      overflow: hidden; }
-      #articles #portfolio-page .portfolio-image-container img {
-        height: 100%;
-        width: auto; }
-
-  /* CLOSE ARTICLES */
-  /* ENDS PORTFOLIO */ }
+      margin-top: 15px; } }
 /* CLOSES 992PX MEDIA QUERY -----------------------------------------------------------------*/
 @media (min-width: 1024px) {
   .bottom {
