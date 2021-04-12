@@ -1684,11 +1684,61 @@ padding: 0;
     height: auto;
   }
 }
-}
-} /* CLOSE PORTFOLIO */
+}/* CLOSES PRESS*/
+
+} /* ARTICLES */
 
 
 /* ENDS PORTFOLIO */
+
+
+
+/* OPENS PORTFOLIO-PAGE ----------------------------------------------------------------- */
+#portfolio-page{
+.portfolio-container{
+  list-style: none;
+  padding: 0;
+  li{
+    float: left;
+    padding: 5px;
+a{
+  box-shadow: 0px 0px 5px #DBDADA;
+  height: 100%;
+  float: left;
+  color: black;
+  div{
+    float: left;
+    padding: 15px;
+    h3{
+      font-family: Gotham Black;
+      font-style: normal;
+      font-size: 16px;
+      max-height: 16px;
+      overflow: hidden;
+    }
+    p{
+      font-family: Gotham Book;
+      font-size: 14px;
+    }
+  }
+  }
+  }
+  }
+
+}/*CLOSES #PORTFOLIO-PAGE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ----------------------------------------------------------------- */
 
@@ -2668,7 +2718,69 @@ height: 400px;
     }
   }
   }
-  } /* CLOSE PORTFOLIO */
+
+
+
+
+  #portfolio-page{
+    .portfolio-container{
+      padding-left: 0;
+    }
+      section{
+        padding-top: 2vh;
+        float: left;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        height: auto;
+      }
+
+    .container-p{
+        padding: 5px;
+        float: left!important;
+    }
+    .portfolio-list{
+      box-shadow: 0px 0px 5px #DBDADA;
+      float: left;
+      height: 350px;
+      a{
+        text-decoration: none;
+      }
+      img{
+        width: 100%;
+      }
+      h3{
+        font-family: gotham;
+        color: $black;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-left: 10px;
+        margin: 0;
+        font-style: normal;
+        font-size: 16px;
+      }
+      p{
+        font-size: 12px;
+        font-family: gotham;
+        padding-left: 10px;
+        padding-top: 0px;
+        color: $black;
+
+        margin: 0;
+      }
+    }
+
+    .portfolio-image-container{
+      min-height: 280px;
+      height: 280px;
+      overflow: hidden;
+      img{
+        height: 100%;
+        width: auto;
+      }
+    }
+
+  }/*CLOSES #PORTFOLIO-PAGE*/
+} /* CLOSE ARTICLES */
 
 
   /* ENDS PORTFOLIO */
