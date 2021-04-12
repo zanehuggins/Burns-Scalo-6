@@ -1,4 +1,7 @@
 /* BEGIN UNIVERSAL STYLES */
+html {
+  overflow-x: hidden; }
+
 body {
   overflow-x: hidden; }
 
