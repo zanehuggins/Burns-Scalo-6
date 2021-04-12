@@ -1204,6 +1204,9 @@ footer {
             font-size: 14px; }
 
 /*CLOSES #PORTFOLIO-PAGE*/
+#home-press #press-page .portfolio-container li a .article-container {
+  height: 200px; }
+
 /* ----------------------------------------------------------------- */
 /* BEGINS PROPERTY LANDING */
 #property-landing #container-1 video {
@@ -2015,6 +2018,9 @@ article {
       background-color: #f1f1f1; }
 
   /* END NAV */
+  #home-press #press-page .portfolio-container li a .article-container {
+    height: 140px; }
+
   #gallery .gallery-item {
     height: 315px; }
 
