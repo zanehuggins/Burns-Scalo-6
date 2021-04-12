@@ -984,10 +984,11 @@ ul{
 
 
 #half-screen{
-  height: 60vh;
-  min-height: 20vh!important;
+  min-height: 37.5vh;
   float: left;
   overflow: hidden;
+  margin-bottom: 15vh;
+
 
 .copy-container{
   margin-top: 75px;
@@ -1004,7 +1005,7 @@ h2{
     z-index: -100;
     background-color: #f1f1f1;
     position: absolute;
-    height: 65%;
+    height: 100%;
     width: 100%;
     margin-left: 0;
   }
@@ -1941,8 +1942,8 @@ h5{
       height: 350px;
     }
     .portfolio-image-container{
-      min-height: 65%;
-      height: 65%!important;
+      min-height: 100px;
+      height: 200px;
       overflow: hidden;
       img{
         width: 100%;
@@ -2397,13 +2398,14 @@ h5{
 #press{
 
   .container-p{
-    height: 370px;
+    height: 500px;
 
   }
   .portfolio-list{
-    height: 357.5px;
+    height: 490px;
     .portfolio-image-container{
-min-height: 70%;
+height: 400px;
+
 
     }
   }
@@ -2487,6 +2489,44 @@ min-height: 70%;
 
 /* ----------------------------------------------------------------- */
 
+
+
+/* ----------------------------------------------------------------- */
+
+/* BEGINS PRESS */
+
+#portfolio{
+  #press{
+    h3{
+      font-size: 18px;
+    }
+    p{
+      font-size: 12px!important;
+    }
+    .container-p{
+      min-height: 370px;
+      height: 50px!important;
+    }
+    .portfolio-list{
+      height: 350px!important;
+      transition: 0s;
+
+    .portfolio-image-container{
+      min-height: 175px;
+      height: 100px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+}
+  }
+}
+
+/* CLOSES PRESS */
+
+/* ----------------------------------------------------------------- */
 
 
 
@@ -3234,43 +3274,19 @@ h5{
 }
 
 
-
-
-/* ----------------------------------------------------------------- */
-
-/* BEGINS PRESS */
-
+/* DISCOVER MORE ----------------------------------------------------------------- */
 #portfolio{
   #press{
-    h3{
-      font-size: 18px;
-    }
-    p{
-      font-size: 12px!important;
-    }
     .container-p{
-      height: 360px;
-    }
     .portfolio-list{
-      height: 357.5px;
-      transition: 0s;
+.portfolio-image-container{
+  height: 220px;
+}
     }
-    .portfolio-image-container{
-      min-height: 65%;
-      height: 65%!important;
-      overflow: hidden;
-      img{
-        width: 100%;
-        height: auto;
-      }
-    }
-
   }
 }
+}
 
-/* CLOSES PRESS */
-
-/* ----------------------------------------------------------------- */
 
 
 
