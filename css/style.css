@@ -1755,6 +1755,11 @@ article {
       margin-top: 15px; } }
 /* CLOSES 992PX MEDIA QUERY -----------------------------------------------------------------*/
 @media (min-width: 1024px) {
+  .menu-container a {
+    float: right; }
+    .menu-container a img {
+      float: right; }
+
   .bottom {
     width: 100vw;
     position: absolute;

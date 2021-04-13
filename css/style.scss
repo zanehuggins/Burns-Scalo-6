@@ -2611,7 +2611,15 @@ h5{
 
 @media (min-width: 1024px){
 
+.menu-container{
 
+  a{
+    float: right;
+    img{
+      float: right;
+    }
+  }
+}
   .bottom{
     width: 100vw;
     position: absolute;
