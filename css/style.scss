@@ -1748,6 +1748,13 @@ float: left;
       a{
         .article-container{
           height: 200px;
+          h3{
+            font-family: gotham;
+            font-weight: 900;
+          }
+          p{
+            font-family: gotham;
+          }
         }
       }
     }
