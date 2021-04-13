@@ -1132,6 +1132,8 @@ footer {
   padding-bottom: 10vh; }
   #portfolio-page .filters {
     padding-left: 0; }
+    #portfolio-page .filters li a {
+      letter-spacing: 3px; }
   #portfolio-page .portfolio-container {
     list-style: none;
     padding: 0; }
@@ -1177,7 +1179,8 @@ footer {
       padding-right: 10px; }
       #press-page .filters-2 li a {
         color: gray;
-        text-decoration: none; }
+        text-decoration: none;
+        letter-spacing: 3px; }
   #press-page .portfolio-container {
     list-style: none;
     padding: 0; }
@@ -1556,7 +1559,7 @@ article {
     height: 100vh; }
 
   #container-2 {
-    padding-top: 25vh; }
+    padding-bottom: 12.5vh; }
     #container-2 .copy-container {
       padding-top: 2.5vh;
       padding-bottom: 2.5vh; }
