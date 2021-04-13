@@ -1154,7 +1154,8 @@ footer {
             max-height: 16px;
             overflow: hidden; }
           #portfolio-page .portfolio-container li a div p {
-            font-family: Gotham;
+            font-family: gotham;
+            font-weight: 300;
             font-size: 14px; }
 
 /*CLOSES #PORTFOLIO-PAGE*/
