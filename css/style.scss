@@ -993,9 +993,9 @@ ul{
 
 
 .copy-container{
-  margin-top: 75px;
+  margin-top: 25px;
+  padding-bottom: 25px;
   float: left;
-
 }
 
 h2{
@@ -2722,6 +2722,15 @@ p{
   }
 }
 
+
+#half-screen{
+    min-height: 15vh;
+  .copy-container{
+    margin-top: 75px;
+    padding-bottom: 50px;
+    float: left;
+  }
+}
 
 #article{
   p{
