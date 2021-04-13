@@ -2651,9 +2651,13 @@ h1{
 #container-1{
   .video-background{
 
-    left: 0vw;
-    width: 100vw;
-    height: auto;
+    left: -16vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: auto;
+    height: 100vh;
   }
 }
 
@@ -3032,7 +3036,18 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
 /* END NAV */
 
 
+#container-1{
+  .video-background{
 
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100vw;
+    height: auto;
+  }
+}
 
 
 #home-press{
